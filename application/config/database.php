@@ -26,7 +26,7 @@ $query_builder = TRUE;
 	'save_queries' => TRUE
 );*/
 
-$db['sqlserver'] = array(
+$db['default'] = array(
 	'dsn'	=> '',
 	'hostname' => 'WIN-P3761AM5DC1\SQLEXPRESS',
 	'username' => 'sa',
