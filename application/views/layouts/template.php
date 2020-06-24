@@ -246,7 +246,7 @@
                 }, 500);
             });
         </script>
-        
+
         <link rel="icon" href="/assets/uploads/favicon.png" sizes="32x32" />
         <link rel="icon" href="/assets/uploads/favicon.png" sizes="192x192" />
         <link rel="apple-touch-icon-precomposed" href="/assets/uploads/favicon.png" />
@@ -281,8 +281,9 @@
                 font-weight: 600;
             }
         </style>
-<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-    <script src="<?php echo base_url(); ?>assets/bootstrap/js/bootstrap.bundle.min.js" type="text/javascript"></script>
+        <script src="<?php echo base_url(); ?>assets/theme/js/jquery-3.5.1.slim.min.js" type="text/javascript"></script>
+
+        <script src="<?php echo base_url(); ?>assets/bootstrap/js/bootstrap.bundle.min.js" type="text/javascript"></script>
     </head>
     <body class="page-template-default page page-id-675 wp-embed-responsive dt-responsive-on srcset-enabled btn-flat custom-btn-color custom-btn-hover-color phantom-fade phantom-shadow-decoration phantom-custom-logo-on sticky-mobile-header top-header first-switch-logo-left first-switch-menu-right second-switch-logo-left second-switch-menu-right right-mobile-menu layzr-loading-on inline-message-style dt-fa-compatibility the7-ver- wpb-js-composer js-comp-ver-5.7 vc_responsive">
         <!-- Google Tag Manager (noscript) -->
@@ -449,21 +450,21 @@
 
     <div id="fb-root"></div>
     <script>
-        window.fbAsyncInit = function () {
-            FB.init({
-                xfbml: true,
-                version: 'v7.0'
-            });
-        };
-        (function (d, s, id) {
-            var js, fjs = d.getElementsByTagName(s)[0];
-            if (d.getElementById(id))
-                return;
-            js = d.createElement(s);
-            js.id = id;
-            js.src = 'https://connect.facebook.net/es_LA/sdk/xfbml.customerchat.js';
-            fjs.parentNode.insertBefore(js, fjs);
-        }(document, 'script', 'facebook-jssdk'));</script>
+            window.fbAsyncInit = function () {
+                FB.init({
+                    xfbml: true,
+                    version: 'v7.0'
+                });
+            };
+            (function (d, s, id) {
+                var js, fjs = d.getElementsByTagName(s)[0];
+                if (d.getElementById(id))
+                    return;
+                js = d.createElement(s);
+                js.id = id;
+                js.src = 'https://connect.facebook.net/es_LA/sdk/xfbml.customerchat.js';
+                fjs.parentNode.insertBefore(js, fjs);
+            }(document, 'script', 'facebook-jssdk'));</script>
     <!-- Your Chat Plugin code -->
     <div class="fb-customerchat"
          attribution=install_email
@@ -481,9 +482,9 @@
     <script src="<?php echo base_url(); ?>assets/theme/js/main.min.js" type="text/javascript"></script>
 
     <script type='text/javascript'>
-        /* <![CDATA[ */
-        var wpcf7 = {"apiSettings": {"root": "http:\/\/www.parquedelaesperanza.com\/wp-json\/contact-form-7\/v1", "namespace": "contact-form-7\/v1"}};
-        /* ]]> */
+            /* <![CDATA[ */
+            var wpcf7 = {"apiSettings": {"root": "http:\/\/www.parquedelaesperanza.com\/wp-json\/contact-form-7\/v1", "namespace": "contact-form-7\/v1"}};
+            /* ]]> */
     </script>
     <script src="<?php echo base_url(); ?>assets/theme/js/scripts.js" type="text/javascript"></script>
     <script type='text/javascript' src='https://www.google.com/recaptcha/api.js?render=6LfD56MZAAAAAJefbA9hqJjLAh4aG6oD6-uh7Xob&#038;ver=3.0'></script>
@@ -492,66 +493,66 @@
     <script src="<?php echo base_url(); ?>assets/theme/js/wp-embed.min.js" type="text/javascript"></script>
     <script src="<?php echo base_url(); ?>assets/theme/js/js_composer_front.min.js" type="text/javascript"></script>
     <script src="<?php echo base_url(); ?>assets/theme/js/waypoints.min.js" type="text/javascript"></script>
-    
-    
+
+
 <!--    <script type='text/javascript' src='http://www.parquedelaesperanza.com/wp-content/themes/dt-the7/js/legacy.min.js?ver=5.2.7'></script>
-    <script type='text/javascript' src='http://www.parquedelaesperanza.com/wp-content/plugins/Ultimate_VC_Addons/assets/min-js/info-box.min.js?ver=3.16.22'></script>
-    <script type='text/javascript' src='http://www.parquedelaesperanza.com/wp-includes/js/wp-embed.min.js?ver=5.2.7'></script>
-    <script type='text/javascript' src='http://www.parquedelaesperanza.com/wp-content/plugins/js_composer/assets/js/dist/js_composer_front.min.js?ver=5.7'></script>
-    <script type='text/javascript' src='http://www.parquedelaesperanza.com/wp-content/plugins/js_composer/assets/lib/waypoints/waypoints.min.js?ver=5.7'></script>
--->
+<script type='text/javascript' src='http://www.parquedelaesperanza.com/wp-content/plugins/Ultimate_VC_Addons/assets/min-js/info-box.min.js?ver=3.16.22'></script>
+<script type='text/javascript' src='http://www.parquedelaesperanza.com/wp-includes/js/wp-embed.min.js?ver=5.2.7'></script>
+<script type='text/javascript' src='http://www.parquedelaesperanza.com/wp-content/plugins/js_composer/assets/js/dist/js_composer_front.min.js?ver=5.7'></script>
+<script type='text/javascript' src='http://www.parquedelaesperanza.com/wp-content/plugins/js_composer/assets/lib/waypoints/waypoints.min.js?ver=5.7'></script>
+    -->
 
 
 
 
     <script type="text/javascript">
-        (function (sitekey, actions) {
-            document.addEventListener('DOMContentLoaded', function (event) {
-                var wpcf7recaptcha = {
-                    execute: function (action) {
-                        grecaptcha.execute(
-                                sitekey,
-                                {action: action}
-                        ).then(function (token) {
-                            var event = new CustomEvent('wpcf7grecaptchaexecuted', {
-                                detail: {
-                                    action: action,
-                                    token: token,
-                                },
+            (function (sitekey, actions) {
+                document.addEventListener('DOMContentLoaded', function (event) {
+                    var wpcf7recaptcha = {
+                        execute: function (action) {
+                            grecaptcha.execute(
+                                    sitekey,
+                                    {action: action}
+                            ).then(function (token) {
+                                var event = new CustomEvent('wpcf7grecaptchaexecuted', {
+                                    detail: {
+                                        action: action,
+                                        token: token,
+                                    },
+                                });
+                                document.dispatchEvent(event);
                             });
-                            document.dispatchEvent(event);
-                        });
-                    },
-                    executeOnHomepage: function () {
-                        wpcf7recaptcha.execute(actions['homepage']);
-                    },
-                    executeOnContactform: function () {
-                        wpcf7recaptcha.execute(actions['contactform']);
-                    },
-                };
-                grecaptcha.ready(
-                        wpcf7recaptcha.executeOnHomepage
-                        );
-                document.addEventListener('change',
-                        wpcf7recaptcha.executeOnContactform, false
-                        );
-                document.addEventListener('wpcf7submit',
-                        wpcf7recaptcha.executeOnHomepage, false
-                        );
-            });
-            document.addEventListener('wpcf7grecaptchaexecuted', function (event) {
-                var fields = document.querySelectorAll(
-                        "form.wpcf7-form input[name='g-recaptcha-response']"
-                        );
-                for (var i = 0; i < fields.length; i++) {
-                    var field = fields[i];
-                    field.setAttribute('value', event.detail.token);
-                }
-            });
-        })(
-                '6LfD56MZAAAAAJefbA9hqJjLAh4aG6oD6-uh7Xob',
-                {"homepage": "homepage", "contactform": "contactform"}
-        );
+                        },
+                        executeOnHomepage: function () {
+                            wpcf7recaptcha.execute(actions['homepage']);
+                        },
+                        executeOnContactform: function () {
+                            wpcf7recaptcha.execute(actions['contactform']);
+                        },
+                    };
+                    grecaptcha.ready(
+                            wpcf7recaptcha.executeOnHomepage
+                            );
+                    document.addEventListener('change',
+                            wpcf7recaptcha.executeOnContactform, false
+                            );
+                    document.addEventListener('wpcf7submit',
+                            wpcf7recaptcha.executeOnHomepage, false
+                            );
+                });
+                document.addEventListener('wpcf7grecaptchaexecuted', function (event) {
+                    var fields = document.querySelectorAll(
+                            "form.wpcf7-form input[name='g-recaptcha-response']"
+                            );
+                    for (var i = 0; i < fields.length; i++) {
+                        var field = fields[i];
+                        field.setAttribute('value', event.detail.token);
+                    }
+                });
+            })(
+                    '6LfD56MZAAAAAJefbA9hqJjLAh4aG6oD6-uh7Xob',
+                    {"homepage": "homepage", "contactform": "contactform"}
+            );
     </script>
     <div class="pswp" tabindex="-1" role="dialog" aria-hidden="true">
         <div class="pswp__bg"></div>
