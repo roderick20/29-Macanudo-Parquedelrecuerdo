@@ -68,3 +68,5 @@ $route['contacto'] = 'pages/contacto';
 $route['buscador'] = 'pages/buscador';
 $route['blog'] = 'pages/blog';
 $route['post/(:any)'] = 'pages/post/$1';
+$route['politica-privacidad'] = 'pages/politica_privacidad';
+

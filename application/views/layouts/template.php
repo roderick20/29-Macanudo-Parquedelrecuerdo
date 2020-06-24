@@ -246,10 +246,11 @@
                 }, 500);
             });
         </script>
-        <link rel="icon" href="http://www.parquedelaesperanza.com/wp-content/uploads/2020/02/favicon.png" sizes="32x32" />
-        <link rel="icon" href="http://www.parquedelaesperanza.com/wp-content/uploads/2020/02/favicon.png" sizes="192x192" />
-        <link rel="apple-touch-icon-precomposed" href="http://www.parquedelaesperanza.com/wp-content/uploads/2020/02/favicon.png" />
-        <meta name="msapplication-TileImage" content="http://www.parquedelaesperanza.com/wp-content/uploads/2020/02/favicon.png" />
+        
+        <link rel="icon" href="/assets/uploads/favicon.png" sizes="32x32" />
+        <link rel="icon" href="/assets/uploads/favicon.png" sizes="192x192" />
+        <link rel="apple-touch-icon-precomposed" href="/assets/uploads/favicon.png" />
+        <meta name="msapplication-TileImage" content="/assets/uploads/favicon.png" />
         <script type="text/javascript">
             function setREVStartSize(e) {
                 try {
@@ -281,7 +282,7 @@
             }
         </style>
 <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-
+    <script src="<?php echo base_url(); ?>assets/bootstrap/js/bootstrap.bundle.min.js" type="text/javascript"></script>
     </head>
     <body class="page-template-default page page-id-675 wp-embed-responsive dt-responsive-on srcset-enabled btn-flat custom-btn-color custom-btn-hover-color phantom-fade phantom-shadow-decoration phantom-custom-logo-on sticky-mobile-header top-header first-switch-logo-left first-switch-menu-right second-switch-logo-left second-switch-menu-right right-mobile-menu layzr-loading-on inline-message-style dt-fa-compatibility the7-ver- wpb-js-composer js-comp-ver-5.7 vc_responsive">
         <!-- Google Tag Manager (noscript) -->
@@ -355,7 +356,48 @@
             </div><div class='dt-close-mobile-menu-icon'><span></span></div>
             <div class='dt-mobile-header'>
                 <ul id="mobile-menu" class="mobile-main-nav" role="menu">
-                    <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home current-menu-item page_item page-item-131 current_page_item menu-item-177 act first"><a href='http://www.parquedelaesperanza.com/' data-level='1'><span class="menu-item-text"><span class="menu-text">Inicio</span></span></a></li> <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-205 has-children"><a href='http://www.parquedelaesperanza.com/servicios/' data-level='1'><span class="menu-item-text"><span class="menu-text">Servicios</span></span></a><ul class="sub-nav hover-style-bg level-arrows-on"><li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-470 first"><a href='http://www.parquedelaesperanza.com/servicios/necesidad-futura/' data-level='2'><span class="menu-item-text"><span class="menu-text">Necesidad Futura</span></span></a></li> <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-469"><a href='http://www.parquedelaesperanza.com/servicios/necesidad-inmediata/' data-level='2'><span class="menu-item-text"><span class="menu-text">Necesidad Inmediata</span></span></a></li> <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-468"><a href='http://www.parquedelaesperanza.com/servicios/cremacion/' data-level='2'><span class="menu-item-text"><span class="menu-text">Cremación</span></span></a></li> <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-467"><a href='http://www.parquedelaesperanza.com/servicios/sepelio/' data-level='2'><span class="menu-item-text"><span class="menu-text">Servicio de Sepelio</span></span></a></li> <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-466"><a href='http://www.parquedelaesperanza.com/servicios/velatorios/' data-level='2'><span class="menu-item-text"><span class="menu-text">Velatorios</span></span></a></li> <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-465"><a href='http://www.parquedelaesperanza.com/servicios/otros-servicios/' data-level='2'><span class="menu-item-text"><span class="menu-text">Otros servicios</span></span></a></li> </ul></li> <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-691"><a href='http://www.parquedelaesperanza.com/crematorio/' data-level='1'><span class="menu-item-text"><span class="menu-text">Crematorio</span></span></a></li> <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-353"><a href='http://www.parquedelaesperanza.com/sepulturas/' data-level='1'><span class="menu-item-text"><span class="menu-text">Sepulturas</span></span></a></li> <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-181"><a href='http://www.parquedelaesperanza.com/galeria/' data-level='1'><span class="menu-item-text"><span class="menu-text">Galería</span></span></a></li> <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-294"><a href='http://www.parquedelaesperanza.com/preguntas-frecuentes/' data-level='1'><span class="menu-item-text"><span class="menu-text">Preguntas Frecuentes</span></span></a></li> <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-179"><a href='http://www.parquedelaesperanza.com/contacto/' data-level='1'><span class="menu-item-text"><span class="menu-text">Contacto</span></span></a></li> 	</ul>
+                    <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home current-menu-item page_item page-item-131 current_page_item menu-item-177 act first">
+                        <a href='/' data-level='1'><span class="menu-item-text"><span class="menu-text">Inicio</span></span></a>
+                    </li> 
+                    <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-205 has-children">
+                        <a href='/servicios/' data-level='1'><span class="menu-item-text"><span class="menu-text">Servicios</span></span></a>
+                        <ul class="sub-nav hover-style-bg level-arrows-on">
+                            <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-470 first">
+                                <a href='/servicios/necesidad-futura/' data-level='2'><span class="menu-item-text"><span class="menu-text">Necesidad Futura</span></span></a>
+                            </li> 
+                            <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-469">
+                                <a href='/servicios/necesidad-inmediata/' data-level='2'><span class="menu-item-text"><span class="menu-text">Necesidad Inmediata</span></span></a>
+                            </li> 
+                            <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-468">
+                                <a href='/servicios/cremacion/' data-level='2'><span class="menu-item-text"><span class="menu-text">Cremación</span></span></a>
+                            </li> 
+                            <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-467">
+                                <a href='/servicios/sepelio/' data-level='2'><span class="menu-item-text"><span class="menu-text">Servicio de Sepelio</span></span></a>
+                            </li> 
+                            <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-466">
+                                <a href='/servicios/velatorios/' data-level='2'><span class="menu-item-text"><span class="menu-text">Velatorios</span></span></a>
+                            </li> 
+                            <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-465">
+                                <a href='/servicios/otros-servicios/' data-level='2'><span class="menu-item-text"><span class="menu-text">Otros servicios</span></span></a>
+                            </li> 
+                        </ul>
+                    </li> 
+                    <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-691">
+                        <a href='/crematorio/' data-level='1'><span class="menu-item-text"><span class="menu-text">Crematorio</span></span></a>
+                    </li> 
+                    <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-353">
+                        <a href='/sepulturas/' data-level='1'><span class="menu-item-text"><span class="menu-text">Sepulturas</span></span></a>
+                    </li> 
+                    <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-181">
+                        <a href='/galeria/' data-level='1'><span class="menu-item-text"><span class="menu-text">Galería</span></span></a>
+                    </li> 
+                    <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-294">
+                        <a href='/preguntas-frecuentes/' data-level='1'><span class="menu-item-text"><span class="menu-text">Preguntas Frecuentes</span></span></a>
+                    </li> 
+                    <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-179">
+                        <a href='/contacto/' data-level='1'><span class="menu-item-text"><span class="menu-text">Contacto</span></span></a>
+                    </li> 	
+                </ul>
                 <div class='mobile-mini-widgets-in-menu'></div>
             </div>
 
@@ -368,7 +410,11 @@
             <div class="wf-wrap">
                 <div class="wf-container-footer">
                     <div class="wf-container">
-                        <section id="text-3" class="widget widget_text wf-cell wf-1-1">			<div class="textwidget"><p><img class="size-medium wp-image-44 aligncenter" src="http://www.parquedelaesperanza.com/wp-content/uploads/2019/07/logo_footer.png" alt="" /></p>
+                        <section id="text-3" class="widget widget_text wf-cell wf-1-1">			
+                            <div class="textwidget">
+                                <p>
+                                    <img class="size-medium wp-image-44 aligncenter" 
+                                         src="/assets/uploads/logo_footer.png" alt="" /></p>
                             </div>
                         </section><section id="text-4" class="widget widget_text wf-cell wf-1-1">			<div class="textwidget"><ul>
                                     <li><a href="<?php echo base_url(); ?>">Inicio</a></li>
@@ -439,17 +485,24 @@
         var wpcf7 = {"apiSettings": {"root": "http:\/\/www.parquedelaesperanza.com\/wp-json\/contact-form-7\/v1", "namespace": "contact-form-7\/v1"}};
         /* ]]> */
     </script>
-    <script type='text/javascript' src='http://www.parquedelaesperanza.com/wp-content/plugins/contact-form-7/includes/js/scripts.js?ver=5.1.9'></script>
+    <script src="<?php echo base_url(); ?>assets/theme/js/scripts.js" type="text/javascript"></script>
     <script type='text/javascript' src='https://www.google.com/recaptcha/api.js?render=6LfD56MZAAAAAJefbA9hqJjLAh4aG6oD6-uh7Xob&#038;ver=3.0'></script>
-    <script type='text/javascript' src='http://www.parquedelaesperanza.com/wp-content/themes/dt-the7/js/legacy.min.js?ver=5.2.7'></script>
+    <script src="<?php echo base_url(); ?>assets/theme/js/legacy.min.js" type="text/javascript"></script>
+    <script src="<?php echo base_url(); ?>assets/theme/js/info-box.min.js" type="text/javascript"></script>
+    <script src="<?php echo base_url(); ?>assets/theme/js/wp-embed.min.js" type="text/javascript"></script>
+    <script src="<?php echo base_url(); ?>assets/theme/js/js_composer_front.min.js" type="text/javascript"></script>
+    <script src="<?php echo base_url(); ?>assets/theme/js/waypoints.min.js" type="text/javascript"></script>
+    
+    
+<!--    <script type='text/javascript' src='http://www.parquedelaesperanza.com/wp-content/themes/dt-the7/js/legacy.min.js?ver=5.2.7'></script>
     <script type='text/javascript' src='http://www.parquedelaesperanza.com/wp-content/plugins/Ultimate_VC_Addons/assets/min-js/info-box.min.js?ver=3.16.22'></script>
     <script type='text/javascript' src='http://www.parquedelaesperanza.com/wp-includes/js/wp-embed.min.js?ver=5.2.7'></script>
     <script type='text/javascript' src='http://www.parquedelaesperanza.com/wp-content/plugins/js_composer/assets/js/dist/js_composer_front.min.js?ver=5.7'></script>
     <script type='text/javascript' src='http://www.parquedelaesperanza.com/wp-content/plugins/js_composer/assets/lib/waypoints/waypoints.min.js?ver=5.7'></script>
+-->
 
 
 
-    <script src="<?php echo base_url(); ?>assets/bootstrap/js/bootstrap.bundle.min.js" type="text/javascript"></script>
 
     <script type="text/javascript">
         (function (sitekey, actions) {

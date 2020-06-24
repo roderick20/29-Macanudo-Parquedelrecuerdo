@@ -48,6 +48,16 @@ class Pages extends CI_Controller {
         //$this->template->set('active', 'Home');
         $this->template->load('template', 'contents', 'public/pages/contacto', $data);
     }
+    
+    public function politica_privacidad() {
+        $data = array();
+        $this->template->set('title', 'Servicios');
+        //$this->template->set('active', 'Home');
+        $this->template->load('template', 'contents', 'public/pages/politica_privacidad', $data);
+    }
+    
+    
+    
 
     public function buscador() {
         $data = array();

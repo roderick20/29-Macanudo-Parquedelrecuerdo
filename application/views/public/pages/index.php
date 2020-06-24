@@ -130,7 +130,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
         transition: -webkit-transform 0.4s;
         transition: transform 0.4s;
         transition: transform 0.4s, -webkit-transform 0.4s;
-        background-image: url("http://www.parquedelaesperanza.com/wp-content/uploads/2020/02/ejemplo_parque_background.jpg");
+        background-image: url("/assets/uploads/ejemplo_parque_background.jpg");
         background-size: cover;
         background-repeat: no-repeat;
         background-position: center;
@@ -521,7 +521,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
             if ($count == 0) {
                 echo '<li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>';
             } else {
-                echo '<li data-target="#carouselExampleCaptions" data-slide-to="'.$count.'"></li>';
+                echo '<li data-target="#carouselExampleCaptions" data-slide-to="' . $count . '"></li>';
             }
             $count++;
         }
@@ -584,9 +584,9 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                                                                                             </div>
                                                                                         </div>-->
                                             <div class="icon">
-                                                <a class="icon-primary" href="http://www.parquedelaesperanza.com/contacto/" target="_blank"><i class="Defaults-edit pencil-square-o"></i></a>
+                                                <a class="icon-primary" href="/contacto/" target="_blank"><i class="Defaults-edit pencil-square-o"></i></a>
                                                 <div class="container-description">
-                                                    <a class="icon-description" href="http://www.parquedelaesperanza.com/contacto/" target="_blank">Cotización</a>
+                                                    <a class="icon-description" href="/contacto/" target="_blank">Cotización</a>
                                                 </div>
                                             </div>
                                             <div class="icon">
@@ -602,41 +602,34 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                         </div>
                     </div>
                 </div>
-                <div data-vc-full-width="true" data-vc-full-width-init="false" class="vc_row wpb_row vc_row-fluid vc_row-o-equal-height vc_row-o-content-middle vc_row-flex">
-                    <div class="wpb_column vc_column_container vc_col-sm-12">
-                        <div class="vc_column-inner">
-                            <div class="wpb_wrapper">
-                                <div class="vc_empty_space" style="height: 60px"><span class="vc_empty_space_inner"></span></div>
-                                <div class="vc_row wpb_row vc_inner vc_row-fluid vc_row-o-content-middle vc_row-flex">
-                                    <div class="wpb_column vc_column_container vc_col-sm-2/5">
-                                        <div class="vc_column-inner">
-                                            <div class="wpb_wrapper">
-                                                <div class="wpb_text_column wpb_content_element  wpb_animate_when_almost_visible wpb_fadeInUp fadeInUp amor-familia">
+
+                <div data-vc-full-width="true" data-vc-full-width-init="true" class="vc_row wpb_row vc_row-fluid vc_row-o-equal-height vc_row-o-content-middle vc_row-flex ult-vc-hide-row vc_row-has-fill" style="left: -337px; position: relative; box-sizing: border-box; width: 1903px; padding-left: 337px; padding-right: 336px;" data-rtl="false" data-row-effect-mobile-disable="true"><div class="upb_row_bg" data-upb_br_animation="" style="background: rgba(0, 0, 0, 0) -webkit-linear-gradient(rgb(246, 245, 235) 0%, rgb(255, 255, 255) 100%) repeat scroll 0% 0%; min-width: 1903px; left: 0px; width: 1903px;" data-bg-override="0"></div><div class="wpb_column vc_column_container vc_col-sm-12"><div class="vc_column-inner"><div class="wpb_wrapper"><div class="vc_empty_space" style="height: 60px"><span class="vc_empty_space_inner"></span></div>
+                                <div class="vc_row wpb_row vc_inner vc_row-fluid vc_row-o-content-middle vc_row-flex"><div class="wpb_column vc_column_container vc_col-sm-2/5"><div class="vc_column-inner"><div class="wpb_wrapper">
+                                                <div class="wpb_text_column wpb_content_element  wpb_animate_when_almost_visible wpb_fadeInUp fadeInUp amor-familia wpb_start_animation animated">
                                                     <div class="wpb_wrapper">
                                                         <h2>Porque te quiero, te cuido</h2>
                                                         <p>Nos preocupamos en brindarte una atención personalizada, asesorarte y acompañarte junto a tu familia en ese momento difícil, por ello contamos con personal capacitado y alto valor humano.</p>
                                                     </div>
                                                 </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="wpb_column vc_column_container vc_col-sm-3/5">
-                                        <div class="vc_column-inner">
-                                            <div class="wpb_wrapper">
-                                                <div class="wpb_single_image wpb_content_element vc_align_center  wpb_animate_when_almost_visible wpb_slideInUp slideInUp vc_custom_1582862045702">
+                                            </div></div></div><div class="wpb_column vc_column_container vc_col-sm-3/5"><div class="vc_column-inner"><div class="wpb_wrapper">
+                                                <div class="wpb_single_image wpb_content_element vc_align_center  wpb_animate_when_almost_visible wpb_slideInUp slideInUp vc_custom_1582862045702 wpb_start_animation animated">
                                                     <figure class="wpb_wrapper vc_figure">
-                                                        <div class="vc_single_image-wrapper   vc_box_border_grey"><img width="1178" height="556" src="http://www.parquedelaesperanza.com/wp-content/uploads/2019/07/amor-de-familia.png" class="vc_single_image-img attachment-full" alt="" srcset="http://www.parquedelaesperanza.com/wp-content/uploads/2019/07/amor-de-familia.png 1178w, http://www.parquedelaesperanza.com/wp-content/uploads/2019/07/amor-de-familia-300x142.png 300w, http://www.parquedelaesperanza.com/wp-content/uploads/2019/07/amor-de-familia-768x362.png 768w, http://www.parquedelaesperanza.com/wp-content/uploads/2019/07/amor-de-familia-1024x483.png 1024w" sizes="(max-width: 1178px) 100vw, 1178px" data-dt-location="http://www.parquedelaesperanza.com/amor-de-familia/" /></div>
+                                                        <div class="vc_single_image-wrapper   vc_box_border_grey">
+                                                            <img 
+                                                                src="/assets/uploads/amor-de-familia.png" 
+                                                                class="vc_single_image-img attachment-full" alt="" 
+                                                                srcset="/assets/uploads/amor-de-familia.png 1178w, 
+                                                                /assets/uploads/amor-de-familia-300x142.png 300w, 
+                                                                /assets/uploads/amor-de-familia-768x362.png 768w, 
+                                                                /assets/uploads/amor-de-familia-1024x483.png 1024w" 
+                                                                sizes="(max-width: 1178px) 100vw, 1178px" 
+                                                                width="1178" height="556"></div>
                                                     </figure>
                                                 </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="vc_empty_space" style="height: 60px"><span class="vc_empty_space_inner"></span></div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+                                            </div></div></div></div><div class="vc_empty_space" style="height: 60px"><span class="vc_empty_space_inner"></span></div>
+                            </div></div></div></div>
+
+
                 <div class="vc_row-full-width vc_clearfix"></div>
                 <!-- Row Backgrounds -->
                 <div class="upb_grad" data-grad="background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #F6F5EB), color-stop(100%, #FFFFFF));background: -moz-linear-gradient(top,#F6F5EB 0%,#FFFFFF 100%);background: -webkit-linear-gradient(top,#F6F5EB 0%,#FFFFFF 100%);background: -o-linear-gradient(top,#F6F5EB 0%,#FFFFFF 100%);background: -ms-linear-gradient(top,#F6F5EB 0%,#FFFFFF 100%);background: linear-gradient(top,#F6F5EB 0%,#FFFFFF 100%);" data-bg-override="0" data-upb-overlay-color="" data-upb-bg-animation="" data-fadeout="" data-fadeout-percentage="30" data-parallax-content="" data-parallax-content-sense="30" data-row-effect-mobile-disable="true" data-img-parallax-mobile-disable="true" data-rtl="false" data-custom-vc-row="" data-vc="5.7" data-is_old_vc="" data-theme-support="" data-overlay="false" data-overlay-color="" data-overlay-pattern="" data-overlay-pattern-opacity="" data-overlay-pattern-size=""></div>
@@ -672,7 +665,11 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                                 <div class="vc_empty_space" style="height: 70px"><span class="vc_empty_space_inner"></span></div>
                                 <div class="wpb_single_image wpb_content_element vc_align_center  vc_custom_1582756798609">
                                     <figure class="wpb_wrapper vc_figure">
-                                        <div class="vc_single_image-wrapper   vc_box_border_grey"><img width="109" height="39" src="http://www.parquedelaesperanza.com/wp-content/uploads/2020/02/pe_icons_titles.png" class="vc_single_image-img attachment-full" alt="" data-dt-location="http://www.parquedelaesperanza.com/inicio/attachment/pe_icons_titles/" /></div>
+                                        <div class="vc_single_image-wrapper   vc_box_border_grey">
+                                            <img width="109" height="39" 
+                                                 src="/assets/uploads/pe_icons_titles.png" 
+                                                 class="vc_single_image-img attachment-full" alt="" 
+                                                  /></div>
                                     </figure>
                                 </div>
                                 <div class="wpb_text_column wpb_content_element  vc_custom_1590449465590">
@@ -692,7 +689,13 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                                                                 <div class="ult-item-wrap" data-animation="animated no-animation">
                                                                     <div class="wpb_single_image wpb_content_element vc_align_center   servicios_image">
                                                                         <figure class="wpb_wrapper vc_figure">
-                                                                            <div class="vc_single_image-wrapper   vc_box_border_grey"><img width="630" height="420" src="http://www.parquedelaesperanza.com/wp-content/uploads/2020/02/necesidad_futura.jpg" class="vc_single_image-img attachment-full" alt="" srcset="http://www.parquedelaesperanza.com/wp-content/uploads/2020/02/necesidad_futura.jpg 630w, http://www.parquedelaesperanza.com/wp-content/uploads/2020/02/necesidad_futura-300x200.jpg 300w" sizes="(max-width: 630px) 100vw, 630px" data-dt-location="http://www.parquedelaesperanza.com/inicio/attachment/necesidad_futura/" /></div>
+                                                                            <div class="vc_single_image-wrapper   vc_box_border_grey">
+
+
+                                                                                <img width="630" height="420" src="/assets/uploads/home/necesidad_futura.jpg" class="vc_single_image-img attachment-full" alt="" 
+                                                                                     srcset="/assets/uploads/home/necesidad_futura.jpg 630w, 
+                                                                                     /assets/uploads/home/necesidad_futura-300x200.jpg 300w" sizes="(max-width: 630px) 100vw, 630px" 
+                                                                                     /></div>
                                                                         </figure>
                                                                     </div>
                                                                 </div>
@@ -706,7 +709,9 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                                                                 </div>
                                                                 <div class="ult-item-wrap" data-animation="animated no-animation">
                                                                     <div class="vc_btn3-container  info_inicio vc_btn3-center">
-                                                                        <a onmouseleave="this.style.borderColor='#dbb66d'; this.style.backgroundColor='transparent'; this.style.color='#dbb66d'" onmouseenter="this.style.borderColor='#dbb66d'; this.style.backgroundColor='#dbb66d'; this.style.color='#ffffff';" style="border-color:#dbb66d; color:#dbb66d;" class="vc_general vc_btn3 vc_btn3-size-md vc_btn3-shape-rounded vc_btn3-style-outline-custom" href="http://www.parquedelaesperanza.com/servicios/necesidad-futura/" title="Necesidad futura">Más información</a></div>
+                                                                        <a onmouseleave="this.style.borderColor='#dbb66d'; this.style.backgroundColor='transparent'; this.style.color='#dbb66d'" onmouseenter="this.style.borderColor='#dbb66d'; this.style.backgroundColor='#dbb66d'; this.style.color='#ffffff';" style="border-color:#dbb66d; color:#dbb66d;" 
+                                                                           class="vc_general vc_btn3 vc_btn3-size-md vc_btn3-shape-rounded vc_btn3-style-outline-custom" 
+                                                                           href="/servicios/necesidad-futura/" title="Necesidad futura">Más información</a></div>
                                                                 </div>
                                                             </div>
                                                         </div>
@@ -723,7 +728,12 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                                                                 <div class="ult-item-wrap" data-animation="animated no-animation">
                                                                     <div class="wpb_single_image wpb_content_element vc_align_center   servicios_image">
                                                                         <figure class="wpb_wrapper vc_figure">
-                                                                            <div class="vc_single_image-wrapper   vc_box_border_grey"><img width="600" height="400" src="http://www.parquedelaesperanza.com/wp-content/uploads/2020/05/necesidad-inmediata-pe-tres.jpeg" class="vc_single_image-img attachment-full" alt="" srcset="http://www.parquedelaesperanza.com/wp-content/uploads/2020/05/necesidad-inmediata-pe-tres.jpeg 600w, http://www.parquedelaesperanza.com/wp-content/uploads/2020/05/necesidad-inmediata-pe-tres-300x200.jpeg 300w" sizes="(max-width: 600px) 100vw, 600px" data-dt-location="http://www.parquedelaesperanza.com/necesidad-inmediata-pe-tres/" /></div>
+                                                                            <div class="vc_single_image-wrapper   vc_box_border_grey">
+                                                                                <img width="600" height="400" src="/assets/uploads/home/necesidad-inmediata-pe-tres.jpeg" 
+                                                                                     class="vc_single_image-img attachment-full" alt="" 
+                                                                                     srcset="/assets/uploads/home/necesidad-inmediata-pe-tres.jpeg 600w, 
+                                                                                     /assets/uploads/home/necesidad-inmediata-pe-tres-300x200.jpeg 300w" sizes="(max-width: 600px) 100vw, 600px" 
+                                                                                      /></div>
                                                                         </figure>
                                                                     </div>
                                                                 </div>
@@ -737,7 +747,10 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                                                                 </div>
                                                                 <div class="ult-item-wrap" data-animation="animated no-animation">
                                                                     <div class="vc_btn3-container  info_inicio vc_btn3-center">
-                                                                        <a onmouseleave="this.style.borderColor='#dbb66d'; this.style.backgroundColor='transparent'; this.style.color='#dbb66d'" onmouseenter="this.style.borderColor='#dbb66d'; this.style.backgroundColor='#dbb66d'; this.style.color='#ffffff';" style="border-color:#dbb66d; color:#dbb66d;" class="vc_general vc_btn3 vc_btn3-size-md vc_btn3-shape-rounded vc_btn3-style-outline-custom" href="http://www.parquedelaesperanza.com/servicios/necesidad-inmediata/" title="Necesidad futura">Más información</a></div>
+                                                                        <a onmouseleave="this.style.borderColor='#dbb66d'; this.style.backgroundColor='transparent'; this.style.color='#dbb66d'" 
+                                                                           onmouseenter="this.style.borderColor='#dbb66d'; this.style.backgroundColor='#dbb66d'; this.style.color='#ffffff';" 
+                                                                           style="border-color:#dbb66d; color:#dbb66d;" class="vc_general vc_btn3 vc_btn3-size-md vc_btn3-shape-rounded vc_btn3-style-outline-custom" 
+                                                                           href="/servicios/necesidad-inmediata/" title="Necesidad futura">Más información</a></div>
                                                                 </div>
                                                             </div>
                                                         </div>
@@ -754,7 +767,14 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                                                                 <div class="ult-item-wrap" data-animation="animated no-animation">
                                                                     <div class="wpb_single_image wpb_content_element vc_align_center   servicios_image">
                                                                         <figure class="wpb_wrapper vc_figure">
-                                                                            <div class="vc_single_image-wrapper   vc_box_border_grey"><img width="630" height="420" src="http://www.parquedelaesperanza.com/wp-content/uploads/2020/05/crematorio-parque-esperanza-general.jpg" class="vc_single_image-img attachment-full" alt="" srcset="http://www.parquedelaesperanza.com/wp-content/uploads/2020/05/crematorio-parque-esperanza-general.jpg 630w, http://www.parquedelaesperanza.com/wp-content/uploads/2020/05/crematorio-parque-esperanza-general-300x200.jpg 300w" sizes="(max-width: 630px) 100vw, 630px" data-dt-location="http://www.parquedelaesperanza.com/servicios/cremacion/attachment/crematorio-parque-esperanza-general/" /></div>
+                                                                            <div class="vc_single_image-wrapper   vc_box_border_grey">
+                                                                                <img width="630" height="420" 
+                                                                                     src="/assets/uploads/home/crematorio-parque-esperanza-general.jpg" 
+                                                                                     class="vc_single_image-img attachment-full" alt="" 
+                                                                                     srcset="/assets/uploads/home/crematorio-parque-esperanza-general.jpg 630w, 
+                                                                                     /assets/uploads/home/crematorio-parque-esperanza-general-300x200.jpg 300w" 
+                                                                                     sizes="(max-width: 630px) 100vw, 630px" 
+                                                                                      /></div>
                                                                         </figure>
                                                                     </div>
                                                                 </div>
@@ -768,7 +788,11 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                                                                 </div>
                                                                 <div class="ult-item-wrap" data-animation="animated no-animation">
                                                                     <div class="vc_btn3-container  info_inicio vc_btn3-center">
-                                                                        <a onmouseleave="this.style.borderColor='#dbb66d'; this.style.backgroundColor='transparent'; this.style.color='#dbb66d'" onmouseenter="this.style.borderColor='#dbb66d'; this.style.backgroundColor='#dbb66d'; this.style.color='#ffffff';" style="border-color:#dbb66d; color:#dbb66d;" class="vc_general vc_btn3 vc_btn3-size-md vc_btn3-shape-rounded vc_btn3-style-outline-custom" href="http://www.parquedelaesperanza.com/servicios/cremacion/" title="Necesidad futura">Más información</a></div>
+                                                                        <a onmouseleave="this.style.borderColor='#dbb66d'; this.style.backgroundColor='transparent'; this.style.color='#dbb66d'" 
+                                                                           onmouseenter="this.style.borderColor='#dbb66d'; this.style.backgroundColor='#dbb66d'; this.style.color='#ffffff';" 
+                                                                           style="border-color:#dbb66d; color:#dbb66d;" 
+                                                                           class="vc_general vc_btn3 vc_btn3-size-md vc_btn3-shape-rounded vc_btn3-style-outline-custom" 
+                                                                           href="/servicios/cremacion/" title="Necesidad futura">Más información</a></div>
                                                                 </div>
                                                             </div>
                                                         </div>
@@ -785,7 +809,15 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                                                                 <div class="ult-item-wrap" data-animation="animated no-animation">
                                                                     <div class="wpb_single_image wpb_content_element vc_align_center   servicios_image">
                                                                         <figure class="wpb_wrapper vc_figure">
-                                                                            <div class="vc_single_image-wrapper   vc_box_border_grey"><img width="900" height="600" src="http://www.parquedelaesperanza.com/wp-content/uploads/2020/05/pe-toldoblanco-11.jpg" class="vc_single_image-img attachment-full" alt="" srcset="http://www.parquedelaesperanza.com/wp-content/uploads/2020/05/pe-toldoblanco-11.jpg 900w, http://www.parquedelaesperanza.com/wp-content/uploads/2020/05/pe-toldoblanco-11-300x200.jpg 300w, http://www.parquedelaesperanza.com/wp-content/uploads/2020/05/pe-toldoblanco-11-768x512.jpg 768w" sizes="(max-width: 900px) 100vw, 900px" data-dt-location="http://www.parquedelaesperanza.com/servicios/sepelio/attachment/pe-toldoblanco-11/" /></div>
+                                                                            <div class="vc_single_image-wrapper   vc_box_border_grey">
+                                                                                <img width="900" height="600" 
+                                                                                     src="/assets/uploads/home/pe-toldoblanco-11.jpg" 
+                                                                                     class="vc_single_image-img attachment-full" alt="" 
+                                                                                     srcset="/assets/uploads/home/pe-toldoblanco-11.jpg 900w, 
+                                                                                     /assets/uploads/home/pe-toldoblanco-11-300x200.jpg 300w, 
+                                                                                     /assets/uploads/home/pe-toldoblanco-11-768x512.jpg 768w" 
+                                                                                     sizes="(max-width: 900px) 100vw, 900px" 
+                                                                                      /></div>
                                                                         </figure>
                                                                     </div>
                                                                 </div>
@@ -799,7 +831,11 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                                                                 </div>
                                                                 <div class="ult-item-wrap" data-animation="animated no-animation">
                                                                     <div class="vc_btn3-container  info_inicio vc_btn3-center">
-                                                                        <a onmouseleave="this.style.borderColor='#dbb66d'; this.style.backgroundColor='transparent'; this.style.color='#dbb66d'" onmouseenter="this.style.borderColor='#dbb66d'; this.style.backgroundColor='#dbb66d'; this.style.color='#ffffff';" style="border-color:#dbb66d; color:#dbb66d;" class="vc_general vc_btn3 vc_btn3-size-md vc_btn3-shape-rounded vc_btn3-style-outline-custom" href="http://www.parquedelaesperanza.com/servicios/sepelio/" title="Necesidad futura">Más información</a></div>
+                                                                        <a onmouseleave="this.style.borderColor='#dbb66d'; this.style.backgroundColor='transparent'; this.style.color='#dbb66d'" 
+                                                                           onmouseenter="this.style.borderColor='#dbb66d'; this.style.backgroundColor='#dbb66d'; this.style.color='#ffffff';" 
+                                                                           style="border-color:#dbb66d; color:#dbb66d;" 
+                                                                           class="vc_general vc_btn3 vc_btn3-size-md vc_btn3-shape-rounded vc_btn3-style-outline-custom" 
+                                                                           href="/servicios/sepelio/" title="Necesidad futura">Más información</a></div>
                                                                 </div>
                                                             </div>
                                                         </div>
@@ -816,7 +852,14 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                                                                 <div class="ult-item-wrap" data-animation="animated no-animation">
                                                                     <div class="wpb_single_image wpb_content_element vc_align_center   servicios_image">
                                                                         <figure class="wpb_wrapper vc_figure">
-                                                                            <div class="vc_single_image-wrapper   vc_box_border_grey"><img width="630" height="420" src="http://www.parquedelaesperanza.com/wp-content/uploads/2020/02/servicio_velatorios_parque.jpg" class="vc_single_image-img attachment-full" alt="" srcset="http://www.parquedelaesperanza.com/wp-content/uploads/2020/02/servicio_velatorios_parque.jpg 630w, http://www.parquedelaesperanza.com/wp-content/uploads/2020/02/servicio_velatorios_parque-300x200.jpg 300w" sizes="(max-width: 630px) 100vw, 630px" data-dt-location="http://www.parquedelaesperanza.com/inicio/attachment/servicio_velatorios_parque/" /></div>
+                                                                            <div class="vc_single_image-wrapper   vc_box_border_grey">
+                                                                                <img width="630" height="420" 
+                                                                                     src="/assets/uploads/home/servicio_velatorios_parque.jpg" 
+                                                                                     class="vc_single_image-img attachment-full" alt="" 
+                                                                                     srcset="/assets/uploads/home/servicio_velatorios_parque.jpg 630w, 
+                                                                                     /assets/uploads/home/servicio_velatorios_parque-300x200.jpg 300w" s
+                                                                                     izes="(max-width: 630px) 100vw, 630px" 
+                                                                                      /></div>
                                                                         </figure>
                                                                     </div>
                                                                 </div>
@@ -830,7 +873,10 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                                                                 </div>
                                                                 <div class="ult-item-wrap" data-animation="animated no-animation">
                                                                     <div class="vc_btn3-container  info_inicio vc_btn3-center">
-                                                                        <a onmouseleave="this.style.borderColor='#dbb66d'; this.style.backgroundColor='transparent'; this.style.color='#dbb66d'" onmouseenter="this.style.borderColor='#dbb66d'; this.style.backgroundColor='#dbb66d'; this.style.color='#ffffff';" style="border-color:#dbb66d; color:#dbb66d;" class="vc_general vc_btn3 vc_btn3-size-md vc_btn3-shape-rounded vc_btn3-style-outline-custom" href="http://www.parquedelaesperanza.com/servicios/velatorios/" title="Velatorios">Más información</a></div>
+                                                                        <a onmouseleave="this.style.borderColor='#dbb66d'; this.style.backgroundColor='transparent'; this.style.color='#dbb66d'" 
+                                                                           onmouseenter="this.style.borderColor='#dbb66d'; this.style.backgroundColor='#dbb66d'; this.style.color='#ffffff';" 
+                                                                           style="border-color:#dbb66d; color:#dbb66d;" class="vc_general vc_btn3 vc_btn3-size-md vc_btn3-shape-rounded vc_btn3-style-outline-custom" 
+                                                                           href="/servicios/velatorios/" title="Velatorios">Más información</a></div>
                                                                 </div>
                                                             </div>
                                                         </div>
@@ -847,7 +893,14 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                                                                 <div class="ult-item-wrap" data-animation="animated no-animation">
                                                                     <div class="wpb_single_image wpb_content_element vc_align_center   servicios_image">
                                                                         <figure class="wpb_wrapper vc_figure">
-                                                                            <div class="vc_single_image-wrapper   vc_box_border_grey"><img width="650" height="433" src="http://www.parquedelaesperanza.com/wp-content/uploads/2020/02/otros_servicios_parque_esperanza.jpg" class="vc_single_image-img attachment-full" alt="" srcset="http://www.parquedelaesperanza.com/wp-content/uploads/2020/02/otros_servicios_parque_esperanza.jpg 650w, http://www.parquedelaesperanza.com/wp-content/uploads/2020/02/otros_servicios_parque_esperanza-300x200.jpg 300w" sizes="(max-width: 650px) 100vw, 650px" data-dt-location="http://www.parquedelaesperanza.com/inicio/attachment/otros_servicios_parque_esperanza/" /></div>
+                                                                            <div class="vc_single_image-wrapper   vc_box_border_grey">
+                                                                                <img width="650" height="433" 
+                                                                                     src="/assets/uploads/home/otros_servicios_parque_esperanza.jpg" 
+                                                                                     class="vc_single_image-img attachment-full" alt="" 
+                                                                                     srcset="/assets/uploads/home/otros_servicios_parque_esperanza.jpg 650w, 
+                                                                                     /assets/uploads/home/otros_servicios_parque_esperanza-300x200.jpg 300w" 
+                                                                                     sizes="(max-width: 650px) 100vw, 650px" 
+                                                                                      /></div>
                                                                         </figure>
                                                                     </div>
                                                                 </div>
@@ -861,7 +914,10 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                                                                 </div>
                                                                 <div class="ult-item-wrap" data-animation="animated no-animation">
                                                                     <div class="vc_btn3-container  info_inicio vc_btn3-center">
-                                                                        <a onmouseleave="this.style.borderColor='#dbb66d'; this.style.backgroundColor='transparent'; this.style.color='#dbb66d'" onmouseenter="this.style.borderColor='#dbb66d'; this.style.backgroundColor='#dbb66d'; this.style.color='#ffffff';" style="border-color:#dbb66d; color:#dbb66d;" class="vc_general vc_btn3 vc_btn3-size-md vc_btn3-shape-rounded vc_btn3-style-outline-custom" href="http://www.parquedelaesperanza.com/servicios/otros-servicios/" title="Otros servicios">Más información</a></div>
+                                                                        <a onmouseleave="this.style.borderColor='#dbb66d'; this.style.backgroundColor='transparent'; this.style.color='#dbb66d'" 
+                                                                           onmouseenter="this.style.borderColor='#dbb66d'; this.style.backgroundColor='#dbb66d'; this.style.color='#ffffff';" 
+                                                                           style="border-color:#dbb66d; color:#dbb66d;" class="vc_general vc_btn3 vc_btn3-size-md vc_btn3-shape-rounded vc_btn3-style-outline-custom" 
+                                                                           href="/servicios/otros-servicios/" title="Otros servicios">Más información</a></div>
                                                                 </div>
                                                             </div>
                                                         </div>
@@ -970,7 +1026,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                                                         <div class="form-100 terminos"><span class="wpcf7-form-control-wrap terminos-condiciones"><span class="wpcf7-form-control wpcf7-checkbox wpcf7-validates-as-required"><span class="wpcf7-list-item first last"><label><input type="checkbox" name="terminos-condiciones[]" value="He leído y estoy de acuerdo" /><span class="wpcf7-list-item-label">He leído y estoy de acuerdo</span></label>
                                                                     </span>
                                                                 </span>
-                                                            </span> <span><a href="http://www.parquedelaesperanza.com/politica-privacidad/" target="_blank"> con los términos y condiciones</a>.</span>
+                                                            </span> <span><a href="/politica-privacidad/" target="_blank"> con los términos y condiciones</a>.</span>
                                                         </div>
                                                         <div class="form-100 btn_enviar_of"><input type="submit" value="Enviar" class="wpcf7-form-control wpcf7-submit" /></div>
                                                         <div class="wpcf7-response-output wpcf7-display-none" aria-hidden="true"></div>
@@ -997,11 +1053,19 @@ defined('BASEPATH') OR exit('No direct script access allowed');
     <!-- .wf-wrap -->
 </div>
 <!-- #main -->
-<script type='text/javascript' src='http://www.parquedelaesperanza.com/wp-content/plugins/Ultimate_VC_Addons/assets/min-js/ultimate-params.min.js?ver=3.16.22'></script> 
+<script src="/assets/theme/js/ultimate-params.min.js" type="text/javascript"></script>
+<script src="/assets/theme/js/slick.min.js" type="text/javascript"></script>
+<script src="/assets/theme/js/jquery-appear.min.js" type="text/javascript"></script>
+<script src="/assets/theme/js/slick-custom.min.js" type="text/javascript"></script>
+<script src="/assets/theme/js/ultimate_bg.min.js" type="text/javascript"></script>
+<script src="/assets/theme/js/custom.min.js" type="text/javascript"></script>
+
+
+<!--<script type='text/javascript' src='http://www.parquedelaesperanza.com/wp-content/plugins/Ultimate_VC_Addons/assets/min-js/ultimate-params.min.js?ver=3.16.22'></script> 
 <script type='text/javascript' src='http://www.parquedelaesperanza.com/wp-content/plugins/Ultimate_VC_Addons/assets/min-js/slick.min.js?ver=3.16.22'></script> 
 <script type='text/javascript' src='http://www.parquedelaesperanza.com/wp-content/plugins/Ultimate_VC_Addons/assets/min-js/jquery-appear.min.js?ver=3.16.22'></script> 
 <script type='text/javascript' src='http://www.parquedelaesperanza.com/wp-content/plugins/Ultimate_VC_Addons/assets/min-js/slick-custom.min.js?ver=3.16.22'></script> 
 
 
 <script type='text/javascript' src='http://www.parquedelaesperanza.com/wp-content/plugins/Ultimate_VC_Addons/assets/min-js/ultimate_bg.min.js?ver=5.2.7'></script>
-<script type='text/javascript' src='http://www.parquedelaesperanza.com/wp-content/plugins/Ultimate_VC_Addons/assets/min-js/custom.min.js?ver=3.16.22'></script>
+<script type='text/javascript' src='http://www.parquedelaesperanza.com/wp-content/plugins/Ultimate_VC_Addons/assets/min-js/custom.min.js?ver=3.16.22'></script>-->
