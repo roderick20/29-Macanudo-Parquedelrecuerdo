@@ -12,6 +12,11 @@ class UserModel extends CI_Model {
     function __construct() {
         parent::__construct();
     }
+    
+    public function login() {
+        $query = $this->db->get_where('User', array('Email' => $this->Email, 'Password' => $this->Password));
+        return $query->row_array();
+    }
 
     function getUsers() {
         $response = array();

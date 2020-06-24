@@ -1,4 +1,6 @@
-
+<?php 
+print_r($message);
+?>
 
 <div class="card o-hidden border-0 shadow-lg my-5">
     <div class="card-body p-0">
@@ -15,20 +17,24 @@
             </div>
             <div class="col-lg-6">
                 <div class="p-5">
-                    <form class="user" action="/index.php/admin/do_login" method="POST" >
+                    <?php 
+                    echo form_open('/admin/do_login', ['id' => 'frmUserCreate']); 
+                    ?>
+                    
                         <div class="form-group">
-                            <input type="email" class="form-control form-control-user" name="email" aria-describedby="emailHelp" placeholder="Enter Email Address...">
+                            <input type="email" class="form-control form-control-user" name="Email" placeholder="Correo electrónico">
                         </div>
                         <div class="form-group">
-                            <input type="password" class="form-control form-control-user" name="password" placeholder="Password">
+                            <input type="password" class="form-control form-control-user" name="Password" placeholder="Contraseña">
                         </div>
                        
                         <button type="submit" class="btn btn-primary btn-user btn-block">
                             Login
                         </button>
                         
-                       
-                    </form>
+                      <?php
+        echo form_close();
+        ?>
 
                     
                 </div>

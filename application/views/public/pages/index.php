@@ -2,97 +2,97 @@
 defined('BASEPATH') OR exit('No direct script access allowed');
 ?>
 
- <link rel='stylesheet' id='ultimate-style-css'  href='/assets/Ultimate_VC_Addons/assets/min-css/style.min.css?ver=3.16.22' type='text/css' media='all' /> 
- <link rel='stylesheet' id='ult-slick-css'  href='/assets/Ultimate_VC_Addons/assets/min-css/slick.min.css?ver=3.16.22' type='text/css' media='all' /> 
- <link rel='stylesheet' id='ult-icons-css'  href='/assets/Ultimate_VC_Addons/assets/css/icons.css?ver=3.16.22' type='text/css' media='all' /> 
- <link rel='stylesheet' id='ultimate-animate-css'  href='/assets/Ultimate_VC_Addons/assets/min-css/animate.min.css?ver=3.16.22' type='text/css' media='all' /> 
+<link rel='stylesheet' id='ultimate-style-css'  href='/assets/Ultimate_VC_Addons/assets/min-css/style.min.css?ver=3.16.22' type='text/css' media='all' /> 
+<link rel='stylesheet' id='ult-slick-css'  href='/assets/Ultimate_VC_Addons/assets/min-css/slick.min.css?ver=3.16.22' type='text/css' media='all' /> 
+<link rel='stylesheet' id='ult-icons-css'  href='/assets/Ultimate_VC_Addons/assets/css/icons.css?ver=3.16.22' type='text/css' media='all' /> 
+<link rel='stylesheet' id='ultimate-animate-css'  href='/assets/Ultimate_VC_Addons/assets/min-css/animate.min.css?ver=3.16.22' type='text/css' media='all' /> 
 
- <script type='text/javascript' src='/assets/Ultimate_VC_Addons/assets/min-js/ultimate-params.min.js?ver=3.16.22'></script> 
- <script type='text/javascript' src='/assets/Ultimate_VC_Addons/assets/min-js/slick.min.js?ver=3.16.22'></script> 
- <script type='text/javascript' src='/assets/Ultimate_VC_Addons/assets/min-js/jquery-appear.min.js?ver=3.16.22'></script> 
- <script type='text/javascript' src='/assets/Ultimate_VC_Addons/assets/min-js/slick-custom.min.js?ver=3.16.22'></script> 
+<script type='text/javascript' src='/assets/Ultimate_VC_Addons/assets/min-js/ultimate-params.min.js?ver=3.16.22'></script> 
+<script type='text/javascript' src='/assets/Ultimate_VC_Addons/assets/min-js/slick.min.js?ver=3.16.22'></script> 
+<script type='text/javascript' src='/assets/Ultimate_VC_Addons/assets/min-js/jquery-appear.min.js?ver=3.16.22'></script> 
+<script type='text/javascript' src='/assets/Ultimate_VC_Addons/assets/min-js/slick-custom.min.js?ver=3.16.22'></script> 
 
- <!--<link rel='stylesheet' id='animate-css-css'  href='http://www.parquedelaesperanza.com/wp-content/plugins/js_composer/assets/lib/bower/animate-css/animate.min.css?ver=5.7' type='text/css' media='all' />--> 
- <link rel='stylesheet' id='ult-background-style-css'  href='/assets/Ultimate_VC_Addons/assets/min-css/background-style.min.css?ver=3.16.22' type='text/css' media='all' /> 
+<!--<link rel='stylesheet' id='animate-css-css'  href='http://www.parquedelaesperanza.com/wp-content/plugins/js_composer/assets/lib/bower/animate-css/animate.min.css?ver=5.7' type='text/css' media='all' />--> 
+<link rel='stylesheet' id='ult-background-style-css'  href='/assets/Ultimate_VC_Addons/assets/min-css/background-style.min.css?ver=3.16.22' type='text/css' media='all' /> 
 
- <style>
-     @font-face {
-font-family: 'ult-silk';
-src:url(/assets/Ultimate_VC_Addons/assets/css/fonts/ult-silk.eot);
-src:url(/assets/Ultimate_VC_Addons/assets/css/fonts/ult-silk.eot) format('embedded-opentype'),
-url(/assets/Ultimate_VC_Addons/assets/css/fonts/ult-silk.woff) format('woff'),
-url(/assets/Ultimate_VC_Addons/assets/css/fonts/ult-silk.ttf) format('truetype'),
-url(/assets/Ultimate_VC_Addons/assets/css/fonts/ult-silk.svg) format('svg');
-font-weight: normal;
-font-style: normal;
-}
-[class^="ultsl-"], [class*=" ultsl-"] {
-font-family: 'ult-silk';
-speak: none;
-font-style: normal;
-font-weight: normal;
-font-variant: normal;
-text-transform: none;
-line-height: 1;
-outline: none; -webkit-font-smoothing: antialiased;
--moz-osx-font-smoothing: grayscale;
-}
-.ultsl-arrow-right:before {
-content: "\e600";
-}
-.ultsl-arrow-left:before {
-content: "\e601";
-}
-.ultsl-arrow-right2:before {
-content: "\e602";
-}
-.ultsl-arrow-left2:before {
-content: "\e603";
-}
-.ultsl-arrow-right3:before {
-content: "\e604";
-}
-.ultsl-arrow-left3:before {
-content: "\e605";
-}
-.ultsl-checkbox-unchecked:before {
-content: "\e606";
-}
-.ultsl-checkbox-partial:before {
-content: "\e607";
-}
-.ultsl-radio-checked:before {
-content: "\e608";
-}
-.ultsl-radio-unchecked:before {
-content: "\e609";
-}
-.ultsl-record:before {
-content: "\e60a";
-}
-.ultsl-stop:before {
-content: "\e60b";
-}
-.ultsl-arrow-left4:before {
-content: "\e60c";
-}
-.ultsl-arrow-right4:before {
-content: "\e60d";
-}
-.ultsl-arrow-left5:before {
-content: "\e60e";
-}
-.ultsl-arrow-right5:before {
-content: "\e60f";
-}
-.ultsl-arrow-left6:before {
-content: "\e610";
-}
-.ultsl-arrow-right6:before {
-content: "\e611";
-}
-     
- </style>
+<style>
+    @font-face {
+        font-family: 'ult-silk';
+        src:url(/assets/Ultimate_VC_Addons/assets/css/fonts/ult-silk.eot);
+        src:url(/assets/Ultimate_VC_Addons/assets/css/fonts/ult-silk.eot) format('embedded-opentype'),
+            url(/assets/Ultimate_VC_Addons/assets/css/fonts/ult-silk.woff) format('woff'),
+            url(/assets/Ultimate_VC_Addons/assets/css/fonts/ult-silk.ttf) format('truetype'),
+            url(/assets/Ultimate_VC_Addons/assets/css/fonts/ult-silk.svg) format('svg');
+        font-weight: normal;
+        font-style: normal;
+    }
+    [class^="ultsl-"], [class*=" ultsl-"] {
+        font-family: 'ult-silk';
+        speak: none;
+        font-style: normal;
+        font-weight: normal;
+        font-variant: normal;
+        text-transform: none;
+        line-height: 1;
+        outline: none; -webkit-font-smoothing: antialiased;
+        -moz-osx-font-smoothing: grayscale;
+    }
+    .ultsl-arrow-right:before {
+        content: "\e600";
+    }
+    .ultsl-arrow-left:before {
+        content: "\e601";
+    }
+    .ultsl-arrow-right2:before {
+        content: "\e602";
+    }
+    .ultsl-arrow-left2:before {
+        content: "\e603";
+    }
+    .ultsl-arrow-right3:before {
+        content: "\e604";
+    }
+    .ultsl-arrow-left3:before {
+        content: "\e605";
+    }
+    .ultsl-checkbox-unchecked:before {
+        content: "\e606";
+    }
+    .ultsl-checkbox-partial:before {
+        content: "\e607";
+    }
+    .ultsl-radio-checked:before {
+        content: "\e608";
+    }
+    .ultsl-radio-unchecked:before {
+        content: "\e609";
+    }
+    .ultsl-record:before {
+        content: "\e60a";
+    }
+    .ultsl-stop:before {
+        content: "\e60b";
+    }
+    .ultsl-arrow-left4:before {
+        content: "\e60c";
+    }
+    .ultsl-arrow-right4:before {
+        content: "\e60d";
+    }
+    .ultsl-arrow-left5:before {
+        content: "\e60e";
+    }
+    .ultsl-arrow-right5:before {
+        content: "\e60f";
+    }
+    .ultsl-arrow-left6:before {
+        content: "\e610";
+    }
+    .ultsl-arrow-right6:before {
+        content: "\e611";
+    }
+
+</style>
 
 <!--<link rel='stylesheet' id='ult-background-style-css'  href='/assets/Ultimate_VC_Addons/assets/min-css/background-style.min.css' type='text/css' media='all' /> 
 <link rel='stylesheet' id='ultimate-style-css'  href='/assets/Ultimate_VC_Addons/assets/min-css/style.min.css' type='text/css' media='all' /> 
@@ -515,25 +515,28 @@ content: "\e611";
 
 <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
     <ol class="carousel-indicators">
-        <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
-        <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
+        <?php
+        $count = 0;
+        foreach ($list as $item) {
+            if ($count == 0) {
+                echo '<li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>';
+            } else {
+                echo '<li data-target="#carouselExampleCaptions" data-slide-to="'.$count.'"></li>';
+            }
+            $count++;
+        }
+        ?>
     </ol>
     <div class="carousel-inner">
-        <div class="carousel-item active">
-            <img src="http://www.parquedelaesperanza.com/wp-content/uploads/2020/06/dia-del-padre-desktop.jpg" class="d-block w-100" alt="...">
-            <div class="carousel-caption d-none d-md-block">
-                <h5>First slide label</h5>
-                <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+        <?php foreach ($list as $item) { ?>
+            <div class="carousel-item active">
+                <img src="/uploads/banner/<?php echo $item['Imagen_g']; ?>" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5 style="font-size: 57px;line-height: 66px;font-weight: 400;color: rgb(255, 255, 255);letter-spacing: 0px;font-family: Sorts Mill Goudy;"><?php echo $item['Title']; ?></h5>
+                    <p style="white-space: nowrap;font-size: 28px;line-height: 36px;font-weight: 400;color: rgb(228, 183, 96);letter-spacing: 0px;font-family: Sorts Mill Goudy;"><?php echo $item['Sumary']; ?></p>
+                </div>
             </div>
-        </div>
-
-        <div class="carousel-item">
-            <img src="http://www.parquedelaesperanza.com/wp-content/uploads/2020/02/cielo_azul_parque_esperanza.jpg" class="d-block w-100" alt="...">
-            <div class="carousel-caption d-none d-md-block">
-                <h5>Third slide label</h5>
-                <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
-            </div>
-        </div>
+        <?php } ?>
     </div>
     <a class="carousel-control-prev" href="#carouselExampleCaptions" role="button" data-slide="prev">
         <span class="carousel-control-prev-icon" aria-hidden="true"></span>
@@ -562,18 +565,24 @@ content: "\e611";
                                 <div class="wpb_raw_code wpb_content_element wpb_raw_html">
                                     <div class="wpb_wrapper">
                                         <div class="container--redes">
-                                            <!--<div class="icon">
-<a class="icon-primary" href="#"><i class="Defaults-map-marker"></i></a>	
-<div class="container-description">
-<a class="icon-description" href="#">Encuentra a tu ser querido</a>	
-</div>
-</div>
-<div class="icon">
-<a class="icon-primary" href="#"><i class="Defaults-calendar"></i></a>	
-<div class="container-description ">
-<a class="icon-description" href="#">Sepelios del día</a>	
-</div>
-</div>-->
+                                            <div class="icon">
+                                                <a class="icon-primary" href="/buscador"><i class="Defaults-map-marker"></i></a>	
+                                                <div class="container-description">
+                                                    <a class="icon-description" href="/buscador" style="width: 300px;" >Encuentra a tu ser querido</a>	
+                                                </div>
+                                            </div>
+                                            <div class="icon">
+                                                <a class="icon-primary" href="/blog"><i class="Defaults-star"></i></a>	
+                                                <div class="container-description ">
+                                                    <a class="icon-description" href="/blog">Blog</a>	
+                                                </div>
+                                            </div>
+                                            <!--                                            <div class="icon">
+                                                                                            <a class="icon-primary" href="#"><i class="Defaults-calendar"></i></a>	
+                                                                                            <div class="container-description ">
+                                                                                                <a class="icon-description" href="#">Sepelios del día</a>	
+                                                                                            </div>
+                                                                                        </div>-->
                                             <div class="icon">
                                                 <a class="icon-primary" href="http://www.parquedelaesperanza.com/contacto/" target="_blank"><i class="Defaults-edit pencil-square-o"></i></a>
                                                 <div class="container-description">

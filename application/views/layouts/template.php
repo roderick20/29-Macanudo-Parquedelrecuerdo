@@ -280,6 +280,7 @@
                 font-weight: 600;
             }
         </style>
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
 
     </head>
     <body class="page-template-default page page-id-675 wp-embed-responsive dt-responsive-on srcset-enabled btn-flat custom-btn-color custom-btn-hover-color phantom-fade phantom-shadow-decoration phantom-custom-logo-on sticky-mobile-header top-header first-switch-logo-left first-switch-menu-right second-switch-logo-left second-switch-menu-right right-mobile-menu layzr-loading-on inline-message-style dt-fa-compatibility the7-ver- wpb-js-composer js-comp-ver-5.7 vc_responsive">
@@ -446,9 +447,8 @@
     <script type='text/javascript' src='http://www.parquedelaesperanza.com/wp-content/plugins/js_composer/assets/js/dist/js_composer_front.min.js?ver=5.7'></script>
     <script type='text/javascript' src='http://www.parquedelaesperanza.com/wp-content/plugins/js_composer/assets/lib/waypoints/waypoints.min.js?ver=5.7'></script>
 
-    <!--
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-    -->
+
+
     <script src="<?php echo base_url(); ?>assets/bootstrap/js/bootstrap.bundle.min.js" type="text/javascript"></script>
 
     <script type="text/javascript">

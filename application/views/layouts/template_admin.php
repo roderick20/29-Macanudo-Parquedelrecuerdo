@@ -26,37 +26,35 @@
                 </a>
 
                 <li class="nav-item">
-                    <a class="nav-link" href="/index.php/users">
+                    <a class="nav-link" href="/users">
                         <i class="fas fa-users"></i>
                         <span>Usuarios</span></a>
                 </li>
 
                 <li class="nav-item">
-                    <a class="nav-link" href="/index.php/banners">
+                    <a class="nav-link" href="/banners">
                         <i class="fas fa-image"></i>
                         <span>Banner</span></a>
                 </li>
 
-                <li class="nav-item">
+                <!--li class="nav-item">
                     <a class="nav-link" href="/index.php/galleries">
                         <i class="far fa-images"></i>
                         <span>Galeria</span></a>
                 </li>
 
-                <!-- Nav Item - Tables -->
                 <li class="nav-item">
-                    <a class="nav-link" href="/index.php/Categories">
+                    <a class="nav-link" href="/categories">
                         <i class="fas fa-blog"></i>
-                        <span>Blog Categoria</span></a>
-                </li>
+                        <span>Posts Categoria</span></a>
+                </li-->
 
                 <li class="nav-item">
-                    <a class="nav-link" href="/index.php/blogs">
+                    <a class="nav-link" href="/posts">
                         <i class="fas fa-blog"></i>
-                        <span>Blog</span></a>
+                        <span>Posts</span></a>
                 </li>
 
-                <!-- Divider -->
 
 
                 <!-- Sidebar Toggler (Sidebar) -->

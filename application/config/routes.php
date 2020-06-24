@@ -65,3 +65,6 @@ $route['galeria'] = 'pages/galeria';
 $route['preguntas-frecuentes'] = 'pages/preguntas_frecuentes';
 $route['contacto'] = 'pages/contacto';
 
+$route['buscador'] = 'pages/buscador';
+$route['blog'] = 'pages/blog';
+$route['post/(:any)'] = 'pages/post/$1';
