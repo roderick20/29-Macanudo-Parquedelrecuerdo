@@ -513,9 +513,10 @@ defined('BASEPATH') OR exit('No direct script access allowed');
         }
     }</style><style type="text/css" data-type="vc_shortcodes-custom-css">.vc_custom_1582862045702{margin-bottom: 15px !important;}.vc_custom_1582756798609{margin-bottom: 0px !important;}.vc_custom_1590449465590{margin-bottom: 25px !important;}</style><noscript><style type="text/css"> .wpb_animate_when_almost_visible { opacity: 1; }</style></noscript></head>
 
-<div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
-    <ol class="carousel-indicators">
-        <?php
+
+<div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+  <ol class="carousel-indicators">
+     <?php
         $count = 0;
         foreach ($list as $item) {
             if ($count == 0) {
@@ -526,6 +527,49 @@ defined('BASEPATH') OR exit('No direct script access allowed');
             $count++;
         }
         ?>
+  </ol>
+  <div class="carousel-inner">
+       <?php
+        $count = 0;
+        foreach ($list as $item) {
+            if ($count == 0) {
+                echo '<div class="carousel-item active">
+      <img src="/uploads/banner/'.$item['Imagen_g'].'" class="d-block w-100" alt="...">
+          <div class="carousel-caption d-none d-md-block">
+                    <h5 style="font-size: 57px;line-height: 66px;font-weight: 400;color: rgb(255, 255, 255);letter-spacing: 0px;font-family: Sorts Mill Goudy;">'.$item['Title'].'</h5>
+                    <p style="white-space: nowrap;font-size: 28px;line-height: 36px;font-weight: 400;color: rgb(228, 183, 96);letter-spacing: 0px;font-family: Sorts Mill Goudy;">'.$item['Sumary'].'</p>
+                </div>
+    </div>';
+            } else {
+                echo '<div class="carousel-item">
+      <img src="/uploads/banner/'.$item['Imagen_g'].'" class="d-block w-100" alt="...">
+          <div class="carousel-caption d-none d-md-block">
+                    <h5 style="font-size: 57px;line-height: 66px;font-weight: 400;color: rgb(255, 255, 255);letter-spacing: 0px;font-family: Sorts Mill Goudy;">'.$item['Title'].'</h5>
+                    <p style="white-space: nowrap;font-size: 28px;line-height: 36px;font-weight: 400;color: rgb(228, 183, 96);letter-spacing: 0px;font-family: Sorts Mill Goudy;">'.$item['Sumary'].'</p>
+                </div>
+    </div>';
+            }
+            $count++;
+        }
+        ?>
+      
+      
+  </div>
+  <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="sr-only">Previous</span>
+  </a>
+  <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="sr-only">Next</span>
+  </a>
+</div>
+
+
+
+<!--<div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
+    <ol class="carousel-indicators">
+       
     </ol>
     <div class="carousel-inner">
         <?php foreach ($list as $item) { ?>
@@ -546,7 +590,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
         <span class="carousel-control-next-icon" aria-hidden="true"></span>
         <span class="sr-only">Next</span>
     </a>
-</div>
+</div>-->
 
 
 
