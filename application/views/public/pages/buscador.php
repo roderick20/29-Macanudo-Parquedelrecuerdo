@@ -149,8 +149,8 @@
                             <div class="wpb_wrapper">
                                 <div class="wpb_text_column wpb_content_element " >
                                     <div class="wpb_wrapper">
-                                        <h1 style="text-align: center;">Contacto</h1>
-                                        <p style="text-align: center;">Dispuestos a atenderlo en cualquier momento</p>
+                                        <h1 style="text-align: center;">Encuentra a tu ser querido</h1>
+                                        <p style="text-align: center;">Si deseas conocer la ubicación de la sepultura de un familiar o amigo, consulta ingresando los datos de la persona en lo siguiente</p>
                                     </div>
                                 </div>
                             </div>
@@ -167,12 +167,12 @@
                                     <div class="vc_empty_space"   style="height: 100px" >
                                         <span class="vc_empty_space_inner"></span>
                                     </div>
-                                    <div class="wpb_text_column wpb_content_element " >
+<!--                                    <div class="wpb_text_column wpb_content_element " >
                                         <div class="wpb_wrapper">
                                             <h2 style="text-align: center;"><strong>Encuentra a tu ser querido</strong></h2>
                                             <h6 style="text-align: center;">Si deseas conocer la ubicación de la sepultura de un familiar o amigo, consulta ingresando los datos de la persona en lo siguiente:</h6>
                                         </div>
-                                    </div>
+                                    </div>-->
 
                                     <div class="tarjeta" style="background-color: #F6F5EB;padding: 30px;">
 

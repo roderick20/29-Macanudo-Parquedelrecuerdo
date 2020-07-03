@@ -1,57 +1,60 @@
 <style type="text/css" id="wp-custom-css">
-li.menu-item.menu-item-353 .menu-text, li.menu-item.menu-item-691 .menu-text{
-font-weight: 600;
-}		</style>
+    li.menu-item.menu-item-353 .menu-text, li.menu-item.menu-item-691 .menu-text{
+        font-weight: 600;
+    }		</style>
 <style type="text/css" data-type="vc_custom-css">/*TITULO*/
-#fancy-header .breadcrumbs.start-animation, #fancy-header .fancy-subtitle.start-animation, #fancy-header .fancy-title.start-animation {
-font-family: tinos;
-font-weight: 100;
-}
-#contenido-servicios ul.ult_tabmenu.style1.Style_4 a.ult_a {
-border: 1px solid #d2b16e;
-border-radius: 0 !important;
-padding: 5px;
-}
-#contenido-servicios .aio-icon.none.ult_tab_iconright {
-display:none;
-}
-#contenido-servicios .ult_tabmenu.style1 li.ult_tab_li {
-border-radius: 0 !important;
-margin: 0 20px;
-}
-#advanced-tabs-wrap-6257 .ult-span-text{
-font-size: 20px;
-}
-#galeria_foto_parque {
-background-image: url(http://www.parquedelaesperanza.com/wp-content/uploads/2020/03/fondo_galeria_camposanto.jpg);
-background-attachment: fixed;
-background-size: cover;
-background-position: center;
-}
-#galeria_foto_parque h1{
-color: white;
-font-size: 62px;
-margin-bottom: 30px;
-}
-#galeria_foto_parque p{
-text-align: center;
-color: rgba(255, 255, 255, 0.72);
-font-size: 25px;
-font-style: italic;
-}
-@media (max-width: 678px) {
-div#galeria_foto_parque{
-background-attachment: initial !important;
--ms-background-size: cover;
--o-background-size: cover;
--moz-background-size: cover;
--webkit-background-size: cover;   
-}
-#galeria_foto_parque h1 {
-font-size: 58px !important;
-line-height: 1.1;
-}
-}</style><noscript><style type="text/css"> .wpb_animate_when_almost_visible { opacity: 1; }</style></noscript></head>
+    #fancy-header .breadcrumbs.start-animation, #fancy-header .fancy-subtitle.start-animation, #fancy-header .fancy-title.start-animation {
+        font-family: tinos;
+        font-weight: 100;
+    }
+    #contenido-servicios ul.ult_tabmenu.style1.Style_4 a.ult_a {
+        border: 1px solid #d2b16e;
+        border-radius: 0 !important;
+        padding: 5px;
+    }
+    #contenido-servicios .aio-icon.none.ult_tab_iconright {
+        display:none;
+    }
+    #contenido-servicios .ult_tabmenu.style1 li.ult_tab_li {
+        border-radius: 0 !important;
+        margin: 0 20px;
+    }
+    #advanced-tabs-wrap-6257 .ult-span-text{
+        font-size: 20px;
+    }
+    #galeria_foto_parque {
+        background-image: url(http://www.parquedelaesperanza.com/wp-content/uploads/2020/03/fondo_galeria_camposanto.jpg);
+        background-attachment: fixed;
+        background-size: cover;
+        background-position: center;
+    }
+    #galeria_foto_parque h1{
+        color: white;
+        font-size: 62px;
+        margin-bottom: 30px;
+    }
+    #galeria_foto_parque p{
+        text-align: center;
+        color: rgba(255, 255, 255, 0.72);
+        font-size: 25px;
+        font-style: italic;
+    }
+    @media (max-width: 678px) {
+        div#galeria_foto_parque{
+            background-attachment: initial !important;
+            -ms-background-size: cover;
+            -o-background-size: cover;
+            -moz-background-size: cover;
+            -webkit-background-size: cover;   
+        }
+        #galeria_foto_parque h1 {
+            font-size: 58px !important;
+            line-height: 1.1;
+        }
+    }</style>
+<noscript>
+<style type="text/css"> .wpb_animate_when_almost_visible { opacity: 1; }</style>
+</noscript>
 
 
 <div id="main" class="sidebar-none sidebar-divider-vertical" style="padding-top:0px;" >

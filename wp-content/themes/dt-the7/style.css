@@ -1,0 +1,227 @@
+/*
+Theme Name: Parque
+Theme URI: http://parque.com/
+Author: Dreamers
+Author URI: http://parqueweb.com/
+Description:
+*/
+.content input[type="text"]::-webkit-input-placeholder, .content input[type="number"]::-webkit-input-placeholder, 
+.content textarea::-webkit-input-placeholder, .content input[type="email"]::-webkit-input-placeholder, .content input[type="tel"]::-webkit-input-placeholder { color: #535353;} 
+
+.content input[type="text"]:-moz-placeholder, .content input[type="number"]:-moz-placeholder, 
+.content textarea:-moz-placeholder, .content input[type="email"]:-moz-placeholder, .content input[type="tel"]:-moz-placeholder { /* Firefox 18- */ color: #535353; } 
+
+.content input[type="text"]::-moz-placeholder, .content input[type="number"]::-moz-placeholder, 
+.content textarea::-moz-placeholder, .content input[type="email"]::-moz-placeholder, .content input[type="tel"]::-moz-placeholder { /* Firefox 19+ */ color: #535353;} 
+
+.content input[type="text"]:-ms-input-placeholder, .content input[type="number"]:-ms-input-placeholder, 
+.content textarea:-ms-input-placeholder, .content input[type="email"]:-ms-input-placeholder, .content input[type="tel"]:-ms-input-placeholder { color: #535353; }
+
+.wp-caption-text,
+.sticky,
+.gallery-caption,
+.bypostauthor,
+.main-page {}
+#text-3{
+   margin-bottom: 50px;
+}
+#text-4 .textwidget{
+  text-align: center;
+}
+
+#text-4 ul{
+	display: inline-block;
+    width: auto;
+    list-style: none;
+}
+
+#text-4 ul li{
+	position: relative;
+	display: block;
+    float: left;
+    margin: 0 20px;
+}
+#text-4 ul li a:after{
+	content: "\f111";
+    left: -23px;
+    position: absolute;
+    color: #bfa34b;
+    font-size: 5px;
+    top: 0;
+	font-family: 'Defaults';
+    speak: none;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    -webkit-font-smoothing: antialiased;
+}
+#text-4 ul li:first-child a:after{
+	color: #192531;
+}
+
+.slide_comunicate{
+    background-attachment: fixed;
+    background-size: cover;
+	background-position: center;
+	padding-top: 9%;
+	padding-bottom: 8%;
+}
+.slide_comunicate h3{
+	color: #ffffff;
+	font-size: 44px;
+	
+}
+
+.page-title h1{
+	font-weight: bold;
+}
+
+.formulario-contacto{
+    position: relative;
+    display: flex;
+}
+.formulario-contacto .form-50{
+    width: 50%;
+    padding: 0 15px;
+}
+.formulario-contacto .form-100{
+    width: 100%;
+    padding: 0 10px;
+}
+.content input[type="text"]:hover, .content input[type="text"]:focus, 
+.content input[type="number"]:hover, .content input[type="number"]:focus,
+.content textarea:hover, .content textarea:focus,
+.content input[type="email"]:hover, .content input[type="email"]:focus,
+.content input[type="tel"]:hover, .content input[type="tel"]:focus
+{
+    border-color: #dbb66d;
+}
+.content input[type="text"], 
+.content input[type="search"], 
+.content input[type="tel"], 
+.content input[type="url"], 
+.content input[type="email"], 
+.content input[type="number"],
+.content select, 
+.content textarea{
+    background-color: #f9f6ef;
+    border-color: #f9f6ef;
+    color: #535353;
+    margin-bottom: 16px;
+}
+.terminos span{
+    font-size: 17px;
+}
+.terminos a{
+    color: #6a7a83;
+    text-decoration: none;
+}
+.terminos a:hover{
+    text-decoration: underline;
+}
+.btn_enviar_of{
+    text-align: center;
+    margin-top: 28px;
+}
+.btn_enviar_of .wpcf7-submit{
+    border-radius: 35px !important;
+    font-size: 18px !important;
+    letter-spacing: 1px !important;
+    font-weight: 500 !important;
+    padding: 3px 45px !important;
+    background: #fff !important;
+    border: 2px solid #dbb66d !important;
+    color: #dbb66d !important;
+}
+.btn_enviar_of .wpcf7-submit:hover{
+    background:#dbb66d !important;
+    color: white !important;
+}
+
+.formulario-contacto span.wpcf7-not-valid-tip{
+	border-radius: 4px;
+    color: #ffffff;
+    background: #fba2a2;
+    display: inline-block;
+    position: absolute;
+    padding-left: 10px;
+    right: 0;
+    bottom: -16px;
+    line-height: 1;
+    left: 0;
+    font-size: 14px;
+}
+.mensaje span.wpcf7-not-valid-tip{
+	bottom: 0 !important;
+}
+.terminos-condiciones span.wpcf7-not-valid-tip{
+	left: 12px;
+    font-size: 14px !important;
+	border-radius: 4px;
+    color: #ffffff;
+    background: #fba2a2;
+    display: inline-block;
+    position: absolute;
+    padding-left: 10px;
+    right: 0;
+    bottom: -16px;
+    line-height: 1;
+}
+span.wpcf7-form-control-wrap.terminos-condiciones{
+	display: inline-block;
+}
+span.wpcf7-form-control-wrap.mensaje{
+	display: block;
+}
+#chat{
+position: fixed;
+    bottom: 1.5rem;
+    right: 5%;
+    background: #dbb66d;
+    border: none;
+    width: 3.2rem;
+    height: 3.2rem;
+    color: white;
+    border-radius: 50%;
+    cursor: pointer;
+    font-size: 30px;
+	z-index: 99;
+}
+.scroll-top {
+    display: none;
+}
+.contacto-footer textarea{
+	height: 150px !important;
+}
+.wpcf7-mail-sent-ok{
+	background: rgba(59, 142, 24, 0.71) !important;
+	    text-align: center;
+}
+@media (max-width: 699px) {
+#text-4 ul li a:after {
+    left: 0;
+    right: 0;
+    top: -21px;
+}
+	#text-4 ul li {
+    float: none;
+    margin: 18px 20px;
+}
+#text-4 ul {
+    display: block;
+}
+}
+li.menu-item.menu-item-353 .menu-text, li.menu-item.menu-item-691 .menu-text{
+	font-weight: 600;
+}
+@media (max-width: 768px) {
+.slide_comunicate{
+   background-attachment: initial !important; 
+   background-size: cover;
+  -ms-background-size: cover;
+  -o-background-size: cover;
+  -moz-background-size: cover;
+  -webkit-background-size: cover;
+	}
+}
