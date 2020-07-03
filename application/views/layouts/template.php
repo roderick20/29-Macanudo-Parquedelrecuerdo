@@ -303,7 +303,12 @@
             <div class="masthead inline-header right widgets small-mobile-menu-icon dt-parent-menu-clickable show-mobile-logo" role="banner">
                 <div class="top-bar line-content top-bar-line-hide">
                     <div class="top-bar-bg" ></div>
-                    <div class="mini-widgets left-widgets"></div>			<div class="right-widgets mini-widgets"><span class="mini-contacts phone show-on-desktop in-top-bar-right in-menu-second-switch"><i class=" the7-mw-icon-phone"></i>(054) 604 848</span></div>		</div>
+                    <div class="mini-widgets left-widgets"></div>			
+                    <div class="right-widgets mini-widgets">
+                        <span class="mini-contacts phone show-on-desktop in-top-bar-right in-menu-second-switch first last" style="font-size: 25px;"><i class=" the7-mw-icon-phone" style="font-size: 25px;"></i>(054) 604 848</span>
+                    </div>	
+                    
+                </div>
                 <header class="header-bar">
                     <div class="branding">
                         <div id="site-title" class="assistive-text">Parque de la Esperanza</div>
