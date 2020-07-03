@@ -178,7 +178,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                                             <div class="wpb_text_column wpb_content_element " >
                                                 <div class="wpb_wrapper">
                                                     <h2 style="text-align: center;"><strong>Mausoleo Vertical – capacidad <span class="numbers">10 niveles</span></strong></h2>
-                                                    <p>Los mausoleos familiares buscan que la historia familiar se mantenga en el tiempo y así vivan hoy y siempre “eternamente unidos”.</p>
+                                                    <p>Los mausoleos familiares son un símbolo de unión familiar.</p>
                                                 </div>
                                             </div>
                                             <div  class="wpb_single_image wpb_content_element vc_align_center">
@@ -196,7 +196,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                                             <div class="wpb_text_column wpb_content_element " >
                                                 <div class="wpb_wrapper">
                                                     <h2 style="text-align: center;"><strong>Cinerarios</strong></h2>
-                                                    <p><span style="font-weight: 400;">Son espacios bajo tierra donde colocamos las cenizas de su ser querido, creando un escenario perfecto para el reencuentro espiritual.</span></p>
+                                                    <p><span style="font-weight: 400;">Espacios bajo tierra donde descansan las cenizas de su ser querido, lugar propicio para orar y reflexionar..</span></p>
                                                 </div>
                                             </div>
                                             <div  class="wpb_single_image wpb_content_element vc_align_center">

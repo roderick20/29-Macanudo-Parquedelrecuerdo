@@ -281,7 +281,9 @@
                 font-weight: 600;
             }
         </style>
-        <script src="<?php echo base_url(); ?>assets/theme/js/jquery-3.5.1.slim.min.js" type="text/javascript"></script>
+        
+        <script src="<?php echo base_url(); ?>assets/theme/js/jquery_mas_plugins.js" type="text/javascript"></script>
+        <!--<script src="<?php echo base_url(); ?>assets/theme/js/jquery-3.5.1.slim.min.js" type="text/javascript"></script>-->
 
         <script src="<?php echo base_url(); ?>assets/bootstrap/js/bootstrap.bundle.min.js" type="text/javascript"></script>
     </head>
@@ -354,7 +356,33 @@
                         </li> 
                     </ul>
                 </header>
-            </div><div class='dt-close-mobile-menu-icon'><span></span></div>
+                <div class="mobile-header-bar">
+                    <div class="mobile-navigation">
+                        <a href="#" class="dt-mobile-menu-icon">
+                            <span class="lines"></span>
+                        </a>
+                    </div>
+                    <div class="mobile-mini-widgets">
+                        <div class="text-area show-on-desktop near-logo-first-switch in-menu-second-switch show-on-first-switch">
+                            <!--<p><i class=" the7-mw-icon-phone"></i><a href="tel:+5154604848" style="font-size:2em;">(054) 60 4848</a></p>-->
+                        </div>
+                    </div>
+                    <div class="mobile-branding"><a href="http://www.parquedelaesperanza.com/">
+                            <img class=" preload-me" src="<?php echo base_url(); ?>assets/uploads/logo.png" 
+                                 srcset="<?php echo base_url(); ?>assets/uploads/logo.png 222w, 
+                                 <?php echo base_url(); ?>assets/uploads/logo.png 222w" sizes="222px" a
+                                 lt="Parque de la Esperanza" width="222" height="72">
+                            <img class="mobile-logo preload-me" 
+                                 src="<?php echo base_url(); ?>assets/uploads/logo.png_44x44.png" 
+                                 srcset="<?php echo base_url(); ?>assets/uploads/logo.png 136w, 
+                                 <?php echo base_url(); ?>assets/uploads/logo.png 88w" 
+                                 sizes="136px" alt="Parque de la Esperanza" width="136" height="44">
+                        </a>
+                    </div>
+                </div>
+
+            </div>
+            <div class='dt-close-mobile-menu-icon'><span></span></div>
             <div class='dt-mobile-header'>
                 <ul id="mobile-menu" class="mobile-main-nav" role="menu">
                     <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home current-menu-item page_item page-item-131 current_page_item menu-item-177 act first">
@@ -486,6 +514,7 @@
             var wpcf7 = {"apiSettings": {"root": "http:\/\/www.parquedelaesperanza.com\/wp-json\/contact-form-7\/v1", "namespace": "contact-form-7\/v1"}};
             /* ]]> */
     </script>
+    
     <script src="<?php echo base_url(); ?>assets/theme/js/scripts.js" type="text/javascript"></script>
     <script type='text/javascript' src='https://www.google.com/recaptcha/api.js?render=6LfD56MZAAAAAJefbA9hqJjLAh4aG6oD6-uh7Xob&#038;ver=3.0'></script>
     <script src="<?php echo base_url(); ?>assets/theme/js/legacy.min.js" type="text/javascript"></script>

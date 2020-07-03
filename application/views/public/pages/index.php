@@ -536,7 +536,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                 echo '<div class="carousel-item active">
       <img src="/uploads/banner/'.$item['Imagen_g'].'" class="d-block w-100" alt="...">
           <div class="carousel-caption d-none d-md-block">
-                    <h5 style="font-size: 57px;line-height: 66px;font-weight: 400;color: rgb(255, 255, 255);letter-spacing: 0px;font-family: Sorts Mill Goudy;">'.$item['Title'].'</h5>
+                    <h5 style="font-size: 57px;line-height: 66px;font-weight: 400;color: rgb(255, 255, 255);letter-spacing: 0px;font-family: Sorts Mill Goudy;">'.utf8_decode($item['Title']).'</h5>
                     <p style="white-space: nowrap;font-size: 28px;line-height: 36px;font-weight: 400;color: rgb(228, 183, 96);letter-spacing: 0px;font-family: Sorts Mill Goudy;">'.$item['Sumary'].'</p>
                 </div>
     </div>';
@@ -544,7 +544,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                 echo '<div class="carousel-item">
       <img src="/uploads/banner/'.$item['Imagen_g'].'" class="d-block w-100" alt="...">
           <div class="carousel-caption d-none d-md-block">
-                    <h5 style="font-size: 57px;line-height: 66px;font-weight: 400;color: rgb(255, 255, 255);letter-spacing: 0px;font-family: Sorts Mill Goudy;">'.$item['Title'].'</h5>
+                    <h5 style="font-size: 57px;line-height: 66px;font-weight: 400;color: rgb(255, 255, 255);letter-spacing: 0px;font-family: Sorts Mill Goudy;">'.utf8_decode($item['Title']).'</h5>
                     <p style="white-space: nowrap;font-size: 28px;line-height: 36px;font-weight: 400;color: rgb(228, 183, 96);letter-spacing: 0px;font-family: Sorts Mill Goudy;">'.$item['Sumary'].'</p>
                 </div>
     </div>';
@@ -576,8 +576,8 @@ defined('BASEPATH') OR exit('No direct script access allowed');
             <div class="carousel-item active">
                 <img src="/uploads/banner/<?php echo $item['Imagen_g']; ?>" class="d-block w-100" alt="...">
                 <div class="carousel-caption d-none d-md-block">
-                    <h5 style="font-size: 57px;line-height: 66px;font-weight: 400;color: rgb(255, 255, 255);letter-spacing: 0px;font-family: Sorts Mill Goudy;"><?php echo $item['Title']; ?></h5>
-                    <p style="white-space: nowrap;font-size: 28px;line-height: 36px;font-weight: 400;color: rgb(228, 183, 96);letter-spacing: 0px;font-family: Sorts Mill Goudy;"><?php echo $item['Sumary']; ?></p>
+                    <h5 style="font-size: 57px;line-height: 66px;font-weight: 400;color: rgb(255, 255, 255);letter-spacing: 0px;font-family: Sorts Mill Goudy;"><?php echo utf8_decode($item['Title']); ?></h5>
+                    <p style="white-space: nowrap;font-size: 28px;line-height: 36px;font-weight: 400;color: rgb(228, 183, 96);letter-spacing: 0px;font-family: Sorts Mill Goudy;"><?php echo utf8_decode($item['Sumary']); ?></p>
                 </div>
             </div>
         <?php } ?>
