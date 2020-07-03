@@ -37,7 +37,7 @@ class BannerModel extends CI_Model {
             'Description' => $this->Description,
             'Sumary' => $this->Sumary,
             'Imagen_g' => $this->UniqueId."_g.jpg",
-            'Slug' =>  url_title($this->Title, 'dash', true),
+            'Slug' =>  '',//url_title($this->Title, 'dash', true),
             'Created' => date('Y-m-d H:i:s') //'GETDATE()'
         );
         $this->db->insert('Data', $data);

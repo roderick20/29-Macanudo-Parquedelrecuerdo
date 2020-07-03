@@ -41,9 +41,9 @@ class Banners extends CI_Controller {
     }
 
     public function do_create() {
-        $this->Data->Title = $this->input->post('Title');
-        $this->Data->Description = $this->input->post('Description');
-        $this->Data->Sumary = $this->input->post('Sumary');
+        $this->Data->Title = utf8_encode($this->input->post('Title'));
+        $this->Data->Description = utf8_encode($this->input->post('Description'));
+        $this->Data->Sumary = utf8_encode($this->input->post('Sumary'));
         $this->Data->Category = $this->category;
         $this->Data->Save();
 
