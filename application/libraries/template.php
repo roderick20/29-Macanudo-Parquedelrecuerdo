@@ -3,7 +3,6 @@
 class Template {
 
     var $template_data = array();
-//    var $template_data = array();
 
     function set($content_area, $value) {
         $this->template_data[$content_area] = $value;

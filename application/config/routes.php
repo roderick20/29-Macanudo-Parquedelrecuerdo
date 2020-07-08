@@ -65,7 +65,9 @@ $route['galeria'] = 'pages/galeria';
 $route['preguntas-frecuentes'] = 'pages/preguntas_frecuentes';
 $route['contacto'] = 'pages/contacto';
 
+$route['ubicacion'] = 'pages/ubicacion';
 $route['buscador'] = 'pages/buscador';
+$route['do_buscador'] = 'pages/do_buscador';
 $route['blog'] = 'pages/blog';
 $route['post/(:any)'] = 'pages/post/$1';
 $route['politica-privacidad'] = 'pages/politica_privacidad';

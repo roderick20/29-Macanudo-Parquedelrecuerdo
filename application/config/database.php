@@ -4,13 +4,14 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 $active_group = 'default';
 $query_builder = TRUE;
 
-/*$db['default'] = array(
+
+$db['default'] = array(
 	'dsn'	=> '',
-	'hostname' => 'localhost',
-	'username' => '',
-	'password' => '',
-	'database' => '',
-	'dbdriver' => 'mysqli',
+	'hostname' => 'WIN-P3761AM5DC1\SQLEXPRESS',
+	'username' => 'sa',
+	'password' => 'Aladino_09',
+	'database' => 'Parque',
+	'dbdriver' => 'sqlsrv',
 	'dbprefix' => '',
 	'pconnect' => FALSE,
 	'db_debug' => (ENVIRONMENT !== 'production'),
@@ -24,12 +25,12 @@ $query_builder = TRUE;
 	'stricton' => FALSE,
 	'failover' => array(),
 	'save_queries' => TRUE
-);*/
+);
 
-$db['default'] = array(
+$db['parque'] = array(
 	'dsn'	=> '',
-	'hostname' => '.\SQLEXPRESS',
-	'username' => 'sa2',
+	'hostname' => 'WIN-P3761AM5DC1\SQLEXPRESS',
+	'username' => 'sa',
 	'password' => 'Aladino_09',
 	'database' => 'Parque',
 	'dbdriver' => 'sqlsrv',

@@ -13,6 +13,25 @@ class DataModel extends CI_Model {
     function __construct() {
         parent::__construct();
     }
+    
+    function buscar($nombre) {
+        $parque = $this->load->database('parque', TRUE);
+        
+        $sql = "SELECT 
+                wp.[IdPersona]
+                ,wp.[NombreCompleto]      
+                ,wp.[Ubicacion]      
+                ,wp.[FechaNacimiento]
+                ,wp.[FechaDefuncion]
+                ,wp.[IdPlataforma]
+                ,(SELECT [Descripcion] FROM [Parque].[dbo].[Web_PlataformaSepultura] WHERE [IdCamposanto] = 5 AND [IdPlataformaSepultura] = wp.[IdPlataforma]) Plataforma     
+                FROM [dbo].[Web_Persona] wp WHERE wp.[IdCamposanto] = 5 AND wp.NombreCompleto LIKE ".$this->db->escape("%".$nombre."%");
+        
+        $query = $parque->query($sql);
+        
+       
+        return $query->result_array();
+    }
 
     function getAllData($category) {
         $query = $this->db->get_where('Data', array('Category' => $category));

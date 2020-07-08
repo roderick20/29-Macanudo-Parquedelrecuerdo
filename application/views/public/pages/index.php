@@ -565,38 +565,6 @@ defined('BASEPATH') OR exit('No direct script access allowed');
   </a>
 </div>
 
-
-
-<!--<div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
-    <ol class="carousel-indicators">
-       
-    </ol>
-    <div class="carousel-inner">
-        <?php foreach ($list as $item) { ?>
-            <div class="carousel-item active">
-                <img src="/uploads/banner/<?php echo $item['Imagen_g']; ?>" class="d-block w-100" alt="...">
-                <div class="carousel-caption d-none d-md-block">
-                    <h5 style="font-size: 57px;line-height: 66px;font-weight: 400;color: rgb(255, 255, 255);letter-spacing: 0px;font-family: Sorts Mill Goudy;"><?php echo utf8_decode($item['Title']); ?></h5>
-                    <p style="white-space: nowrap;font-size: 28px;line-height: 36px;font-weight: 400;color: rgb(228, 183, 96);letter-spacing: 0px;font-family: Sorts Mill Goudy;"><?php echo utf8_decode($item['Sumary']); ?></p>
-                </div>
-            </div>
-        <?php } ?>
-    </div>
-    <a class="carousel-control-prev" href="#carouselExampleCaptions" role="button" data-slide="prev">
-        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-        <span class="sr-only">Previous</span>
-    </a>
-    <a class="carousel-control-next" href="#carouselExampleCaptions" role="button" data-slide="next">
-        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-        <span class="sr-only">Next</span>
-    </a>
-</div>-->
-
-
-
-
-
-
 <div id="main" class="sidebar-none sidebar-divider-vertical" style="padding-top:0px; padding-bottom:0px;">
     <div class="main-gradient"></div>
     <div class="wf-wrap">
@@ -1023,68 +991,16 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                         </div>
                     </div>
                 </div>
-                <div data-vc-full-width="true" data-vc-full-width-init="false" class="vc_row wpb_row vc_row-fluid">
-                    <div class="wpb_column vc_column_container vc_col-sm-12">
-                        <div class="vc_column-inner">
-                            <div class="wpb_wrapper">
-                                <div class="vc_empty_space" style="height: 60px"><span class="vc_empty_space_inner"></span></div>
-                                <div class="vc_row wpb_row vc_inner vc_row-fluid contacto-footer">
-                                    <div class="wpb_column vc_column_container vc_col-sm-10 vc_col-lg-offset-1">
-                                        <div class="vc_column-inner">
-                                            <div class="wpb_wrapper">
-                                                <div class="wpb_text_column wpb_content_element ">
-                                                    <div class="wpb_wrapper">
-                                                        <h2 style="text-align: center; line-height: 1.5; font-size: 30px;">Si deseas obtener más información acerca de nuestros servicios, completa el siguiente formulario y te contactaremos</h2>
-                                                    </div>
-                                                </div>
-                                                <div role="form" class="wpcf7" id="wpcf7-f193-p131-o1" lang="es-ES" dir="ltr">
-                                                    <div class="screen-reader-response" aria-live="polite"></div>
-                                                    <form action="/#wpcf7-f193-p131-o1" method="post" class="wpcf7-form" novalidate="novalidate">
-                                                        <div style="display: none;">
-                                                            <input type="hidden" name="_wpcf7" value="193" />
-                                                            <input type="hidden" name="_wpcf7_version" value="5.1.9" />
-                                                            <input type="hidden" name="_wpcf7_locale" value="es_ES" />
-                                                            <input type="hidden" name="_wpcf7_unit_tag" value="wpcf7-f193-p131-o1" />
-                                                            <input type="hidden" name="_wpcf7_container_post" value="131" />
-                                                            <input type="hidden" name="g-recaptcha-response" value="" />
-                                                        </div>
-                                                        <div class="formulario-contacto">
-                                                            <div class="form-50">
-                                                                <span class="wpcf7-form-control-wrap nombre"><input type="text" name="nombre" value="" size="40" class="wpcf7-form-control wpcf7-text wpcf7-validates-as-required" aria-required="true" aria-invalid="false" placeholder="*Nombres" /></span>
-                                                            </div>
-                                                            <div class="form-50">
-                                                                <span class="wpcf7-form-control-wrap apellido"><input type="text" name="apellido" value="" size="40" class="wpcf7-form-control wpcf7-text wpcf7-validates-as-required" aria-required="true" aria-invalid="false" placeholder="*Apellidos" /></span></div>
-                                                        </div>
-                                                        <div class="formulario-contacto">
-                                                            <div class="form-50">
-                                                                <p><span class="wpcf7-form-control-wrap tel-993"><input type="tel" name="tel-993" value="" size="40" class="wpcf7-form-control wpcf7-text wpcf7-tel wpcf7-validates-as-required wpcf7-validates-as-tel" aria-required="true" aria-invalid="false" placeholder="*Celular" /></span>
-                                                                </p>
-                                                            </div>
-                                                            <div class="form-50">
-                                                                <span class="wpcf7-form-control-wrap email"><input type="email" name="email" value="" size="40" class="wpcf7-form-control wpcf7-text wpcf7-email wpcf7-validates-as-required wpcf7-validates-as-email" aria-required="true" aria-invalid="false" placeholder="*Correo electrónico" /></span></div>
-                                                        </div>
-                                                        <div class="formulario-contacto">
-                                                            <div class="form-100">
-                                                                <span class="wpcf7-form-control-wrap mensaje"><textarea name="mensaje" cols="40" rows="10" class="wpcf7-form-control wpcf7-textarea wpcf7-validates-as-required" aria-required="true" aria-invalid="false" placeholder="*Mensaje"></textarea></span></div>
-                                                        </div>
-                                                        <div class="form-100 terminos"><span class="wpcf7-form-control-wrap terminos-condiciones"><span class="wpcf7-form-control wpcf7-checkbox wpcf7-validates-as-required"><span class="wpcf7-list-item first last"><label><input type="checkbox" name="terminos-condiciones[]" value="He leído y estoy de acuerdo" /><span class="wpcf7-list-item-label">He leído y estoy de acuerdo</span></label>
-                                                                    </span>
-                                                                </span>
-                                                            </span> <span><a href="/politica-privacidad/" target="_blank"> con los términos y condiciones</a>.</span>
-                                                        </div>
-                                                        <div class="form-100 btn_enviar_of"><input type="submit" value="Enviar" class="wpcf7-form-control wpcf7-submit" /></div>
-                                                        <div class="wpcf7-response-output wpcf7-display-none" aria-hidden="true"></div>
-                                                    </form>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="vc_empty_space" style="height: 60px"><span class="vc_empty_space_inner"></span></div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+                
+                <?php 
+                
+                //$this->load->view('public/pages/form_contacto');
+                 //$this->template->load('', '', 'public/pages/form_contacto');
+                //echo $form_contacto;
+                
+                ?>
+                
+                
                 <div class="vc_row-full-width vc_clearfix"></div>
                 <!-- Row Backgrounds -->
                 <div class="upb_grad" data-grad="background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #FFFFFF), color-stop(100%, #F6F5EB));background: -moz-linear-gradient(top,#FFFFFF 0%,#F6F5EB 100%);background: -webkit-linear-gradient(top,#FFFFFF 0%,#F6F5EB 100%);background: -o-linear-gradient(top,#FFFFFF 0%,#F6F5EB 100%);background: -ms-linear-gradient(top,#FFFFFF 0%,#F6F5EB 100%);background: linear-gradient(top,#FFFFFF 0%,#F6F5EB 100%);" data-bg-override="0" data-upb-overlay-color="" data-upb-bg-animation="" data-fadeout="" data-fadeout-percentage="30" data-parallax-content="" data-parallax-content-sense="30" data-row-effect-mobile-disable="true" data-img-parallax-mobile-disable="true" data-rtl="false" data-custom-vc-row="" data-vc="5.7" data-is_old_vc="" data-theme-support="" data-overlay="false" data-overlay-color="" data-overlay-pattern="" data-overlay-pattern-opacity="" data-overlay-pattern-size=""></div>
