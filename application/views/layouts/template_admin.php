@@ -22,7 +22,7 @@
                 <!-- Sidebar - Brand -->
                 <a class="sidebar-brand d-flex align-items-center justify-content-center" href="#" style="margin-top: 10px;">
                     <!--                    <div class="sidebar-brand-text mx-3">Admin</div>-->
-                    <img src="/assets/theme_admin/img/logo.png" />
+                    <img src="/assets/theme_admin/img/logo.png" width="100%" class="img-fluid" />
                 </a>
 
                 <li class="nav-item">
