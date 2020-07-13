@@ -21,6 +21,7 @@ class Admin extends CI_Controller {
     }
 
     public function index() {
+        $this->template->set('javascript', '');
         $this->template->load('template_admin', 'contents', 'admin/admin/index');
     }
 
