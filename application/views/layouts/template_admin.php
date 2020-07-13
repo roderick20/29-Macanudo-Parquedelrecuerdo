@@ -57,8 +57,14 @@
 
                 <li class="nav-item">
                     <a class="nav-link" href="/texts">
-                        <i class="fas fa-blog"></i>
+                        <i class="fas fa-file-alt"></i>
                         <span>Textos</span></a>
+                </li>
+                
+                <li class="nav-item">
+                    <a class="nav-link" href="/Admin/logout">
+<i class="fas fa-sign-out-alt"></i>
+                        <span>Salir</span></a>
                 </li>
 
 
