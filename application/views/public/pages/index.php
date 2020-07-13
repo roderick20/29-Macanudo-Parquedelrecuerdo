@@ -625,7 +625,12 @@ function searchForId($id, $array1) {
                     </div>
                 </div>
 
-                <div data-vc-full-width="true" data-vc-full-width-init="true" class="vc_row wpb_row vc_row-fluid vc_row-o-equal-height vc_row-o-content-middle vc_row-flex ult-vc-hide-row vc_row-has-fill" style="left: -337px; position: relative; box-sizing: border-box; width: 1903px; padding-left: 337px; padding-right: 336px;" data-rtl="false" data-row-effect-mobile-disable="true"><div class="upb_row_bg" data-upb_br_animation="" style="background: rgba(0, 0, 0, 0) -webkit-linear-gradient(rgb(246, 245, 235) 0%, rgb(255, 255, 255) 100%) repeat scroll 0% 0%; min-width: 1903px; left: 0px; width: 1903px;" data-bg-override="0"></div><div class="wpb_column vc_column_container vc_col-sm-12"><div class="vc_column-inner"><div class="wpb_wrapper"><div class="vc_empty_space" style="height: 60px"><span class="vc_empty_space_inner"></span></div>
+                <div data-vc-full-width="true" data-vc-full-width-init="true" class="vc_row wpb_row vc_row-fluid vc_row-o-equal-height vc_row-o-content-middle vc_row-flex ult-vc-hide-row vc_row-has-fill" style="left: -337px; position: relative; box-sizing: border-box; width: 1903px; padding-left: 337px; padding-right: 336px;" data-rtl="false" data-row-effect-mobile-disable="true">
+                    <div class="upb_row_bg" data-upb_br_animation="" 
+                         style="background: rgba(0, 0, 0, 0) -webkit-linear-gradient(rgb(246, 245, 235) 0%, rgb(255, 255, 255) 100%) repeat scroll 0% 0%; 
+                         min-width: 1903px; left: 0px; width: 1903px;" data-bg-override="0"></div>
+                         
+                         <div class="wpb_column vc_column_container vc_col-sm-12"><div class="vc_column-inner"><div class="wpb_wrapper"><div class="vc_empty_space" style="height: 60px"><span class="vc_empty_space_inner"></span></div>
                                 <div class="vc_row wpb_row vc_inner vc_row-fluid vc_row-o-content-middle vc_row-flex"><div class="wpb_column vc_column_container vc_col-sm-2/5"><div class="vc_column-inner"><div class="wpb_wrapper">
                                                 <div class="wpb_text_column wpb_content_element  wpb_animate_when_almost_visible wpb_fadeInUp fadeInUp amor-familia wpb_start_animation animated">
                                                     <div class="wpb_wrapper">
@@ -1021,6 +1026,48 @@ function searchForId($id, $array1) {
 //$this->template->load('', '', 'public/pages/form_contacto');
 //echo $form_contacto;
 ?>
+                
+                <div data-vc-full-width="true" data-vc-full-width-init="true" class="vc_row wpb_row vc_row-fluid ult-vc-hide-row vc_row-has-fill" style="left: -145px; position: relative; box-sizing: border-box; width: 1519px; padding-left: 145px; padding-right: 144px;" data-rtl="false" data-row-effect-mobile-disable="true"><div class="upb_row_bg" data-upb_br_animation="" style="background: rgba(0, 0, 0, 0) -webkit-linear-gradient(rgb(255, 255, 255) 0%, rgb(246, 245, 235) 100%) repeat scroll 0% 0%; min-width: 1519px; left: 0px; width: 1519px;" data-bg-override="0"></div><div class="wpb_column vc_column_container vc_col-sm-12"><div class="vc_column-inner"><div class="wpb_wrapper"><div class="vc_empty_space" style="height: 60px"><span class="vc_empty_space_inner"></span></div>
+<div class="vc_row wpb_row vc_inner vc_row-fluid contacto-footer"><div class="wpb_column vc_column_container vc_col-sm-10 vc_col-lg-offset-1"><div class="vc_column-inner"><div class="wpb_wrapper">
+<div class="wpb_text_column wpb_content_element ">
+<div class="wpb_wrapper">
+<h2 style="text-align: center; line-height: 1.5; font-size: 30px;">Si deseas obtener más información acerca de nuestros servicios, completa el siguiente formulario y te contactaremos</h2>
+</div>
+</div>
+<div role="form" class="wpcf7" id="wpcf7-f193-p131-o1" dir="ltr" lang="es-ES">
+<div class="screen-reader-response" aria-live="polite"></div>
+<form action="/#wpcf7-f193-p131-o1" method="post" class="wpcf7-form" novalidate="novalidate">
+<div style="display: none;">
+<input type="hidden" name="_wpcf7" value="193">
+<input type="hidden" name="_wpcf7_version" value="5.1.9">
+<input type="hidden" name="_wpcf7_locale" value="es_ES">
+<input type="hidden" name="_wpcf7_unit_tag" value="wpcf7-f193-p131-o1">
+<input type="hidden" name="_wpcf7_container_post" value="131">
+<input type="hidden" name="g-recaptcha-response" value="03AGdBq24A0f2K9cG7z-7dnEfz0wFWvKjC3iQVDsmn2-yQo4YzqCoYzz3oVCgykd_QIweUcRw_yQzZbaYKj6I1gbdTPhpPOQMWEnFRvX8RvJX3VOMV-9WSM-3sTGNiIWapXXsjP3t27JuRNvtYSRYhlFhjmh1H8-K6ohLclyRQv4a3t7fC5cUjvSpx-t4CPROhKkyJl4BTNjul4bfX3JKeZa-NIOgE3CPy2Ia-ltBI5sWDlNK4oa4xXEAJFJj1hdRwwLSpn3eQyHr7Yrz64s1oWJ7TWXLW3_FlgPtHJLGoq_8JbMrzctNNBNc9YjhxHRzfASS_6XxXZrsSwsPhMJ3xKuhHm7ZJF7o8WmWnNjNo-DP7syveEY1IuPcXee6RYCXCgGqSwVJn1rHn_XDhLlwPU4aCQnfc2Rb51Q">
+</div>
+<div class="formulario-contacto">
+<div class="form-50">
+<span class="wpcf7-form-control-wrap nombre"><input type="text" name="nombre" value="" size="40" class="wpcf7-form-control wpcf7-text wpcf7-validates-as-required" aria-required="true" aria-invalid="false" placeholder="*Nombres"></span>
+</div>
+<div class="form-50">
+<span class="wpcf7-form-control-wrap apellido"><input type="text" name="apellido" value="" size="40" class="wpcf7-form-control wpcf7-text wpcf7-validates-as-required" aria-required="true" aria-invalid="false" placeholder="*Apellidos"></span></div>
+</div>
+<div class="formulario-contacto">
+<div class="form-50">
+<p><span class="wpcf7-form-control-wrap tel-993"><input type="tel" name="tel-993" value="" size="40" class="wpcf7-form-control wpcf7-text wpcf7-tel wpcf7-validates-as-required wpcf7-validates-as-tel" aria-required="true" aria-invalid="false" placeholder="*Celular"></span>
+</p></div>
+<div class="form-50">
+<span class="wpcf7-form-control-wrap email"><input type="email" name="email" value="" size="40" class="wpcf7-form-control wpcf7-text wpcf7-email wpcf7-validates-as-required wpcf7-validates-as-email" aria-required="true" aria-invalid="false" placeholder="*Correo electrónico"></span></div>
+</div>
+<div class="formulario-contacto">
+<div class="form-100">
+<span class="wpcf7-form-control-wrap mensaje"><textarea name="mensaje" cols="40" rows="10" class="wpcf7-form-control wpcf7-textarea wpcf7-validates-as-required" aria-required="true" aria-invalid="false" placeholder="*Mensaje"></textarea></span></div>
+</div>
+<div class="form-100 terminos"><span class="wpcf7-form-control-wrap terminos-condiciones"><span class="wpcf7-form-control wpcf7-checkbox wpcf7-validates-as-required"><span class="wpcf7-list-item first last"><label><input type="checkbox" name="terminos-condiciones[]" value="He leído y estoy de acuerdo"><span class="wpcf7-list-item-label">He leído y estoy de acuerdo</span></label></span></span></span> <span><a href="http://www.parquedelaesperanza.com/politica-privacidad/" target="_blank"> con los términos y condiciones</a>.</span>
+</div>
+<div class="form-100 btn_enviar_of"><input type="submit" value="Enviar" class="wpcf7-form-control wpcf7-submit"><span class="ajax-loader"></span></div>
+<div class="wpcf7-response-output wpcf7-display-none" aria-hidden="true"></div></form></div></div></div></div></div><div class="vc_empty_space" style="height: 60px"><span class="vc_empty_space_inner"></span></div>
+</div></div></div></div>
 
 
                 <div class="vc_row-full-width vc_clearfix"></div>
