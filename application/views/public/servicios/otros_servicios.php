@@ -1,9 +1,23 @@
+<?php
+defined('BASEPATH') OR exit('No direct script access allowed');
+
+function searchForId($id, $array1) {
+    foreach ($array1 as &$array) {
+        foreach ($array as $key => $val) {
+            if ($key == 'Category' && $val == $id) {
+                return $array;
+            }
+        }
+    }
+    return null;
+}
+?>
 <style type="text/css" id="wp-custom-css">
 li.menu-item.menu-item-353 .menu-text, li.menu-item.menu-item-691 .menu-text{
 font-weight: 600;
 }		</style>
 <style type="text/css" data-type="vc_custom-css">.slide_comunicate{
-background-image: url(http://www.parquedelaesperanza.com/wp-content/uploads/2020/02/cielo_azul_parque_esperanza.jpg);
+background-image: url(/wp-content/uploads/2020/02/cielo_azul_parque_esperanza.jpg);
 }
 figcaption.vc_figure-caption{
 background: rgba(25, 37, 49, 0.48);
@@ -48,12 +62,19 @@ top: 0;
                                         <div class="vc_column-inner vc_custom_1590460223748">
                                             <div class="wpb_wrapper">
                                                 <div class="wpb_text_column wpb_content_element  wpb_animate_when_almost_visible wpb_fadeIn fadeIn">
-                                                    <div class="wpb_wrapper">
+                                                    
+                                                    <?php
+                                                        echo searchForId('ServiciosOtrosServicios.Texto1', $texts)['Description'];
+                                                        ?>
+                                                    
+                                                    
+                                                    
+<!--                                                    <div class="wpb_wrapper">
                                                         <p style="text-align: justify;"><strong>Lápidas</strong></p>
                                                         <p style="text-align: justify;">Usted podrá rendirle un tributo de reconocimiento a su ser querido y para ello contamos con exclusivas lapidas de granito negro.</p>
                                                         <p><strong>Cofres para cenizas</strong></p>
                                                         <p>Igualmente al optar por la cremación podrá elegir, cofres exclusivos que ofrece Parque de la Esperanza.</p>
-                                                    </div>
+                                                    </div>-->
                                                 </div>
                                             </div>
                                         </div>

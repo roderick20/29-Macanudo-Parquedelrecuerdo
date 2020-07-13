@@ -1,3 +1,17 @@
+<?php
+defined('BASEPATH') OR exit('No direct script access allowed');
+
+function searchForId($id, $array1) {
+    foreach ($array1 as &$array) {
+        foreach ($array as $key => $val) {
+            if ($key == 'Category' && $val == $id) {
+                return $array;
+            }
+        }
+    }
+    return null;
+}
+?>
 <style type="text/css" id="wp-custom-css">
     li.menu-item.menu-item-353 .menu-text, li.menu-item.menu-item-691 .menu-text{
         font-weight: 600;
@@ -160,12 +174,18 @@
                                                     <div class="wpb_wrapper">
                                                         <h3 style="text-align: center; margin-bottom: 0px;"><b>Ofrecemos un servicio integral</b></h3>
                                                         <p style="text-align: center;">Cremación – Jardinera cineraria perpetua</p>
-                                                        <p style="text-align: justify; margin-top: 20px;">Bríndele el último adiós de manera digna y reverente, a esa persona que tanto amó.</p>
+                                                        
+                                                        <?php
+                                                        echo searchForId('Crematorio.OfrecemosServicioIntegral', $texts)['Description'];
+                                                        ?>
+                                                        
+                                                        
+<!--                                                        <p style="text-align: justify; margin-top: 20px;">Bríndele el último adiós de manera digna y reverente, a esa persona que tanto amó.</p>
                                                         <p style="text-align: justify;">Te ofrecemos el mejor camposanto de Arequipa para la conservación de las cenizas de su ser querido.</p>
-                                                        <p style="text-align: left;">Nuestro servicio incluye</p>
+                                                        <p style="text-align: left;">Nuestro servicio incluye</p>-->
                                                     </div>
                                                 </div>
-                                                <div class="uavc-list-icon uavc-list-icon-wrapper ult-adjust-bottom-margin   ">
+<!--                                                <div class="uavc-list-icon uavc-list-icon-wrapper ult-adjust-bottom-margin   ">
                                                     <ul class="uavc-list">
                                                         <li>
                                                             <div class="uavc-list-content" id="list-icon-wrap-9485">
@@ -212,7 +232,7 @@
                                                             </div>
                                                         </li>
                                                     </ul>
-                                                </div>
+                                                </div>-->
                                                 <div class="vc_btn3-container   wpb_fadeIn fadeIn vc_btn3-center" >
                                                     <a onmouseleave="this.style.borderColor='#dbb66d'; this.style.backgroundColor='transparent'; this.style.color='#dbb66d'" onmouseenter="this.style.borderColor='#dbb66d'; this.style.backgroundColor='#dbb66d'; this.style.color='#ffffff';" style="border-color:#dbb66d; color:#dbb66d;" class="vc_general vc_btn3 vc_btn3-size-md vc_btn3-shape-rounded vc_btn3-style-outline-custom anchor-link" href="#mayor-informacion" title="">Mayor información</a></div>
                                             </div>

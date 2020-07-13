@@ -1,3 +1,20 @@
+<?php
+defined('BASEPATH') OR exit('No direct script access allowed');
+
+function searchForId($id, $array1) {
+    foreach ($array1 as &$array) {
+        foreach ($array as $key => $val) {
+            if ($key == 'Category' && $val == $id) {
+                return $array;
+            }
+        }
+    }
+    return null;
+}
+?>
+
+
+
 <style type="text/css" id="wp-custom-css">
 li.menu-item.menu-item-353 .menu-text, li.menu-item.menu-item-691 .menu-text{
 font-weight: 600;
@@ -54,12 +71,18 @@ top: 0;
                                         <div class="vc_column-inner vc_custom_1590180359899">
                                             <div class="wpb_wrapper">
                                                 <div class="wpb_text_column wpb_content_element  wpb_animate_when_almost_visible wpb_fadeIn fadeIn">
-                                                    <div class="wpb_wrapper">
+                                                    
+                                                    <?php
+                                                        echo searchForId('ServiciosVelatorios.Texto1', $texts)['Description'];
+                                                        ?>
+                                                    
+                                                    
+<!--                                                    <div class="wpb_wrapper">
                                                         <p>Parque de la Esperanza cuenta con cómodos y acogedores espacios para despedir a su ser querido.</p>
                                                         <p>Contamos con dos salones velatorios, Esperanza y San Juan con moderno diseño, cafetería, y equipo especializado que se hará cargo de cada detalle que necesite.</p>
                                                         <p>&#8211; Velatorio Esperanza</p>
                                                         <p>&#8211; Velatorio San Juan</p>
-                                                    </div>
+                                                    </div>-->
                                                 </div>
                                             </div>
                                         </div>

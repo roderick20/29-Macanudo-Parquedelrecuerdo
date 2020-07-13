@@ -1,3 +1,18 @@
+<?php
+defined('BASEPATH') OR exit('No direct script access allowed');
+
+function searchForId($id, $array1) {
+    foreach ($array1 as &$array) {
+        foreach ($array as $key => $val) {
+            if ($key == 'Category' && $val == $id) {
+                return $array;
+            }
+        }
+    }
+    return null;
+}
+?>
+
 <style type="text/css" data-type="vc_custom-css">
     /*TITULO*/
 
@@ -182,8 +197,10 @@
                                                 <div class="wpb_text_column wpb_content_element   wpb_fadeInUp fadeInUp wpb_start_animation animated">
                                                     <div class="wpb_wrapper">
                                                         <h2><strong>Compra anticipada – Necesidad Futura</strong></h2>
-                                                        <p>Nunca estaremos preparados para afrontar la pérdida de un ser querido … ¿Podremos tomar decisiones correctas en estos momentos en el que somos tan vulnerables?</p>
-                                                    </div>
+                                                        <?php
+                                                        echo searchForId('Servicios.CompraAnticipadaNecesidadFutura', $texts)['Description'];
+                                                        ?>
+                                                        </div>
                                                 </div>
                                                 <div class="vc_btn3-container  btn_mas_info   wpb_fadeInUp fadeInUp vc_btn3-inline wpb_start_animation animated">
                                                     <a style="background-color:#ffffff; color:#dbb66d;" class="vc_general vc_btn3 vc_btn3-size-md vc_btn3-shape-rounded vc_btn3-style-custom" href="http://www.parquedelaesperanza.com/servicios/necesidad-futura/" title="Necesidad futura">Más información</a>
@@ -201,7 +218,9 @@
                                                 <div class="wpb_single_image wpb_content_element vc_align_center   wpb_slideInUp slideInUp wpb_start_animation animated">
                                                     <div class="wpb_wrapper">
                                                         <h2><strong>Compra inaplazable – Necesidad Inmediata</strong></h2>
-                                                        <p>Al perder un ser querido nos encontramos emocionalmente afectados y muy vulnerables, en esos momentos de dolor nos vemos obligados a tomar decisiones inmediatas, siempre buscamos ofrecerle lo mejor a nuestro ser querido quien en vida nos dio amor, enseñanzas y valiosos ejemplos.</p>
+                                                        <?php
+                                                        echo searchForId('Servicios.CompraInaplazableNecesidadInmediata', $texts)['Description'];
+                                                        ?>
                                                     </div>
                                                 </div>
                                                 <div class="vc_btn3-container  btn_mas_info   wpb_fadeInUp fadeInUp vc_btn3-inline">
@@ -242,7 +261,9 @@
                                                 <div class="wpb_text_column wpb_content_element   wpb_fadeInUp fadeInUp">
                                                     <div class="wpb_wrapper">
                                                         <h2>Cremación</h2>
-                                                        <p>La cremación es un proceso alternativo a la sepultura, consiste en la incineración del cuerpo en un horno individual de última generación. Este servicio es llevado a cabo en el crematorio de Parque de la Esperanza; incluye una ceremonia al momento de entregar el cofre de cenizas a la familia.</p>
+                                                        <?php
+                                                        echo searchForId('Servicios.Cremacion', $texts)['Description'];
+                                                        ?>
                                                     </div>
                                                 </div>
                                                 <div class="vc_btn3-container  btn_mas_info   wpb_fadeInUp fadeInUp vc_btn3-inline">
@@ -261,12 +282,9 @@
                                                 <div class="wpb_text_column wpb_content_element   wpb_fadeInUp fadeInUp">
                                                     <div class="wpb_wrapper">
                                                         <h2><strong>Sepelio</strong></h2>
-                                                        <p>Contamos con un equipo especializado para hacer la ceremonia de despedida un homenaje único para su ser querido. Tenemos 3 tipos de servicios</p>
-                                                        <ul>
-                                                            <li>Tradicional</li>
-                                                            <li>Esperanza</li>
-                                                            <li>Alba</li>
-                                                        </ul>
+                                                        <?php
+                                                        echo searchForId('Servicios.Sepelio', $texts)['Description'];
+                                                        ?>
                                                     </div>
                                                 </div>
                                                 <div class="vc_btn3-container  btn_mas_info   wpb_fadeInUp fadeInUp vc_btn3-inline">
@@ -307,11 +325,9 @@
                                                 <div class="wpb_text_column wpb_content_element   wpb_fadeInUp fadeInUp">
                                                     <div class="wpb_wrapper">
                                                         <h2>Velatorios</h2>
-                                                        <p>Parque de la Esperanza cuenta con cómodos y acogedores espacios para velar y despedir a nuestro ser querido.</p>
-                                                        <ul>
-                                                            <li>Velatorio Esperanza</li>
-                                                            <li>Velatorio San Juan</li>
-                                                        </ul>
+                                                        <?php
+                                                        echo searchForId('Servicios.Velatorios', $texts)['Description'];
+                                                        ?>
                                                     </div>
                                                 </div>
                                                 <div class="vc_btn3-container  btn_mas_info   wpb_fadeInUp fadeInUp vc_btn3-inline">
@@ -330,11 +346,9 @@
                                                 <div class="wpb_text_column wpb_content_element   wpb_fadeInUp fadeInUp">
                                                     <div class="wpb_wrapper">
                                                         <h2>Otros servicios</h2>
-                                                        <p>Contamos con las siguientes opciones:</p>
-                                                        <ul>
-                                                            <li>Lápidas</li>
-                                                            <li>Cofres para cenizas</li>
-                                                        </ul>
+                                                        <?php
+                                                        echo searchForId('Servicios.OtrosServicios', $texts)['Description'];
+                                                        ?>
                                                     </div>
                                                 </div>
                                                 <div class="vc_btn3-container  btn_mas_info   wpb_fadeInUp fadeInUp vc_btn3-inline">

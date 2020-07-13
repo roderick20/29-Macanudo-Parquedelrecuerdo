@@ -1,5 +1,16 @@
 <?php
 defined('BASEPATH') OR exit('No direct script access allowed');
+
+function searchForId($id, $array1) {
+    foreach ($array1 as &$array) {
+        foreach ($array as $key => $val) {
+            if ($key == 'Category' && $val == $id) {
+                return $array;
+            }
+        }
+    }
+    return null;
+}
 ?>
 
 
@@ -7,7 +18,8 @@ defined('BASEPATH') OR exit('No direct script access allowed');
     li.menu-item.menu-item-353 .menu-text, li.menu-item.menu-item-691 .menu-text{
         font-weight: 600;
     }		</style>
-<style type="text/css" data-type="vc_custom-css">#sepultura_page {
+<style type="text/css" data-type="vc_custom-css">
+    #sepultura_page {
         background-image: url(http://www.parquedelaesperanza.com/wp-content/uploads/2020/02/s1_sepelios_parque_esperanza.jpg);
         background-attachment: fixed;
         background-size: cover;
@@ -106,7 +118,9 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                                             <div class="wpb_text_column wpb_content_element " >
                                                 <div class="wpb_wrapper">
                                                     <h2 style="text-align: center;"><strong>Espacio Familiar – capacidad 5 niveles</strong></h2>
-                                                    <p>Nuestros espacios familiares permiten mantener viva la memoria de aquellos seres queridos que han partido.</p>
+                                                    <?php
+                                                        echo searchForId('Sepulturas.EspacioFamiliarCapacidad5Niveles', $texts)['Description'];
+                                                        ?>                                                    
                                                 </div>
                                             </div>
                                             <div  class="wpb_single_image wpb_content_element vc_align_center">
@@ -124,7 +138,11 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                                             <div class="wpb_text_column wpb_content_element " >
                                                 <div class="wpb_wrapper">
                                                     <h2 style="text-align: center;"><strong>Espacio Doble – capacidad 2 niveles</strong></h2>
-                                                    <p><span style="font-weight: 400;">Brindamos espacios dobles, para que dentro de un ambiente totalmente natural, sea propicio el reencuentro para honrarlos.</span></p>
+                                                    <?php
+                                                        echo searchForId('Sepulturas.EspacioDobleCapacidad2Niveles', $texts)['Description'];
+                                                        ?> 
+                                                    
+                                                   
                                                 </div>
                                             </div>
                                             <div  class="wpb_single_image wpb_content_element vc_align_center">
@@ -142,8 +160,10 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                                             <div class="wpb_text_column wpb_content_element " >
                                                 <div class="wpb_wrapper">
                                                     <h2 style="text-align: center;"><strong>Espacio Compartido</strong></h2>
-                                                    <p>Ofrecemos espacios compartidos, sepulturas de 5 niveles, ocupados por fallecidos de distintas familias. Siendo una alternativa más económica.</p>
-                                                </div>
+                                                    <?php
+                                                        echo searchForId('Sepulturas.EspacioCompartido', $texts)['Description'];
+                                                        ?> 
+                                                    </div>
                                             </div>
                                             <div  class="wpb_single_image wpb_content_element vc_align_center">
                                                 <figure class="wpb_wrapper vc_figure">
@@ -160,8 +180,10 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                                             <div class="wpb_text_column wpb_content_element " >
                                                 <div class="wpb_wrapper">
                                                     <h2 style="text-align: center;"><strong>Mausoleo Horizontal – capacidad <span class="numbers">10 niveles</span></strong></h2>
-                                                    <p>Contar con un mausoleo familiar permite reunir a nuestras generaciones, logrando así cumplir la aspiración de cuidar de los nuestros hoy, mañana y siempre.</p>
-                                                </div>
+                                                    <?php
+                                                        echo searchForId('Sepulturas.MausoleoHorizontalCapacidad10Niveles', $texts)['Description'];
+                                                        ?> 
+                                                    </div>
                                             </div>
                                             <div  class="wpb_single_image wpb_content_element vc_align_center">
                                                 <figure class="wpb_wrapper vc_figure">
@@ -178,7 +200,9 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                                             <div class="wpb_text_column wpb_content_element " >
                                                 <div class="wpb_wrapper">
                                                     <h2 style="text-align: center;"><strong>Mausoleo Vertical – capacidad <span class="numbers">10 niveles</span></strong></h2>
-                                                    <p>Los mausoleos familiares son un símbolo de unión familiar.</p>
+                                                    <?php
+                                                        echo searchForId('Sepulturas.MausoleoVerticalCapacidad10Niveles', $texts)['Description'];
+                                                        ?>
                                                 </div>
                                             </div>
                                             <div  class="wpb_single_image wpb_content_element vc_align_center">
@@ -196,7 +220,9 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                                             <div class="wpb_text_column wpb_content_element " >
                                                 <div class="wpb_wrapper">
                                                     <h2 style="text-align: center;"><strong>Cinerarios</strong></h2>
-                                                    <p><span style="font-weight: 400;">Espacios bajo tierra donde descansan las cenizas de su ser querido, lugar propicio para orar y reflexionar..</span></p>
+                                                    <?php
+                                                        echo searchForId('Sepulturas.Cinerarios', $texts)['Description'];
+                                                        ?>
                                                 </div>
                                             </div>
                                             <div  class="wpb_single_image wpb_content_element vc_align_center">
@@ -214,7 +240,10 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                                             <div class="wpb_text_column wpb_content_element " >
                                                 <div class="wpb_wrapper">
                                                     <h2 style="text-align: center;"><strong>Columbarios</strong></h2>
-                                                    <p><span style="font-weight: 400;">Nuestros columbarios son espacios especialmente diseñados para depositar las cenizas de su ser querido, estarán ubicados en una zona privilegiada del camposanto, siendo un ambiente propicio para un tiempo de reflexión y oración.</span></p>
+                                                    <?php
+                                                        echo searchForId('Sepulturas.Columbarios', $texts)['Description'];
+                                                        ?>
+                                                
                                                 </div>
                                             </div>
                                             <div  class="wpb_single_image wpb_content_element vc_align_center  vc_custom_1590628573445">
@@ -237,7 +266,10 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                                             <div class="wpb_text_column wpb_content_element " >
                                                 <div class="wpb_wrapper">
                                                     <h2 style="text-align: center;"><strong>Cinerarios – Jardinera</strong></h2>
-                                                    <p><span style="font-weight: 400;">Espacios para depositar las cenizas de su ser querido, ubicado en un ambiente especial en armonía y contacto con la naturaleza.</span></p>
+                                                     <?php
+                                                        echo searchForId('Sepulturas.CinerariosJardinera', $texts)['Description'];
+                                                        ?>
+                                                
                                                 </div>
                                             </div>
                                             <div  class="wpb_single_image wpb_content_element vc_align_center  vc_custom_1590628640836">

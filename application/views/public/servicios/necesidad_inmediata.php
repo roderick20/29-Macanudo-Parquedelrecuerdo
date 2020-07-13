@@ -1,3 +1,19 @@
+<?php
+defined('BASEPATH') OR exit('No direct script access allowed');
+
+function searchForId($id, $array1) {
+    foreach ($array1 as &$array) {
+        foreach ($array as $key => $val) {
+            if ($key == 'Category' && $val == $id) {
+                return $array;
+            }
+        }
+    }
+    return null;
+}
+?>
+
+
 <style type="text/css" data-type="vc_custom-css">.slide_comunicate{
 background-image: url(http://www.parquedelaesperanza.com/wp-content/uploads/2020/02/cielo_azul_parque_esperanza.jpg);
 }
@@ -59,7 +75,10 @@ top: 0;
                                 </div>
                                 <div class="vc_row wpb_row vc_inner vc_row-fluid">
                                     <div class="wpb_column vc_column_container vc_col-sm-6">
-                                        <div class="vc_column-inner">
+                                        <?php
+                                                        echo searchForId('ServiciosCompraInaplazable.Texto1', $texts)['Description'];
+                                                        ?>
+<!--                                        <div class="vc_column-inner">
                                             <div class="wpb_wrapper">
                                                 <div class="wpb_text_column wpb_content_element  wpb_animate_when_almost_visible wpb_fadeIn fadeIn">
                                                     <div class="wpb_wrapper">
@@ -72,7 +91,7 @@ top: 0;
                                                     </div>
                                                 </div>
                                             </div>
-                                        </div>
+                                        </div>-->
                                     </div>
                                     <div class="wpb_column vc_column_container vc_col-sm-6">
                                         <div class="vc_column-inner">

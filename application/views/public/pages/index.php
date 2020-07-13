@@ -1,7 +1,17 @@
 <?php
 defined('BASEPATH') OR exit('No direct script access allowed');
-?>
 
+function searchForId($id, $array1) {
+    foreach ($array1 as &$array) {
+        foreach ($array as $key => $val) {
+            if ($key == 'Category' && $val == $id) {
+                return $array;
+            }
+        }
+    }
+    return null;
+}
+?>
 <link rel='stylesheet' id='ultimate-style-css'  href='/assets/Ultimate_VC_Addons/assets/min-css/style.min.css?ver=3.16.22' type='text/css' media='all' /> 
 <link rel='stylesheet' id='ult-slick-css'  href='/assets/Ultimate_VC_Addons/assets/min-css/slick.min.css?ver=3.16.22' type='text/css' media='all' /> 
 <link rel='stylesheet' id='ult-icons-css'  href='/assets/Ultimate_VC_Addons/assets/css/icons.css?ver=3.16.22' type='text/css' media='all' /> 
@@ -515,8 +525,8 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 
 
 <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
-  <ol class="carousel-indicators">
-     <?php
+    <ol class="carousel-indicators">
+        <?php
         $count = 0;
         foreach ($list as $item) {
             if ($count == 0) {
@@ -527,42 +537,42 @@ defined('BASEPATH') OR exit('No direct script access allowed');
             $count++;
         }
         ?>
-  </ol>
-  <div class="carousel-inner">
-       <?php
+    </ol>
+    <div class="carousel-inner">
+        <?php
         $count = 0;
         foreach ($list as $item) {
             if ($count == 0) {
                 echo '<div class="carousel-item active">
-      <img src="/uploads/banner/'.$item['Imagen_g'].'" class="d-block w-100" alt="...">
+      <img src="/uploads/banner/' . $item['Imagen_g'] . '" class="d-block w-100" alt="...">
           <div class="carousel-caption d-none d-md-block">
-                    <h5 style="font-size: 57px;line-height: 66px;font-weight: 400;color: rgb(255, 255, 255);letter-spacing: 0px;font-family: Sorts Mill Goudy;">'.utf8_decode($item['Title']).'</h5>
-                    <p style="white-space: nowrap;font-size: 28px;line-height: 36px;font-weight: 400;color: rgb(228, 183, 96);letter-spacing: 0px;font-family: Sorts Mill Goudy;">'.$item['Sumary'].'</p>
+                    <h5 style="font-size: 57px;line-height: 66px;font-weight: 400;color: rgb(255, 255, 255);letter-spacing: 0px;font-family: Sorts Mill Goudy;">' . utf8_decode($item['Title']) . '</h5>
+                    <p style="white-space: nowrap;font-size: 28px;line-height: 36px;font-weight: 400;color: rgb(228, 183, 96);letter-spacing: 0px;font-family: Sorts Mill Goudy;">' . $item['Sumary'] . '</p>
                 </div>
     </div>';
             } else {
                 echo '<div class="carousel-item">
-      <img src="/uploads/banner/'.$item['Imagen_g'].'" class="d-block w-100" alt="...">
+      <img src="/uploads/banner/' . $item['Imagen_g'] . '" class="d-block w-100" alt="...">
           <div class="carousel-caption d-none d-md-block">
-                    <h5 style="font-size: 57px;line-height: 66px;font-weight: 400;color: rgb(255, 255, 255);letter-spacing: 0px;font-family: Sorts Mill Goudy;">'.utf8_decode($item['Title']).'</h5>
-                    <p style="white-space: nowrap;font-size: 28px;line-height: 36px;font-weight: 400;color: rgb(228, 183, 96);letter-spacing: 0px;font-family: Sorts Mill Goudy;">'.$item['Sumary'].'</p>
+                    <h5 style="font-size: 57px;line-height: 66px;font-weight: 400;color: rgb(255, 255, 255);letter-spacing: 0px;font-family: Sorts Mill Goudy;">' . utf8_decode($item['Title']) . '</h5>
+                    <p style="white-space: nowrap;font-size: 28px;line-height: 36px;font-weight: 400;color: rgb(228, 183, 96);letter-spacing: 0px;font-family: Sorts Mill Goudy;">' . $item['Sumary'] . '</p>
                 </div>
     </div>';
             }
             $count++;
         }
         ?>
-      
-      
-  </div>
-  <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
-    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-    <span class="sr-only">Previous</span>
-  </a>
-  <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
-    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-    <span class="sr-only">Next</span>
-  </a>
+
+
+    </div>
+    <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+    </a>
+    <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+    </a>
 </div>
 
 <div id="main" class="sidebar-none sidebar-divider-vertical" style="padding-top:0px; padding-bottom:0px;">
@@ -620,7 +630,9 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                                                 <div class="wpb_text_column wpb_content_element  wpb_animate_when_almost_visible wpb_fadeInUp fadeInUp amor-familia wpb_start_animation animated">
                                                     <div class="wpb_wrapper">
                                                         <h2>Porque te quiero, te cuido</h2>
-                                                        <p>Nos preocupamos en brindarte una atención personalizada, asesorarte y acompañarte junto a tu familia en ese momento difícil, por ello contamos con personal capacitado y alto valor humano.</p>
+                                                        <?php
+                                                        echo searchForId('Inicio.parrafo1', $texts)['Description'];
+                                                        ?>
                                                     </div>
                                                 </div>
                                             </div></div></div><div class="wpb_column vc_column_container vc_col-sm-3/5"><div class="vc_column-inner"><div class="wpb_wrapper">
@@ -681,13 +693,15 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                                             <img width="109" height="39" 
                                                  src="/assets/uploads/pe_icons_titles.png" 
                                                  class="vc_single_image-img attachment-full" alt="" 
-                                                  /></div>
+                                                 /></div>
                                     </figure>
                                 </div>
                                 <div class="wpb_text_column wpb_content_element  vc_custom_1590449465590">
                                     <div class="wpb_wrapper">
                                         <h1 style="text-align: center; color: #dbb66d;">Nuestros Servicios</h1>
-                                        <p style="text-align: center; color: #40454a; font-weight: 200;">Contamos con servicios para darle el último adiós de manera solemne</p>
+                                        <div style="text-align: center; color: #40454a; font-weight: 200;"><?php
+                                                        echo searchForId('Inicio.NuestrosServicios', $texts)['Description'];
+                                                        ?></div>
                                     </div>
                                 </div>
                                 <div id="ult-carousel-4566550565ee3dd0ab0868" class="ult-carousel-wrapper   ult_horizontal" data-gutter="18" data-rtl="false">
@@ -715,7 +729,9 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                                                                     <div class="wpb_text_column wpb_content_element  contenedor_servicios">
                                                                         <div class="wpb_wrapper">
                                                                             <h2 style="text-align: center;">Necesidad Futura</h2>
-                                                                            <p>Diferentes tipos de espacios de sepultura, cremación, cinerarios, columbarios, mausoleos que podrán ser elegidos anticipadamente.</p>
+                                                                            <?php
+                                                        echo searchForId('Inicio.NecesidadFutura', $texts)['Description'];
+                                                        ?>
                                                                         </div>
                                                                     </div>
                                                                 </div>
@@ -745,7 +761,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                                                                                      class="vc_single_image-img attachment-full" alt="" 
                                                                                      srcset="/assets/uploads/home/necesidad-inmediata-pe-tres.jpeg 600w, 
                                                                                      /assets/uploads/home/necesidad-inmediata-pe-tres-300x200.jpeg 300w" sizes="(max-width: 600px) 100vw, 600px" 
-                                                                                      /></div>
+                                                                                     /></div>
                                                                         </figure>
                                                                     </div>
                                                                 </div>
@@ -753,7 +769,9 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                                                                     <div class="wpb_text_column wpb_content_element  contenedor_servicios">
                                                                         <div class="wpb_wrapper">
                                                                             <h2 style="text-align: center;">Necesidad Inmediata</h2>
-                                                                            <p>Usted podrá elegir entre los diferentes tipos de espacios y servicios que ofrece Parque de la Esperanza.</p>
+                                                                            <?php
+                                                        echo searchForId('Inicio.NecesidadInmediata', $texts)['Description'];
+                                                        ?>
                                                                         </div>
                                                                     </div>
                                                                 </div>
@@ -786,7 +804,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                                                                                      srcset="/assets/uploads/home/crematorio-parque-esperanza-general.jpg 630w, 
                                                                                      /assets/uploads/home/crematorio-parque-esperanza-general-300x200.jpg 300w" 
                                                                                      sizes="(max-width: 630px) 100vw, 630px" 
-                                                                                      /></div>
+                                                                                     /></div>
                                                                         </figure>
                                                                     </div>
                                                                 </div>
@@ -794,7 +812,9 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                                                                     <div class="wpb_text_column wpb_content_element  contenedor_servicios">
                                                                         <div class="wpb_wrapper">
                                                                             <h2 style="text-align: center;">Cremación</h2>
-                                                                            <p>La cremación es un proceso alternativo a la sepultura, consiste en la incineración del cuerpo en un horno individual de última generación.</p>
+                                                                            <?php
+                                                        echo searchForId('Inicio.Cremacion', $texts)['Description'];
+                                                        ?>
                                                                         </div>
                                                                     </div>
                                                                 </div>
@@ -829,7 +849,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                                                                                      /assets/uploads/home/pe-toldoblanco-11-300x200.jpg 300w, 
                                                                                      /assets/uploads/home/pe-toldoblanco-11-768x512.jpg 768w" 
                                                                                      sizes="(max-width: 900px) 100vw, 900px" 
-                                                                                      /></div>
+                                                                                     /></div>
                                                                         </figure>
                                                                     </div>
                                                                 </div>
@@ -837,7 +857,9 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                                                                     <div class="wpb_text_column wpb_content_element  contenedor_servicios">
                                                                         <div class="wpb_wrapper">
                                                                             <h2 style="text-align: center;">Sepelio</h2>
-                                                                            <p>Contamos con un equipo especializado para hacer la ceremonia de despedida un homenaje único para su ser querido.</p>
+                                                                            <?php
+                                                        echo searchForId('Inicio.Sepelio', $texts)['Description'];
+                                                        ?>
                                                                         </div>
                                                                     </div>
                                                                 </div>
@@ -871,7 +893,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                                                                                      srcset="/assets/uploads/home/servicio_velatorios_parque.jpg 630w, 
                                                                                      /assets/uploads/home/servicio_velatorios_parque-300x200.jpg 300w" s
                                                                                      izes="(max-width: 630px) 100vw, 630px" 
-                                                                                      /></div>
+                                                                                     /></div>
                                                                         </figure>
                                                                     </div>
                                                                 </div>
@@ -879,7 +901,9 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                                                                     <div class="wpb_text_column wpb_content_element  contenedor_servicios">
                                                                         <div class="wpb_wrapper">
                                                                             <h2 style="text-align: center;">Velatorios</h2>
-                                                                            <p>Contamos 2 salones velatorios, con moderno diseño, cafetería, y equipo especializado que se hará cargo de cada detalle que necesite.</p>
+                                                                            <?php
+                                                        echo searchForId('Inicio.Velatorios', $texts)['Description'];
+                                                        ?>
                                                                         </div>
                                                                     </div>
                                                                 </div>
@@ -912,7 +936,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                                                                                      srcset="/assets/uploads/home/otros_servicios_parque_esperanza.jpg 650w, 
                                                                                      /assets/uploads/home/otros_servicios_parque_esperanza-300x200.jpg 300w" 
                                                                                      sizes="(max-width: 650px) 100vw, 650px" 
-                                                                                      /></div>
+                                                                                     /></div>
                                                                         </figure>
                                                                     </div>
                                                                 </div>
@@ -991,16 +1015,14 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                         </div>
                     </div>
                 </div>
-                
-                <?php 
-                
-                //$this->load->view('public/pages/form_contacto');
-                 //$this->template->load('', '', 'public/pages/form_contacto');
-                //echo $form_contacto;
-                
-                ?>
-                
-                
+
+<?php
+//$this->load->view('public/pages/form_contacto');
+//$this->template->load('', '', 'public/pages/form_contacto');
+//echo $form_contacto;
+?>
+
+
                 <div class="vc_row-full-width vc_clearfix"></div>
                 <!-- Row Backgrounds -->
                 <div class="upb_grad" data-grad="background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #FFFFFF), color-stop(100%, #F6F5EB));background: -moz-linear-gradient(top,#FFFFFF 0%,#F6F5EB 100%);background: -webkit-linear-gradient(top,#FFFFFF 0%,#F6F5EB 100%);background: -o-linear-gradient(top,#FFFFFF 0%,#F6F5EB 100%);background: -ms-linear-gradient(top,#FFFFFF 0%,#F6F5EB 100%);background: linear-gradient(top,#FFFFFF 0%,#F6F5EB 100%);" data-bg-override="0" data-upb-overlay-color="" data-upb-bg-animation="" data-fadeout="" data-fadeout-percentage="30" data-parallax-content="" data-parallax-content-sense="30" data-row-effect-mobile-disable="true" data-img-parallax-mobile-disable="true" data-rtl="false" data-custom-vc-row="" data-vc="5.7" data-is_old_vc="" data-theme-support="" data-overlay="false" data-overlay-color="" data-overlay-pattern="" data-overlay-pattern-opacity="" data-overlay-pattern-size=""></div>

@@ -4,104 +4,6 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 
 class Pages extends CI_Controller {
 
-    public $map = array(
-        array(
-            'IdPlataformaSepultura' => '1',
-            'Descripcion' => 'Virgen del Perpetuo Socorro',
-            'Imagen' => 'mapa_virgen_del_perpetuo_socorro.jpeg'
-        ),
-        array(
-            'IdPlataformaSepultura' => '2',
-            'Descripcion' => 'Virgen de Cayma',
-            'Imagen' => 'mapa_virgen_de_cayma.jpeg'
-        ),
-        array(
-            'IdPlataformaSepultura' => '3',
-            'Descripcion' => 'Virgen de Chapi',
-            'Imagen' => 'mapa_virgen_de_chapi.jpeg'
-        ),
-        array(
-            'IdPlataformaSepultura' => '4',
-            'Descripcion' => 'Virgen del Carmen',
-            'Imagen' => 'mapa_virgen_del_carmen.jpeg'
-        ),
-        array(
-            'IdPlataformaSepultura' => '5',
-            'Descripcion' => 'Virgen del Rosario Baja',
-            'Imagen' => 'mapa_virgen_del_rosario_1.jpeg'
-        ),
-        array(
-            'IdPlataformaSepultura' => '6',
-            'Descripcion' => 'Virgen del Rosario Alta',
-            'Imagen' => 'mapa_virgen_del_rosario_2.jpeg'
-        ),
-        array(
-            'IdPlataformaSepultura' => '7',
-            'Descripcion' => 'Juan Pablo II',
-            'Imagen' => ''
-        ),
-        array(
-            'IdPlataformaSepultura' => '8',
-            'Descripcion' => 'Sr. de la Misericordia Baja',
-            'Imagen' => 'mapa_senor_de_la_misericordia_baja.jpeg'
-        ),
-        array(
-            'IdPlataformaSepultura' => '9',
-            'Descripcion' => 'Sr. de la Misericordia Media',
-            'Imagen' => 'mapa_senor_de_la_misericordia_media.jpeg'
-        ),
-        array(
-            'IdPlataformaSepultura' => '10',
-            'Descripcion' => 'Sr. de la Misericordia Alta',
-            'Imagen' => 'mapa_senor_de_la_misericordia_alta.jpeg'
-        ),
-        array(
-            'IdPlataformaSepultura' => '11',
-            'Descripcion' => 'Sr. de la Misericordia 4ta',
-            'Imagen' => ''
-        ),
-        array(
-            'IdPlataformaSepultura' => '12',
-            'Descripcion' => 'Sr. de la Misericordia 5ta',
-            'Imagen' => ''
-        ),
-        array(
-            'IdPlataformaSepultura' => '13',
-            'Descripcion' => 'Sr. de los Milagros',
-            'Imagen' => 'mapa_senor_de_los_milagros.jpeg'
-        ),
-        array(
-            'IdPlataformaSepultura' => '14',
-            'Descripcion' => 'Virgen del Rosario 3ra.Etapa',
-            'Imagen' => ''
-        ),
-        array(
-            'IdPlataformaSepultura' => '15',
-            'Descripcion' => 'Tumbas Ecológicas',
-            'Imagen' => ''
-        ),
-        array(
-            'IdPlataformaSepultura' => '16',
-            'Descripcion' => 'Divino Niño Jesús',
-            'Imagen' => ''
-        ),
-        array(
-            'IdPlataformaSepultura' => '17',
-            'Descripcion' => 'VIRGEN DEL CARMEN (COLUMBARIOS)',
-            'Imagen' => ''
-        ),
-        array(
-            'IdPlataformaSepultura' => '18',
-            'Descripcion' => 'VIRGEN DE CAYMA (CINERARIO JARDINERA FAMILIAR)',
-            'Imagen' => ''
-        ),
-        array(
-            'IdPlataformaSepultura' => '19',
-            'Descripcion' => 'JUAN PABLO II (CINERARIO JARDINERA COMPARTIDA)',
-            'Imagen' => ''
-        )
-    );
-
     public function __construct() {
         parent::__construct();
         $this->load->helper('url');
@@ -112,35 +14,25 @@ class Pages extends CI_Controller {
 
     public function index() {
         $this->load->model('BannerModel', 'Data', TRUE);
+        $this->load->model('TextModel', 'Text', TRUE);      
+        
+        
 
         $data = array(
             'list' => $this->Data->getAllData('Home.Banner'),
-//            'form_contacto' => $this->email
+            'texts' => $this->Text->getAllByCategory('Inicio'),
         );
-//------------------------------------------------
-//        $config = Array(
-//            'protocol' => 'smtp',
-//            'smtp_host' => 'ssl://smtp.googlemail.com',
-//            'smtp_port' => 465,
-//            'smtp_user' => 'xxx',
-//            'smtp_pass' => 'xxx',
-//            'mailtype' => 'html',
-//            'charset' => 'iso-8859-1'
-//        );
-//        $this->load->library('email', $config);
-//        $this->email->set_newline("\r\n");
-//
-//// Set to, from, message, etc.
-//
-//        $result = $this->email->send();
-//------------------------------------------------
+
         $this->template->set('title', 'Camposanto Católico que pone a su disposición un ambiente de respeto, solemnidad y calidez');
         $this->template->load('template', 'contents', 'public/pages/index', $data);
     }
 
     public function crematorio() {
-        $data = array();
-        $this->template->set('title', 'Servicios');
+        $this->load->model('TextModel', 'Text', TRUE);
+        $data = array(            
+            'texts' => $this->Text->getAllByCategory('Crematorio'),
+        );
+        $this->template->set('title', 'Crematório');
         $this->template->load('template', 'contents', 'public/pages/crematorio', $data);
     }
     
@@ -159,8 +51,11 @@ class Pages extends CI_Controller {
     }
 
     public function sepulturas() {
-        $data = array();
-        $this->template->set('title', 'Servicios');
+        $this->load->model('TextModel', 'Text', TRUE);
+        $data = array(            
+            'texts' => $this->Text->getAllByCategory('Sepulturas'),
+        );
+        $this->template->set('title', 'Sepulturas');
         $this->template->load('template', 'contents', 'public/pages/sepulturas', $data);
     }
 

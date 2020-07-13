@@ -1,3 +1,18 @@
+<?php
+defined('BASEPATH') OR exit('No direct script access allowed');
+
+function searchForId($id, $array1) {
+    foreach ($array1 as &$array) {
+        foreach ($array as $key => $val) {
+            if ($key == 'Category' && $val == $id) {
+                return $array;
+            }
+        }
+    }
+    return null;
+}
+?>
+
 <style type="text/css" id="wp-custom-css">
     li.menu-item.menu-item-353 .menu-text, li.menu-item.menu-item-691 .menu-text{
         font-weight: 600;
@@ -105,7 +120,13 @@
                                     <div class="descripcion-cremacion wpb_column vc_column_container vc_col-sm-6">
                                         <div class="vc_column-inner vc_custom_1591311853228">
                                             <div class="wpb_wrapper">
-                                                <div class="wpb_text_column wpb_content_element  wpb_animate_when_almost_visible wpb_fadeIn fadeIn vc_custom_1591321023117">
+                                                <?php
+                                                        echo searchForId('ServiciosCremacion.Texto1', $texts)['Description'];
+                                                        ?>
+                                                <!--<div class="wpb_text_column wpb_content_element  wpb_animate_when_almost_visible wpb_fadeIn fadeIn vc_custom_1591321023117">
+                                                    
+                                                    
+                                                    
                                                     <div class="wpb_wrapper">
                                                         <h3 style="text-align: center; margin-bottom: 0px;"><b>Ofrecemos un servicio integral</b></h3>
                                                         <p style="text-align: center;">Cremación – Jardinera cineraria perpetua</p>
@@ -113,8 +134,8 @@
                                                         <p style="text-align: justify;">Te ofrecemos el mejor camposanto de Arequipa para la conservación de las cenizas de su ser querido.</p>
                                                         <p style="text-align: left;">Nuestro servicio incluye</p>
                                                     </div>
-                                                </div>
-                                                <div class="uavc-list-icon uavc-list-icon-wrapper ult-adjust-bottom-margin   ">
+                                                </div>-->
+<!--                                                <div class="uavc-list-icon uavc-list-icon-wrapper ult-adjust-bottom-margin   ">
                                                     <ul class="uavc-list">
                                                         <li>
                                                             <div class="uavc-list-content" id="list-icon-wrap-4449">
@@ -169,7 +190,7 @@
                                                                 </div><span data-ultimate-target='#list-icon-wrap-1812 .uavc-list-desc' data-responsive-json-new='{"font-size":"","line-height":""}' class="uavc-list-desc ult-responsive" style="">Cofre de cenizas</span></div>
                                                         </li>
                                                     </ul>
-                                                </div>
+                                                </div>-->
                                                 <div class="vc_btn3-container  wpb_animate_when_almost_visible wpb_fadeIn fadeIn vc_btn3-center">
                                                     <a onmouseleave="this.style.borderColor='#dbb66d'; this.style.backgroundColor='transparent'; this.style.color='#dbb66d'" onmouseenter="this.style.borderColor='#dbb66d'; this.style.backgroundColor='#dbb66d'; this.style.color='#ffffff';" style="border-color:#dbb66d; color:#dbb66d;" class="vc_general vc_btn3 vc_btn3-size-md vc_btn3-shape-rounded vc_btn3-style-outline-custom anchor-link" href="#mayor-informacion" title="">Mayor información</a></div>
                                             </div>

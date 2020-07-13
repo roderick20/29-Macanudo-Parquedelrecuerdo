@@ -21,7 +21,7 @@
 
                 <!-- Sidebar - Brand -->
                 <a class="sidebar-brand d-flex align-items-center justify-content-center" href="#" style="margin-top: 10px;">
-<!--                    <div class="sidebar-brand-text mx-3">Admin</div>-->
+                    <!--                    <div class="sidebar-brand-text mx-3">Admin</div>-->
                     <img src="/assets/theme_admin/img/logo.png" />
                 </a>
 
@@ -55,6 +55,11 @@
                         <span>Posts</span></a>
                 </li>
 
+                <li class="nav-item">
+                    <a class="nav-link" href="/texts">
+                        <i class="fas fa-blog"></i>
+                        <span>Textos</span></a>
+                </li>
 
 
                 <!-- Sidebar Toggler (Sidebar) -->
@@ -148,12 +153,21 @@
         </a>
 
         <!-- Logout Modal-->
-       
+
         <script src="<?php echo base_url(); ?>assets/theme_admin/vendor/jquery/jquery.min.js"></script>
         <script src="<?php echo base_url(); ?>assets/theme_admin/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
         <script src="<?php echo base_url(); ?>assets/theme_admin/vendor/jquery-easing/jquery.easing.min.js"></script>
         <script src="<?php echo base_url(); ?>assets/theme_admin/js/sb-admin-2.min.js"></script>
-        <?php echo $javascript ?>  
 
+
+        
+            
+
+        
+        
+        
+        
+                
+        <?php echo $javascript ?> 
     </body>
 </html>

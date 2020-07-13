@@ -1,3 +1,18 @@
+<?php
+defined('BASEPATH') OR exit('No direct script access allowed');
+
+function searchForId($id, $array1) {
+    foreach ($array1 as &$array) {
+        foreach ($array as $key => $val) {
+            if ($key == 'Category' && $val == $id) {
+                return $array;
+            }
+        }
+    }
+    return null;
+}
+?>
+
 <style type="text/css" id="wp-custom-css">
     li.menu-item.menu-item-353 .menu-text, li.menu-item.menu-item-691 .menu-text{
         font-weight: 600;
@@ -50,9 +65,17 @@
                                 <div class="vc_row wpb_row vc_inner vc_row-fluid">
                                     <div class="wpb_column vc_column_container vc_col-sm-6">
                                         <div class="vc_column-inner">
-                                            <div class="wpb_wrapper">
+                                             <?php
+                                                        echo searchForId('ServiciosCompraAnticipada.Texto1', $texts)['Description'];
+                                                        ?>
+<!--                                            <div class="wpb_wrapper">
                                                 <div class="wpb_text_column wpb_content_element  wpb_animate_when_almost_visible wpb_fadeIn fadeIn">
                                                     <div class="wpb_wrapper">
+                                                        
+                                                       
+                                                        
+                                                        
+                                                        
                                                         <p style="color: #40454a; font-size: 21px; margin-bottom: 20px; text-align: left;"><strong>¿Por qué es importante una compra anticipada?</strong></p>
                                                         <div class="descripcion-p">
                                                             <p style="text-align: justify;">Es importante porque el dolor que produce la separación de las personas a quienes amamos, llegará a nuestra vida tarde o temprano.</p>
@@ -63,7 +86,7 @@
                                                         </div>
                                                     </div>
                                                 </div>
-                                            </div>
+                                            </div>-->
                                         </div>
                                     </div>
                                     <div class="wpb_column vc_column_container vc_col-sm-6">
