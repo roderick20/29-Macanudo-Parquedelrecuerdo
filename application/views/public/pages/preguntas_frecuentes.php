@@ -1,148 +1,8 @@
 <?php
 defined('BASEPATH') OR exit('No direct script access allowed');
 ?>
+<link href="/assets/index/preguntasfrecuentes.css" rel="stylesheet" type="text/css"/>
 
-<style type="text/css" id="wp-custom-css">
-    li.menu-item.menu-item-353 .menu-text, li.menu-item.menu-item-691 .menu-text{
-        font-weight: 600;
-    }		</style>
-<style type="text/css" data-type="vc_custom-css">.preguntas-1{
-        display: none;
-    }
-    .content-descri{
-        margin-top: 9px;
-        margin-bottom: 12px !important;
-        font-size: 14px !important;
-    }
-    li{
-        font-size: 16px;
-        text-align: justify;
-    }
-    .ult_tabitemname {
-        padding: 28px 21px;
-    }
-    #preguntas_frecuentes_fondo {
-        background-image: url(http://macanudomarketing.com/webparque/wp-content/uploads/2020/03/fondo-preguntas_frecuentes.jpg);
-        background-attachment: fixed;
-        background-size: cover;
-        background-position: center;
-    }
-    #preguntas_frecuentes_fondo h1{
-        color: white;
-        font-size: 62px;
-        margin-bottom: 30px;
-    }
-    #preguntas_frecuentes_fondo p{
-        text-align: center;
-        color: rgba(255, 255, 255, 0.72);
-        font-size: 25px;
-        font-style: italic;
-    }
-    #tab_2,
-    #tab_3,
-    #tab_4,
-    #tab_5, 
-    #tab_6, 
-    #tab_7 {
-        display: none;
-    }
-    ul.menuis{
-        width: 100%;
-        display: block; 
-        margin: 0 !important;
-        box-sizing: border-box;
-    }
-    ul.menuis li, ul.eltdf-tabs-nav li {
-        display: inline-block;
-        list-style: none;
-        padding: 5px 16px;
-        font-size: 20px;
-        color: #ffffff;
-        width: 33%;
-        text-align: center;
-        box-sizing: border-box;
-        margin: 0;
-    }
-    a.mnu:hover{
-        background: #dbb66d;
-        color: #ffffff;
-    }
-    a.mnu{
-        color: #dbb66d;
-    }
-    a.mnu.active{
-        background: #dbb66d;
-        color: #ffffff;
-    }
-    ul.menuis li a, ul.eltdf-tabs-nav li a {
-        display: block;
-        width: 100%;
-        height: 100%;
-        text-decoration: none !important;
-        padding: 4px;
-        box-sizing: border-box;
-        border:1px solid #dbb66d;
-        font-weight: 600;
-        letter-spacing: 0.5px;
-        font-family: "Sorts Mill Goudy", Helvetica, Arial, Verdana, sans-serif;
-        -webkit-font-smoothing: antialiased;
-    }
-    .menuis>li:first-child{
-        padding-left: 0;
-    }
-    .menuis>li:last-child{
-        padding-right: 0;
-    }
-    .wpb_content_element.titulo-categoria {
-        margin-bottom: 20px;
-        margin-top: 15px;
-    }
-    h3.ui-accordion-header{
-        padding: 5px 12px !important;
-        border: 1px solid rgba(219, 182, 109, 0.27) !important;
-        border-radius: 2px;
-    }
-    h3.ui-accordion-header a{
-        font-size: 18px !important;
-        font-weight: 500;
-    }
-    h3.ui-accordion-header.ui-accordion-header-active{
-        background: #f6f5eb !important;
-    }
-    h3.ui-accordion-header.ui-accordion-header-active > a span{
-        color: #dbb66d ;
-    }
-    .wpb_accordion_content.ui-accordion-content {
-        padding-left: 30px !important;
-        padding-right: 20px !important;
-        margin-bottom: 20px !important;
-    }
-    .wpb_accordion_content.ui-accordion-content p, .wpb_accordion_content.ui-accordion-content li{
-        font-size: 18px;
-        text-align: justify;
-        line-height: 1.6;
-    }
-    @media (max-width: 767px) {
-        ul.menuis li, ul.eltdf-tabs-nav li {
-            width: 100% !important;
-            padding: 10px 0 !important;
-        }
-    }
-    @media (max-width: 678px) {
-        div#preguntas_frecuentes_fondo{
-            background-attachment: initial !important;
-            -ms-background-size: cover;
-            -o-background-size: cover;
-            -moz-background-size: cover;
-            -webkit-background-size: cover;   
-        }
-        #preguntas_frecuentes_fondo h1 {
-            font-size: 58px !important;
-            line-height: 1.1;
-        }
-    }
-</style>
-<noscript><style type="text/css"> .wpb_animate_when_almost_visible { opacity: 1; }</style></noscript>
 
 
 <div id="main" class="sidebar-none sidebar-divider-vertical" style="padding-top:0px;">
@@ -626,32 +486,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                                 <div class="vc_empty_space" style="height: 50px"><span class="vc_empty_space_inner"></span></div>
                                 <div class="wpb_raw_code wpb_raw_js">
                                     <div class="wpb_wrapper">
-                                        <script>
-                                            function showTab(tab_id, tab_content) {
-                                                var x = document.getElementsByClassName("tabcontent");
-                                                var i;
-                                                for (i = 0; i < x.length; i++) {
-                                                    x[i].style.display = 'none';
-                                                }
-                                                document.getElementById(tab_content).style.display = 'block';
-                                                var x = document.getElementsByClassName("mnu");
-                                                var i;
-                                                for (i = 0; i < x.length; i++) {
-                                                    x[i].className = 'mnu';
-                                                }
-                                                document.getElementById(tab_id).className = 'mnu active';
-                                            }
-                                            var URLhash = window.location.hash;
-                                            if (URLhash == "#inhumaciones") {
-                                                showTab('tb_1', 'tab_1');
-                                            }
-                                            if (URLhash == "#cremacion") {
-                                                showTab('tb_2', 'tab_2');
-                                            }
-                                            if (URLhash == "#protocolo") {
-                                                showTab('tb_3', 'tab_3');
-                                            }
-                                        </script>
+                                        <script src="/assets/index/preguntasfrecuentes.js" type="text/javascript"></script>
                                     </div>
                                 </div>
                             </div>
@@ -668,6 +503,6 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 </div>
 <!-- #main -->
 
-<script type='text/javascript' src='http://www.parquedelaesperanza.com/wp-includes/js/jquery/ui/core.min.js?ver=1.11.4'></script>
-<script type='text/javascript' src='http://www.parquedelaesperanza.com/wp-includes/js/jquery/ui/widget.min.js?ver=1.11.4'></script>
-<script type='text/javascript' src='http://www.parquedelaesperanza.com/wp-includes/js/jquery/ui/accordion.min.js?ver=1.11.4'></script>
+<script type='text/javascript' src='/wp-includes/js/jquery/ui/core.min.js'></script>
+<script type='text/javascript' src='/wp-includes/js/jquery/ui/widget.min.js'></script>
+<script type='text/javascript' src='/wp-includes/js/jquery/ui/accordion.min.js'></script>

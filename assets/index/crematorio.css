@@ -1,0 +1,245 @@
+li.menu-item.menu-item-353 .menu-text, li.menu-item.menu-item-691 .menu-text{
+    font-weight: 600;
+}		
+#sepultura_page {
+    background-image: url(/wp-content/uploads/2020/06/esperanza-de-volverte-a-ver.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: 72% center;
+}
+#sepultura_page h1{
+    color: white;
+    font-size: 62px;
+    margin-bottom: 30px;
+}
+#sepultura_page p{
+    text-align: center;
+    color: rgba(255, 255, 255, 0.85);
+    font-size: 25px;
+    font-style: italic;
+}
+figcaption.vc_figure-caption{
+    background: rgba(25, 37, 49, 0.48);
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+    color: white;
+}
+.wpb_single_image.otros-servicioss{
+    position: relative;
+}
+.contacto-footer img{
+    position: absolute;
+    right: -60px;
+    width: 140px;
+    top: 0;
+}
+.slide_comunicate{
+    background-image: url(/wp-content/uploads/2020/02/cielo_azul_parque_esperanza.jpg);
+}
+.descripcion-cremacion .vc_btn3.vc_btn3-size-md.vc_btn3-style-outline-custom{
+    font-size: 19px;
+    border-radius: 30px;
+    padding: 12px 34px;
+}
+.uavc-list-icon.uavc-list-icon-wrapper.ult-adjust-bottom-margin {
+    width: 50%;
+    float: left;
+}
+.uavc-list-content span.uavc-list-desc {
+    font-size: 19px;
+}
+.ult-video-banner .ult-video-banner-overlay:after {
+    content: "\f144";
+    font-family: 'Defaults';
+    speak: none;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    color: #dbb66d;
+    font-size: 60px;
+    position: absolute;
+    top: 40%;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    visibility: visible;
+}
+.ult-video-banner.ult-vb-touch-start .ult-video-banner-overlay:after{
+    visibility: hidden;
+}
+@media (max-width: 610px) {
+    .uavc-list-icon.uavc-list-icon-wrapper.ult-adjust-bottom-margin {
+        width: 100%;
+        float: none;
+        margin-bottom: 14px;
+    }
+}
+@media (max-width: 678px) {
+    div#sepultura_page{
+        background-attachment: initial !important;
+        -ms-background-size: cover;
+        -o-background-size: cover;
+        -moz-background-size: cover;
+        -webkit-background-size: cover;   
+    }
+    #sepultura_page h1 {
+        font-size: 58px !important;
+        line-height: 1.1;
+    }
+}
+.vc_custom_1582844064402{background-color: #f9f6ef !important;}
+.vc_custom_1582845182817{margin-bottom: 8px !important;}
+.vc_custom_1591311853228{padding-top: 12px !important;padding-right: 20px !important;}
+.vc_custom_1590179498557{padding-left: 20px !important;}
+.vc_custom_1591320961162{margin-bottom: 12px !important;}
+. { opacity: 1; }
+
+.gallery-carousel-shortcode.gallery-carousel-shortcode-id-f83fe08c9f1cca3ce90b29a049292d26 .owl-nav a {
+    width: 36px;
+    height: 36px;
+    border-radius: 500px;
+}
+.dt-arrow-border-on.gallery-carousel-shortcode.gallery-carousel-shortcode-id-f83fe08c9f1cca3ce90b29a049292d26 .owl-nav a:not(:hover):before {
+    border-width: 0px;
+}
+.dt-arrow-hover-border-on.gallery-carousel-shortcode.gallery-carousel-shortcode-id-f83fe08c9f1cca3ce90b29a049292d26 .owl-nav a:hover:after {
+    border-width: 0px;
+}
+.gallery-carousel-shortcode.gallery-carousel-shortcode-id-f83fe08c9f1cca3ce90b29a049292d26 .owl-nav a.owl-prev {
+    top: 50%;
+    transform: translateY(calc(-50% + 0px));
+    left: -43px;
+}
+@media all and (-ms-high-contrast: none) {
+    .gallery-carousel-shortcode.gallery-carousel-shortcode-id-f83fe08c9f1cca3ce90b29a049292d26 .owl-nav a.owl-prev {
+        transform: translateY(-50%);
+        margin-top: 0px;
+    }
+}
+.gallery-carousel-shortcode.gallery-carousel-shortcode-id-f83fe08c9f1cca3ce90b29a049292d26 .owl-nav a.owl-prev i {
+    padding: 0px 0px 0px 0px;
+}
+.gallery-carousel-shortcode.gallery-carousel-shortcode-id-f83fe08c9f1cca3ce90b29a049292d26 .owl-nav a.owl-next {
+    top: 50%;
+    transform: translateY(calc(-50% + 0px));
+    right: -43px;
+}
+@media all and (-ms-high-contrast: none) {
+    .gallery-carousel-shortcode.gallery-carousel-shortcode-id-f83fe08c9f1cca3ce90b29a049292d26 .owl-nav a.owl-next {
+        transform: translateY(-50%);
+        margin-top: 0px;
+    }
+}
+.gallery-carousel-shortcode.gallery-carousel-shortcode-id-f83fe08c9f1cca3ce90b29a049292d26 .owl-nav a.owl-next i {
+    padding: 0px 0px 0px 0px;
+}
+.gallery-carousel-shortcode.gallery-carousel-shortcode-id-f83fe08c9f1cca3ce90b29a049292d26 .owl-nav i {
+    font-size: 18px;
+}
+.gallery-carousel-shortcode.gallery-carousel-shortcode-id-f83fe08c9f1cca3ce90b29a049292d26 .owl-nav a:not(:hover) i,
+.gallery-carousel-shortcode.gallery-carousel-shortcode-id-f83fe08c9f1cca3ce90b29a049292d26 .owl-nav a:not(:hover) i:before {
+    color: #ffffff;
+    background: none;
+}
+.gallery-carousel-shortcode.gallery-carousel-shortcode-id-f83fe08c9f1cca3ce90b29a049292d26 .owl-nav a:hover i,
+.gallery-carousel-shortcode.gallery-carousel-shortcode-id-f83fe08c9f1cca3ce90b29a049292d26 .owl-nav a:hover i:before {
+    color: rgba(255,255,255,0.75);
+    background: none;
+}
+.gallery-carousel-shortcode.gallery-carousel-shortcode-id-f83fe08c9f1cca3ce90b29a049292d26 .owl-dots {
+    top: calc(100% + 20px);
+    left: 50%;
+    transform: translateX(calc(-50% + 0px));
+}
+@media all and (-ms-high-contrast: none) {
+    .gallery-carousel-shortcode.gallery-carousel-shortcode-id-f83fe08c9f1cca3ce90b29a049292d26 .owl-dots {
+        transform: translateX(-50%);
+        margin-left: 0px;
+    }
+}
+.gallery-carousel-shortcode.gallery-carousel-shortcode-id-f83fe08c9f1cca3ce90b29a049292d26 .owl-dot {
+    width: 10px;
+    height: 10px;
+    margin: 0 8px;
+}
+.bullets-ubax.gallery-carousel-shortcode.gallery-carousel-shortcode-id-f83fe08c9f1cca3ce90b29a049292d26 .owl-dot.active span {
+    border-color: ;
+}
+@media screen and (max-width: 778px) {
+    .gallery-carousel-shortcode.gallery-carousel-shortcode-id-f83fe08c9f1cca3ce90b29a049292d26.hide-arrows .owl-nav a {
+        display: none;
+    }
+}
+@media screen and (max-width: 778px) {
+    .gallery-carousel-shortcode.gallery-carousel-shortcode-id-f83fe08c9f1cca3ce90b29a049292d26.reposition-arrows .owl-nav .owl-prev {
+        top: 50%;
+        transform: translateY(calc(-50% + 0px));
+        left: 10px;
+    }
+    .gallery-carousel-shortcode.gallery-carousel-shortcode-id-f83fe08c9f1cca3ce90b29a049292d26.reposition-arrows .owl-nav .owl-next {
+        top: 50%;
+        transform: translateY(calc(-50% + 0px));
+        right: 10px;
+    }
+}
+@media screen and (max-width: 778px) and all and (-ms-high-contrast: none) {
+    .gallery-carousel-shortcode.gallery-carousel-shortcode-id-f83fe08c9f1cca3ce90b29a049292d26.reposition-arrows .owl-nav .owl-prev {
+        transform: translateY(-50%);
+        margin-top: 0px;
+    }
+}
+@media screen and (max-width: 778px) and all and (-ms-high-contrast: none) {
+    .gallery-carousel-shortcode.gallery-carousel-shortcode-id-f83fe08c9f1cca3ce90b29a049292d26.reposition-arrows .owl-nav .owl-next {
+        transform: translateY(-50%);
+        margin-top: 0px;
+    }
+}
+.gallery-carousel-shortcode.gallery-carousel-shortcode-id-f83fe08c9f1cca3ce90b29a049292d26 figure,
+.gallery-carousel-shortcode.gallery-carousel-shortcode-id-f83fe08c9f1cca3ce90b29a049292d26 .rollover,
+.gallery-carousel-shortcode.gallery-carousel-shortcode-id-f83fe08c9f1cca3ce90b29a049292d26 img,
+.gallery-carousel-shortcode.gallery-carousel-shortcode-id-f83fe08c9f1cca3ce90b29a049292d26 .gallery-rollover {
+    border-radius: 0px;
+}
+.gallery-carousel-shortcode.gallery-carousel-shortcode-id-f83fe08c9f1cca3ce90b29a049292d26.enable-bg-rollover .gallery-rollover {
+    background: ;
+    background: -webkit-linear-gradient();
+    background: linear-gradient();
+}
+.gallery-carousel-shortcode.gallery-carousel-shortcode-id-f83fe08c9f1cca3ce90b29a049292d26.enable-img-shadow figure {
+    box-shadow: "";
+}
+.gallery-carousel-shortcode.gallery-carousel-shortcode-id-f83fe08c9f1cca3ce90b29a049292d26.enable-img-shadow .owl-stage-outer {
+    padding: 4px 0;
+}
+.gallery-carousel-shortcode.gallery-carousel-shortcode-id-f83fe08c9f1cca3ce90b29a049292d26.enable-bg-rollover.hover-scale figure .rollover:after {
+    background: ;
+    background: -webkit-linear-gradient();
+    background: linear-gradient();
+}
+.gallery-carousel-shortcode.gallery-carousel-shortcode-id-f83fe08c9f1cca3ce90b29a049292d26.gallery-shortcode .gallery-zoom-ico {
+    width: 44px;
+    height: 44px;
+    line-height: 44px;
+    border-radius: 100px;
+    margin: -22px 0 0 -22px;
+    border-width: 0px;
+}
+.dt-icon-bg-on.gallery-carousel-shortcode.gallery-carousel-shortcode-id-f83fe08c9f1cca3ce90b29a049292d26.gallery-shortcode .gallery-zoom-ico {
+    background: rgba(255,255,255,0.3);
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
+.gallery-carousel-shortcode.gallery-carousel-shortcode-id-f83fe08c9f1cca3ce90b29a049292d26.gallery-shortcode .gallery-zoom-ico > span:before {
+    font-size: 32px;
+    line-height: 44px;
+}
+.gallery-carousel-shortcode.gallery-carousel-shortcode-id-f83fe08c9f1cca3ce90b29a049292d26.gallery-shortcode .gallery-zoom-ico > span {
+    color: #ffffff;
+    background: none;
+}
+

@@ -60,8 +60,8 @@
         <link rel='dns-prefetch' href='//www.google.com' />
         <link rel='dns-prefetch' href='//fonts.googleapis.com' />
         <link rel='dns-prefetch' href='//s.w.org' />
-        <link rel="alternate" type="application/rss+xml" title="Parque de la Esperanza &raquo; Feed" href="http://www.parquedelaesperanza.com/feed/" />
-        <link rel="alternate" type="application/rss+xml" title="Parque de la Esperanza &raquo; RSS de los comentarios" href="http://www.parquedelaesperanza.com/comments/feed/" />
+        <link rel="alternate" type="application/rss+xml" title="Parque de la Esperanza &raquo; Feed" href="/feed/" />
+        <link rel="alternate" type="application/rss+xml" title="Parque de la Esperanza &raquo; RSS de los comentarios" href="/comments/feed/" />
         <script type="text/javascript">
             window._wpemojiSettings = {"baseUrl": "https:\/\/s.w.org\/images\/core\/emoji\/12.0.0-1\/72x72\/", "ext": ".png", "svgUrl": "https:\/\/s.w.org\/images\/core\/emoji\/12.0.0-1\/svg\/", "svgExt": ".svg", "source": {"concatemoji": "http:\/\/www.parquedelaesperanza.com\/wp-includes\/js\/wp-emoji-release.min.js?ver=5.2.7"}};
             !function (a, b, c) {
@@ -218,16 +218,16 @@
         <script src="<?php echo base_url(); ?>assets/theme/js/8u6jp5h2_pdz.js" type="text/javascript"></script>
 
 
-        <link rel='https://api.w.org/' href='http://www.parquedelaesperanza.com/wp-json/' />
-        <link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://www.parquedelaesperanza.com/xmlrpc.php?rsd" />
-        <link rel="wlwmanifest" type="application/wlwmanifest+xml" href="http://www.parquedelaesperanza.com/wp-includes/wlwmanifest.xml" />
-        <link rel="canonical" href="http://www.parquedelaesperanza.com/crematorio/" />
-        <link rel='shortlink' href='http://www.parquedelaesperanza.com/?p=675' />
-        <link rel="alternate" type="application/json+oembed" href="http://www.parquedelaesperanza.com/wp-json/oembed/1.0/embed?url=http%3A%2F%2Fwww.parquedelaesperanza.com%2Fcrematorio%2F" />
-        <link rel="alternate" type="text/xml+oembed" href="http://www.parquedelaesperanza.com/wp-json/oembed/1.0/embed?url=http%3A%2F%2Fwww.parquedelaesperanza.com%2Fcrematorio%2F&#038;format=xml" />
+        <link rel='https://api.w.org/' href='/wp-json/' />
+        <link rel="EditURI" type="application/rsd+xml" title="RSD" href="/xmlrpc.php?rsd" />
+        <link rel="wlwmanifest" type="application/wlwmanifest+xml" href="/wp-includes/wlwmanifest.xml" />
+        <link rel="canonical" href="/crematorio/" />
+        <link rel='shortlink' href='/?p=675' />
+        <link rel="alternate" type="application/json+oembed" href="/wp-json/oembed/1.0/embed?url=http%3A%2F%2Fwww.parquedelaesperanza.com%2Fcrematorio%2F" />
+        <link rel="alternate" type="text/xml+oembed" href="/wp-json/oembed/1.0/embed?url=http%3A%2F%2Fwww.parquedelaesperanza.com%2Fcrematorio%2F&#038;format=xml" />
         <meta property="og:site_name" content="Parque de la Esperanza" />
         <meta property="og:title" content="Crematorio" />
-        <meta property="og:url" content="http://www.parquedelaesperanza.com/crematorio/" />
+        <meta property="og:url" content="/crematorio/" />
         <meta property="og:type" content="article" />
         <style type="text/css">
             .recentcomments a {
@@ -237,7 +237,7 @@
             }
         </style>
 
-        <!--[if lte IE 9]><link rel="stylesheet" type="text/css" href="http://www.parquedelaesperanza.com/wp-content/plugins/js_composer/assets/css/vc_lte_ie9.min.css" media="screen"><![endif]-->
+        <!--[if lte IE 9]><link rel="stylesheet" type="text/css" href="/wp-content/plugins/js_composer/assets/css/vc_lte_ie9.min.css" media="screen"><![endif]-->
         <meta name="generator" content="Powered by Slider Revolution 5.4.8.3 - responsive, Mobile-Friendly Slider Plugin for WordPress with comfortable drag and drop interface." />
         <script type="text/javascript">
             document.addEventListener("DOMContentLoaded", function (event) {
@@ -373,7 +373,7 @@
                             <!--<p><i class=" the7-mw-icon-phone"></i><a href="tel:+5154604848" style="font-size:2em;">(054) 60 4848</a></p>-->
                         </div>
                     </div>
-                    <div class="mobile-branding"><a href="http://www.parquedelaesperanza.com/">
+                    <div class="mobile-branding"><a href="/">
                             <img class=" preload-me" src="<?php echo base_url(); ?>assets/uploads/logo.png" 
                                  srcset="<?php echo base_url(); ?>assets/uploads/logo.png 222w, 
                                  <?php echo base_url(); ?>assets/uploads/logo.png 222w" sizes="222px" a
@@ -504,14 +504,14 @@
          attribution=install_email
          page_id="167789560377985"
          theme_color="#dbb66d">
-    </div><!-- <link rel='stylesheet' id='animate-css-css'  href='http://www.parquedelaesperanza.com/wp-content/plugins/js_composer/assets/lib/bower/animate-css/animate.min.css?ver=5.7' type='text/css' media='all' /> -->
+    </div><!-- <link rel='stylesheet' id='animate-css-css'  href='/wp-content/plugins/js_composer/assets/lib/bower/animate-css/animate.min.css?ver=5.7' type='text/css' media='all' /> -->
 
 
 
     <link href="<?php echo base_url(); ?>assets/theme/css/lmo354kg_i0d56.css" rel="stylesheet" type="text/css"/>
 
     <!--<link rel="stylesheet" type="text/css" href="//www.parquedelaesperanza.com/wp-content/cache/wpfc-minified/lmo354kg/i0d56.css" media="all" />
-    <script type='text/javascript' src='http://www.parquedelaesperanza.com/wp-content/themes/dt-the7/js/main.min.js?ver=5.2.7'></script>-->
+    <script type='text/javascript' src='/wp-content/themes/dt-the7/js/main.min.js?ver=5.2.7'></script>-->
 
     <script src="<?php echo base_url(); ?>assets/theme/js/main.min.js" type="text/javascript"></script>
 
@@ -530,11 +530,11 @@
     <script src="<?php echo base_url(); ?>assets/theme/js/waypoints.min.js" type="text/javascript"></script>
 
 
-<!--    <script type='text/javascript' src='http://www.parquedelaesperanza.com/wp-content/themes/dt-the7/js/legacy.min.js?ver=5.2.7'></script>
-<script type='text/javascript' src='http://www.parquedelaesperanza.com/wp-content/plugins/Ultimate_VC_Addons/assets/min-js/info-box.min.js?ver=3.16.22'></script>
-<script type='text/javascript' src='http://www.parquedelaesperanza.com/wp-includes/js/wp-embed.min.js?ver=5.2.7'></script>
-<script type='text/javascript' src='http://www.parquedelaesperanza.com/wp-content/plugins/js_composer/assets/js/dist/js_composer_front.min.js?ver=5.7'></script>
-<script type='text/javascript' src='http://www.parquedelaesperanza.com/wp-content/plugins/js_composer/assets/lib/waypoints/waypoints.min.js?ver=5.7'></script>
+<!--    <script type='text/javascript' src='/wp-content/themes/dt-the7/js/legacy.min.js?ver=5.2.7'></script>
+<script type='text/javascript' src='/wp-content/plugins/Ultimate_VC_Addons/assets/min-js/info-box.min.js?ver=3.16.22'></script>
+<script type='text/javascript' src='/wp-includes/js/wp-embed.min.js?ver=5.2.7'></script>
+<script type='text/javascript' src='/wp-content/plugins/js_composer/assets/js/dist/js_composer_front.min.js?ver=5.7'></script>
+<script type='text/javascript' src='/wp-content/plugins/js_composer/assets/lib/waypoints/waypoints.min.js?ver=5.7'></script>
     -->
 
 

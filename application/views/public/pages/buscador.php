@@ -1,143 +1,4 @@
-<style type="text/css" id="wp-custom-css">
-    li.menu-item.menu-item-353 .menu-text, li.menu-item.menu-item-691 .menu-text{
-        font-weight: 600;
-    }		
-</style>
-<style type="text/css" data-type="vc_custom-css">
-    #contacto_form_page {
-        background-image: url(http://www.parquedelaesperanza.com/wp-content/uploads/2020/02/cielo_azul_parque_esperanza.jpg);
-        background-attachment: fixed;
-        background-size: cover;
-    }
-    #contacto_form_page h1{
-        color: white;
-        font-size: 62px;
-        margin-bottom: 30px;
-    }
-    #contacto_form_page p{
-        text-align: center;
-        color: rgba(255, 255, 255, 0.72);
-        font-size: 25px;
-        font-style: italic;
-    }
-    .formulario-contacto{
-        position: relative;
-        display: flex;
-    }
-    .formulario-contacto .form-50{
-        width: 50%;
-        padding: 0 15px;
-    }
-    .formulario-contacto .form-100{
-        width: 100%;
-        padding: 0 10px;
-    }
-    .content input[type="text"]:hover, .content input[type="text"]:focus, 
-    .content input[type="number"]:hover, .content input[type="number"]:focus,
-    .content textarea:hover, .content textarea:focus,
-    .content input[type="email"]:hover, .content input[type="email"]:focus,
-    .content input[type="tel"]:hover, .content input[type="tel"]:focus
-    {
-        border-color: #dbb66d;
-    }
-    .content input[type="text"], 
-    .content input[type="search"], 
-    .content input[type="tel"], 
-    .content input[type="url"], 
-    .content input[type="email"], 
-    .content input[type="number"],
-    .content select, 
-    .content textarea{
-        background-color: #f9f6ef;
-        border-color: #f9f6ef;
-        color: #535353;
-        margin-bottom: 16px;
-    }
-    .terminos span{
-        font-size: 17px;
-    }
-    .terminos a{
-        color: #6a7a83;
-        text-decoration: none;
-    }
-    .terminos a:hover{
-        text-decoration: underline;
-    }
-    .btn_enviar_of{
-        text-align: center;
-        margin-top: 28px;
-    }
-    .btn_enviar_of .wpcf7-submit{
-        border-radius: 35px !important;
-        font-size: 18px !important;
-        letter-spacing: 1px !important;
-        font-weight: 500 !important;
-        padding: 3px 45px !important;
-        background: #fff !important;
-        border: 2px solid #dbb66d !important;
-        color: #dbb66d !important;
-    }
-    .btn_enviar_of .wpcf7-submit:hover{
-        background:#dbb66d !important;
-        color: white !important;
-    }
-    .seccion_mapa .vc_column-inner{
-        padding-top: 0 !important;
-    }
-    @media (max-width: 678px) {
-        div#contacto_form_page{
-            background-attachment: initial !important;
-            -ms-background-size: cover;
-            -o-background-size: cover;
-            -moz-background-size: cover;
-            -webkit-background-size: cover;   
-        }
-        #contacto_form_page h1 {
-            font-size: 58px !important;
-            line-height: 1.1;
-        }
-    }
-
-
-</style>
-
-
-<script>
-    function view_modal(ruta) {
-        $('#img_modal').attr('src', ruta);
-
-        $('.modal').modal('show');
-    }
-</script>
-
-
-
-<style type="text/css" data-type="vc_shortcodes-custom-css">.vc_custom_1582859218039{background-color: #f9f6ef !important;}</style>
-<noscript>
-
-<style type="text/css"> 
-    .wpb_animate_when_almost_visible { opacity: 1; }
-
-</style>
-</noscript>
-
-
-<div class="modal" tabindex="-1" role="dialog">
-    <div class="modal-dialog  modal-xl">
-        <div class="modal-content">
-            <div class="modal-header">
-                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                    <span aria-hidden="true">&times;</span>
-                </button>
-            </div>
-            <div class="modal-body">
-                <img id="img_modal" src="/assets/map/mapa_virgen_del_rosario_2.jpeg" alt="" class="img-fluid"/>
-            </div>      
-        </div>
-    </div>
-</div>
-
-
+<link href="/assets/index/buscador.css" rel="stylesheet" type="text/css"/>
 <div id="main" class="sidebar-none sidebar-divider-vertical" style="padding-top:0px;" >
     <div class="main-gradient"></div>
     <div class="wf-wrap">
@@ -159,47 +20,38 @@
                 </div>
                 <div class="vc_row-full-width vc_clearfix"></div>
                 <section class="titulo-pagina titulo-blog">
-
                     <div class="vc_row wpb_row vc_row-fluid dt-default" style="margin-top: 0px;margin-bottom: 0px">
                         <div class="wpb_column vc_column_container vc_col-sm-10 vc_col-lg-offset-1 vc_col-md-offset-1">
                             <div class="vc_column-inner">
                                 <div class="wpb_wrapper">
                                     <div class="vc_empty_space"   style="height: 100px" >
                                         <span class="vc_empty_space_inner"></span>
-                                    </div>
-                                    <!--                                    <div class="wpb_text_column wpb_content_element " >
-                                                                            <div class="wpb_wrapper">
-                                                                                <h2 style="text-align: center;"><strong>Encuentra a tu ser querido</strong></h2>
-                                                                                <h6 style="text-align: center;">Si deseas conocer la ubicación de la sepultura de un familiar o amigo, consulta ingresando los datos de la persona en lo siguiente:</h6>
-                                                                            </div>
-                                                                        </div>-->
+                                    </div>                                 
 
                                     <div class="tarjeta" style="background-color: #F6F5EB;padding: 30px;">
 
                                         <?php echo form_open('/do_buscador', ['id' => 'frmBuscador']); ?>
-                                            <div class="form-row">
-                                                <div class="form-group col-md-12">
-                                                    <input type="text" id="nombre" name="nombre" placeholder="Nombres y/o apellidos" class="form-control form-control-lg" style="color: #495057;background-color: #fff;border: 1px solid #888888;border-radius: 0.3rem;font-size: 1.05rem;padding: 0.5rem 1rem;">
-                                                </div>
+                                        <div class="form-row">
+                                            <div class="form-group col-md-12">
+                                                <input type="text" id="nombre" name="nombre" placeholder="Nombres y/o apellidos" class="form-control form-control-lg" style="color: #495057;background-color: #fff;border: 1px solid #888888;border-radius: 0.3rem;font-size: 1.05rem;padding: 0.5rem 1rem;">
                                             </div>
-                                            <div class="form-row">
-                                                <div class="form-group col-md-6">
-                                                    <button type="submit" class="btn btn-md btn-block btn-enviar-form" style="background-color: #0E226C;color: white;">
-                                                        <i aria-hidden="true" class="far fa-clock"></i> Hora de sepelio
-                                                    </button>
-                                                </div>
-                                                <div class="form-group col-md-6">
-                                                    <button type="submit" class="btn btn-md btn-block btn-enviar-form" style="background-color: #0E226C;color: white;">
-                                                        <i aria-hidden="true" class="fas fa-map-marker-alt"></i> Ubicación
-                                                    </button>
-                                                    
-                                                    
-                                                </div>
+                                        </div>
+                                        <div class="form-row">
+                                            <div class="form-group col-md-6">
+                                                <button type="submit" class="btn btn-md btn-block btn-enviar-form" style="background-color: #0E226C;color: white;">
+                                                    <i aria-hidden="true" class="far fa-clock"></i> Hora de sepelio
+                                                </button>
                                             </div>
+                                            <div class="form-group col-md-6">
+                                                <button type="submit" class="btn btn-md btn-block btn-enviar-form" style="background-color: #0E226C;color: white;">
+                                                    <i aria-hidden="true" class="fas fa-map-marker-alt"></i> Ubicación
+                                                </button>                                                   
+
+                                            </div>
+                                        </div>
                                         <?php echo form_close(); ?>
                                         <br><br>
-                                        <div class="table-responsive">
-                                         
+                                        <div class="table-responsive">                                         
                                             <table class="table table-striped" style="font-size: 0.8rem;">
                                                 <thead>
                                                     <tr style="background-color: #D2B16E;color: white;">
@@ -209,26 +61,25 @@
                                                         <th>Ubicación</th>
                                                     </tr>
                                                 </thead>
-                                                <tbody>
-                                                    
-                                                    <?php 
-                                                    if(isset($list)){
-                                                        
-                                                    
-                                                    foreach ($list as $item) { ?>
-                                                                                                        
-                                                    <tr>
-                                                        <td><?php echo $item["NombreCompleto"]; ?><br>
-                                                            <?php echo $item["FechaNacimiento"]; ?> - <?php echo $item["FechaDefuncion"]; ?> </td>
-                                                        <td><?php echo $item["Plataforma"]; ?></td>
-                                                        <td><?php echo $item["Ubicacion"]; ?></td>
-                                                        <td>
-                                                            <a href="<?php echo base_url(); ?>ubicacion?NombreCompleto=<?php echo $item["NombreCompleto"]; ?>&FechaNacimiento=<?php echo $item["FechaNacimiento"]; ?>&FechaDefuncion=<?php echo $item["FechaDefuncion"]; ?>&Plataforma=<?php echo $item["Plataforma"]; ?>&Ubicacion=<?php echo $item["Ubicacion"]; ?>&IdPlataforma=<?php echo $item["IdPlataforma"]; ?>" class="ubicacion" >Ver Ubicación</a>
-                                                        
-                                                        </td>
-                                                    </tr>
-                                                    
-                                                    <?php } } ?>
+                                                <tbody>                                                    
+                                                    <?php
+                                                    if (isset($list)) {
+                                                        foreach ($list as $item) {
+                                                            ?>
+
+                                                            <tr>
+                                                                <td><?php echo $item["NombreCompleto"]; ?><br>
+                                                                    <?php echo $item["FechaNacimiento"]; ?> - <?php echo $item["FechaDefuncion"]; ?> </td>
+                                                                <td><?php echo $item["Plataforma"]; ?></td>
+                                                                <td><?php echo $item["Ubicacion"]; ?></td>
+                                                                <td>
+                                                                    <a href="<?php echo base_url(); ?>ubicacion?NombreCompleto=<?php echo $item["NombreCompleto"]; ?>&FechaNacimiento=<?php echo $item["FechaNacimiento"]; ?>&FechaDefuncion=<?php echo $item["FechaDefuncion"]; ?>&Plataforma=<?php echo $item["Plataforma"]; ?>&Ubicacion=<?php echo $item["Ubicacion"]; ?>&IdPlataforma=<?php echo $item["IdPlataforma"]; ?>" class="ubicacion" >Ver Ubicación</a>
+                                                                </td>
+                                                            </tr>
+
+                                                        <?php }
+                                                    }
+                                                    ?>
                                                 </tbody>
                                             </table>
                                         </div>

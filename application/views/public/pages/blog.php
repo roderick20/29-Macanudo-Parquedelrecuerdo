@@ -1,28 +1,4 @@
-<style type="text/css" data-type="vc_custom-css">/*TITULO*/
-    #fancy-header .breadcrumbs.start-animation, #fancy-header .fancy-subtitle.start-animation, #fancy-header .fancy-title.start-animation {
-        font-family: tinos;
-        font-weight: 100;
-    }
-    .btn-leermas a{
-        background-image: none !important;
-        font-size: 18px  !important;
-    }
-    #nuestro_blog_parque {
-        background-image: url(http://macanudomarketing.com/webparque/wp-content/uploads/2020/03/capilla_parque_fondo.jpg);
-        background-attachment: fixed;
-        background-size: cover;
-    }
-    #nuestro_blog_parque h1{
-        color: white;
-        font-size: 62px;
-        margin-bottom: 30px;
-    }
-    #nuestro_blog_parque p{
-        text-align: center;
-        color: rgba(255, 255, 255, 0.72);
-        font-size: 25px;
-        font-style: italic;
-    }</style><noscript><style type="text/css"> .wpb_animate_when_almost_visible { opacity: 1; }</style></noscript>
+<link href="/assets/index/blog.css" rel="stylesheet" type="text/css"/>
 
 <div id="main" class="sidebar-none sidebar-divider-vertical" style="padding-top:0px;">
     <div class="main-gradient"></div>

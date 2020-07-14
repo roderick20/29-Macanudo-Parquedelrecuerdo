@@ -1,0 +1,71 @@
+li.menu-item.menu-item-353 .menu-text, li.menu-item.menu-item-691 .menu-text{
+        font-weight: 600;
+    }		
+    
+    #sepultura_page {
+        background-image: url(/wp-content/uploads/2020/02/s1_sepelios_parque_esperanza.jpg);
+        background-attachment: fixed;
+        background-size: cover;
+    }
+    #sepultura_page h1{
+        color: white;
+        font-size: 62px;
+        margin-bottom: 30px;
+    }
+    #sepultura_page p{
+        text-align: center;
+        color: rgba(255, 255, 255, 0.85);
+        font-size: 25px;
+        font-style: italic;
+    }
+    span.numbers{
+        font-family: "Frank Ruhl Libre", Helvetica, Arial, Verdana, sans-serif;
+    }
+    figcaption.vc_figure-caption{
+        background: rgba(25, 37, 49, 0.48);
+        position: absolute;
+        width: 100%;
+        bottom: 0;
+        color: white;
+    }
+    .wpb_single_image.otros-servicioss{
+        position: relative;
+    }
+    .contacto-footer img{
+        position: absolute;
+        right: -60px;
+        width: 140px;
+        top: 0;
+    }
+    .slide_comunicate{
+        background-image: url(/wp-content/uploads/2020/02/cielo_azul_parque_esperanza.jpg);
+    }
+    @media (max-width: 678px) {
+        div#sepultura_page{
+            background-attachment: initial !important;
+            -ms-background-size: cover;
+            -o-background-size: cover;
+            -moz-background-size: cover;
+            -webkit-background-size: cover;   
+        }
+        #sepultura_page h1 {
+            font-size: 58px !important;
+            line-height: 1.1;
+        }
+    }
+    
+    .vc_custom_1582844064402{background-color: #f9f6ef !important;}
+    .vc_custom_1582861811299{margin-bottom: 5px !important;}
+    .vc_custom_1582861818187{margin-bottom: 5px !important;}
+    .vc_custom_1582861823904{margin-bottom: 5px !important;}
+    .vc_custom_1582861805537{margin-bottom: 5px !important;}
+    .vc_custom_1582861797998{margin-bottom: 5px !important;}
+    .vc_custom_1582861835725{margin-bottom: 5px !important;}
+    .vc_custom_1582861830362{margin-bottom: 5px !important;}
+    .vc_custom_1590628573445{margin-bottom: 5px !important;}
+    .vc_custom_1582861841106{margin-bottom: 5px !important;}
+    .vc_custom_1590628640836{margin-bottom: 5px !important;}
+
+    .wpb_animate_when_almost_visible { opacity: 1; }
+
+

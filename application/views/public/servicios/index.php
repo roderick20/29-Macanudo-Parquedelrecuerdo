@@ -13,142 +13,7 @@ function searchForId($id, $array1) {
 }
 ?>
 
-<style type="text/css" data-type="vc_custom-css">
-    /*TITULO*/
-
-    #fancy-header .breadcrumbs.start-animation,
-    #fancy-header .fancy-subtitle.start-animation,
-    #fancy-header .fancy-title.start-animation {
-        font-family: tinos;
-        font-weight: 100;
-    }
-
-    #contenido-servicios ul.ult_tabmenu.style1.Style_4 a.ult_a {
-        border: 1px solid #d2b16e;
-        border-radius: 0 !important;
-        padding: 5px;
-    }
-
-    #contenido-servicios .aio-icon.none.ult_tab_iconright {
-        display: none;
-    }
-
-    #contenido-servicios .ult_tabmenu.style1 li.ult_tab_li {
-        border-radius: 0 !important;
-        margin: 0 20px;
-    }
-
-    #seccion-servicios {
-        background-image: url(/assets/uploads/portada_servicios_ejemplo.jpg);
-        background-attachment: fixed;
-        background-size: cover;
-        background-position: 27% center;
-    }
-
-    #seccion-servicios h1 {
-        color: white;
-        font-size: 62px;
-        margin-bottom: 30px;
-    }
-
-    #seccion-servicios p {
-        text-align: center;
-        color: rgba(255, 255, 255, 0.85);
-        font-size: 25px;
-        font-style: italic;
-    }
-
-    .listado_servicios {
-        padding: 0 61px;
-    }
-
-    .listado_servicios h2 {
-        font-size: 28px;
-    }
-
-    .listado_servicios p,
-    .listado_servicios li {
-        font-size: 19px;
-        line-height: 1.4;
-    }
-
-    .btn_mas_info a {
-        background-image: none !important;
-        font-size: 16px !important;
-    }
-
-    .btn_mas_info a:after {
-        content: "\f178";
-        font-family: 'Defaults';
-        speak: none;
-        font-style: normal;
-        font-weight: normal;
-        font-variant: normal;
-        text-transform: none;
-        -webkit-font-smoothing: antialiased;
-        margin-left: 13px;
-        vertical-align: middle;
-    }
-
-    @media (max-width: 768px) {
-        .listado_servicios {
-            padding: 0;
-        }
-        #seccion-servicios {
-            background-attachment: initial !important;
-            -ms-background-size: cover;
-            -o-background-size: cover;
-            -moz-background-size: cover;
-            -webkit-background-size: cover;
-        }
-        #seccion-servicios h1 {
-            font-size: 58px !important;
-            line-height: 1.1;
-        }
-    }
-</style>
-
-<style type="text/css" data-type="vc_shortcodes-custom-css">
-    .vc_custom_1582842202320 {
-        background-color: #f9f6ef !important;
-    }
-
-    .vc_custom_1582839747692 {
-        margin-top: 35px !important;
-        margin-bottom: 60px !important;
-    }
-
-    .vc_custom_1582839747692 {
-        margin-top: 35px !important;
-        margin-bottom: 60px !important;
-    }
-
-    .vc_custom_1582839747692 {
-        margin-top: 35px !important;
-        margin-bottom: 60px !important;
-    }
-
-    .vc_custom_1582839747692 {
-        margin-top: 35px !important;
-        margin-bottom: 60px !important;
-    }
-
-    .vc_custom_1582839747692 {
-        margin-top: 35px !important;
-        margin-bottom: 60px !important;
-    }
-</style>
-<noscript>
-<style type="text/css"> . { opacity: 1; }</style>
-</noscript>
-
-
-
-
-
-
-
-
+<link href="/assets/index/serviciosindex.css" rel="stylesheet" type="text/css"/>
 
 
 <div id="main" class="sidebar-none sidebar-divider-vertical" style="padding-top:0px; padding-bottom:0px;">
@@ -185,7 +50,7 @@ function searchForId($id, $array1) {
                                             <div class="wpb_wrapper">
                                                 <div class="wpb_single_image wpb_content_element vc_align_center   wpb_slideInUp slideInUp wpb_start_animation animated">
                                                     <figure class="wpb_wrapper vc_figure">
-                                                        <div class="vc_single_image-wrapper   vc_box_border_grey"><img src="http://www.parquedelaesperanza.com/wp-content/uploads/2020/02/necesidad_futura.jpg" class="vc_single_image-img attachment-full" alt="" srcset="http://www.parquedelaesperanza.com/wp-content/uploads/2020/02/necesidad_futura.jpg 630w, http://www.parquedelaesperanza.com/wp-content/uploads/2020/02/necesidad_futura-300x200.jpg 300w" sizes="(max-width: 630px) 100vw, 630px" data-dt-location="http://www.parquedelaesperanza.com/inicio/attachment/necesidad_futura/" width="630" height="420"></div>
+                                                        <div class="vc_single_image-wrapper   vc_box_border_grey"><img src="/wp-content/uploads/2020/02/necesidad_futura.jpg" class="vc_single_image-img attachment-full" alt="" srcset="/wp-content/uploads/2020/02/necesidad_futura.jpg 630w, /wp-content/uploads/2020/02/necesidad_futura-300x200.jpg 300w" sizes="(max-width: 630px) 100vw, 630px" data-dt-location="/inicio/attachment/necesidad_futura/" width="630" height="420"></div>
                                                     </figure>
                                                 </div>
                                             </div>
@@ -203,7 +68,7 @@ function searchForId($id, $array1) {
                                                         </div>
                                                 </div>
                                                 <div class="vc_btn3-container  btn_mas_info   wpb_fadeInUp fadeInUp vc_btn3-inline wpb_start_animation animated">
-                                                    <a style="background-color:#ffffff; color:#dbb66d;" class="vc_general vc_btn3 vc_btn3-size-md vc_btn3-shape-rounded vc_btn3-style-custom" href="http://www.parquedelaesperanza.com/servicios/necesidad-futura/" title="Necesidad futura">Más información</a>
+                                                    <a style="background-color:#ffffff; color:#dbb66d;" class="vc_general vc_btn3 vc_btn3-size-md vc_btn3-shape-rounded vc_btn3-style-custom" href="/servicios/necesidad-futura/" title="Necesidad futura">Más información</a>
                                                 </div>
                                             </div>
                                         </div>
@@ -224,7 +89,7 @@ function searchForId($id, $array1) {
                                                     </div>
                                                 </div>
                                                 <div class="vc_btn3-container  btn_mas_info   wpb_fadeInUp fadeInUp vc_btn3-inline">
-                                                    <a style="background-color:#ffffff; color:#dbb66d;" class="vc_general vc_btn3 vc_btn3-size-md vc_btn3-shape-rounded vc_btn3-style-custom" href="http://www.parquedelaesperanza.com/servicios/necesidad-inmediata/" title="Necesidad Inmediata">Más información</a>
+                                                    <a style="background-color:#ffffff; color:#dbb66d;" class="vc_general vc_btn3 vc_btn3-size-md vc_btn3-shape-rounded vc_btn3-style-custom" href="/servicios/necesidad-inmediata/" title="Necesidad Inmediata">Más información</a>
                                                 </div>
                                             </div>
                                         </div>
@@ -234,7 +99,7 @@ function searchForId($id, $array1) {
                                             <div class="wpb_wrapper">
                                                 <div class="wpb_single_image wpb_content_element vc_align_center   wpb_slideInUp slideInUp wpb_start_animation animated">
                                                     <figure class="wpb_wrapper vc_figure">
-                                                        <div class="vc_single_image-wrapper   vc_box_border_grey"><img src="http://www.parquedelaesperanza.com/wp-content/uploads/2020/05/necesidad-inmediata-pe-tres.jpeg" class="vc_single_image-img attachment-full" alt="" srcset="http://www.parquedelaesperanza.com/wp-content/uploads/2020/05/necesidad-inmediata-pe-tres.jpeg 600w, http://www.parquedelaesperanza.com/wp-content/uploads/2020/05/necesidad-inmediata-pe-tres-300x200.jpeg 300w" sizes="(max-width: 600px) 100vw, 600px" data-dt-location="http://www.parquedelaesperanza.com/necesidad-inmediata-pe-tres/" width="600" height="400"></div>
+                                                        <div class="vc_single_image-wrapper   vc_box_border_grey"><img src="/wp-content/uploads/2020/05/necesidad-inmediata-pe-tres.jpeg" class="vc_single_image-img attachment-full" alt="" srcset="/wp-content/uploads/2020/05/necesidad-inmediata-pe-tres.jpeg 600w, /wp-content/uploads/2020/05/necesidad-inmediata-pe-tres-300x200.jpeg 300w" sizes="(max-width: 600px) 100vw, 600px" data-dt-location="/necesidad-inmediata-pe-tres/" width="600" height="400"></div>
                                                     </figure>
                                                 </div>
                                             </div>
@@ -249,7 +114,7 @@ function searchForId($id, $array1) {
                                             <div class="wpb_wrapper">
                                                 <div class="wpb_single_image wpb_content_element vc_align_center   wpb_slideInUp slideInUp">
                                                     <figure class="wpb_wrapper vc_figure">
-                                                        <div class="vc_single_image-wrapper   vc_box_border_grey"><img src="http://www.parquedelaesperanza.com/wp-content/uploads/2020/05/crematorio-parque-esperanza-general.jpg" class="vc_single_image-img attachment-full" alt="" srcset="http://www.parquedelaesperanza.com/wp-content/uploads/2020/05/crematorio-parque-esperanza-general.jpg 630w, http://www.parquedelaesperanza.com/wp-content/uploads/2020/05/crematorio-parque-esperanza-general-300x200.jpg 300w" sizes="(max-width: 630px) 100vw, 630px" data-dt-location="http://www.parquedelaesperanza.com/servicios/cremacion/attachment/crematorio-parque-esperanza-general/" width="630" height="420"></div>
+                                                        <div class="vc_single_image-wrapper   vc_box_border_grey"><img src="/wp-content/uploads/2020/05/crematorio-parque-esperanza-general.jpg" class="vc_single_image-img attachment-full" alt="" srcset="/wp-content/uploads/2020/05/crematorio-parque-esperanza-general.jpg 630w, /wp-content/uploads/2020/05/crematorio-parque-esperanza-general-300x200.jpg 300w" sizes="(max-width: 630px) 100vw, 630px" data-dt-location="/servicios/cremacion/attachment/crematorio-parque-esperanza-general/" width="630" height="420"></div>
                                                     </figure>
                                                 </div>
                                             </div>
@@ -267,7 +132,7 @@ function searchForId($id, $array1) {
                                                     </div>
                                                 </div>
                                                 <div class="vc_btn3-container  btn_mas_info   wpb_fadeInUp fadeInUp vc_btn3-inline">
-                                                    <a style="background-color:#ffffff; color:#dbb66d;" class="vc_general vc_btn3 vc_btn3-size-md vc_btn3-shape-rounded vc_btn3-style-custom" href="http://www.parquedelaesperanza.com/servicios/cremacion/" title="Cremación">Más información</a>
+                                                    <a style="background-color:#ffffff; color:#dbb66d;" class="vc_general vc_btn3 vc_btn3-size-md vc_btn3-shape-rounded vc_btn3-style-custom" href="/servicios/cremacion/" title="Cremación">Más información</a>
                                                 </div>
                                             </div>
                                         </div>
@@ -288,7 +153,7 @@ function searchForId($id, $array1) {
                                                     </div>
                                                 </div>
                                                 <div class="vc_btn3-container  btn_mas_info   wpb_fadeInUp fadeInUp vc_btn3-inline">
-                                                    <a style="background-color:#ffffff; color:#dbb66d;" class="vc_general vc_btn3 vc_btn3-size-md vc_btn3-shape-rounded vc_btn3-style-custom" href="http://www.parquedelaesperanza.com/servicios/sepelio/" title="Servicios de Sepelio">Más información</a>
+                                                    <a style="background-color:#ffffff; color:#dbb66d;" class="vc_general vc_btn3 vc_btn3-size-md vc_btn3-shape-rounded vc_btn3-style-custom" href="/servicios/sepelio/" title="Servicios de Sepelio">Más información</a>
                                                 </div>
                                             </div>
                                         </div>
@@ -298,7 +163,7 @@ function searchForId($id, $array1) {
                                             <div class="wpb_wrapper">
                                                 <div class="wpb_single_image wpb_content_element vc_align_center   wpb_slideInUp slideInUp">
                                                     <figure class="wpb_wrapper vc_figure">
-                                                        <div class="vc_single_image-wrapper   vc_box_border_grey"><img src="http://www.parquedelaesperanza.com/wp-content/uploads/2020/05/pe-toldoblanco-11.jpg" class="vc_single_image-img attachment-full" alt="" srcset="http://www.parquedelaesperanza.com/wp-content/uploads/2020/05/pe-toldoblanco-11.jpg 900w, http://www.parquedelaesperanza.com/wp-content/uploads/2020/05/pe-toldoblanco-11-300x200.jpg 300w, http://www.parquedelaesperanza.com/wp-content/uploads/2020/05/pe-toldoblanco-11-768x512.jpg 768w" sizes="(max-width: 900px) 100vw, 900px" data-dt-location="http://www.parquedelaesperanza.com/servicios/sepelio/attachment/pe-toldoblanco-11/" width="900" height="600"></div>
+                                                        <div class="vc_single_image-wrapper   vc_box_border_grey"><img src="/wp-content/uploads/2020/05/pe-toldoblanco-11.jpg" class="vc_single_image-img attachment-full" alt="" srcset="/wp-content/uploads/2020/05/pe-toldoblanco-11.jpg 900w, /wp-content/uploads/2020/05/pe-toldoblanco-11-300x200.jpg 300w, /wp-content/uploads/2020/05/pe-toldoblanco-11-768x512.jpg 768w" sizes="(max-width: 900px) 100vw, 900px" data-dt-location="/servicios/sepelio/attachment/pe-toldoblanco-11/" width="900" height="600"></div>
                                                     </figure>
                                                 </div>
                                             </div>
@@ -313,7 +178,7 @@ function searchForId($id, $array1) {
                                             <div class="wpb_wrapper">
                                                 <div class="wpb_single_image wpb_content_element vc_align_center   wpb_slideInUp slideInUp">
                                                     <figure class="wpb_wrapper vc_figure">
-                                                        <div class="vc_single_image-wrapper   vc_box_border_grey"><img src="http://www.parquedelaesperanza.com/wp-content/uploads/2020/02/servicio_velatorios_parque.jpg" class="vc_single_image-img attachment-full" alt="" srcset="http://www.parquedelaesperanza.com/wp-content/uploads/2020/02/servicio_velatorios_parque.jpg 630w, http://www.parquedelaesperanza.com/wp-content/uploads/2020/02/servicio_velatorios_parque-300x200.jpg 300w" sizes="(max-width: 630px) 100vw, 630px" data-dt-location="http://www.parquedelaesperanza.com/inicio/attachment/servicio_velatorios_parque/" width="630" height="420"></div>
+                                                        <div class="vc_single_image-wrapper   vc_box_border_grey"><img src="/wp-content/uploads/2020/02/servicio_velatorios_parque.jpg" class="vc_single_image-img attachment-full" alt="" srcset="/wp-content/uploads/2020/02/servicio_velatorios_parque.jpg 630w, /wp-content/uploads/2020/02/servicio_velatorios_parque-300x200.jpg 300w" sizes="(max-width: 630px) 100vw, 630px" data-dt-location="/inicio/attachment/servicio_velatorios_parque/" width="630" height="420"></div>
                                                     </figure>
                                                 </div>
                                             </div>
@@ -331,7 +196,7 @@ function searchForId($id, $array1) {
                                                     </div>
                                                 </div>
                                                 <div class="vc_btn3-container  btn_mas_info   wpb_fadeInUp fadeInUp vc_btn3-inline">
-                                                    <a style="background-color:#ffffff; color:#dbb66d;" class="vc_general vc_btn3 vc_btn3-size-md vc_btn3-shape-rounded vc_btn3-style-custom" href="http://www.parquedelaesperanza.com/servicios/velatorios/" title="Velatorios">Más información</a>
+                                                    <a style="background-color:#ffffff; color:#dbb66d;" class="vc_general vc_btn3 vc_btn3-size-md vc_btn3-shape-rounded vc_btn3-style-custom" href="/servicios/velatorios/" title="Velatorios">Más información</a>
                                                 </div>
                                             </div>
                                         </div>
@@ -352,7 +217,7 @@ function searchForId($id, $array1) {
                                                     </div>
                                                 </div>
                                                 <div class="vc_btn3-container  btn_mas_info   wpb_fadeInUp fadeInUp vc_btn3-inline">
-                                                    <a style="background-color:#ffffff; color:#dbb66d;" class="vc_general vc_btn3 vc_btn3-size-md vc_btn3-shape-rounded vc_btn3-style-custom" href="http://www.parquedelaesperanza.com/servicios/otros-servicios/" title="Otros servicios">Más información</a>
+                                                    <a style="background-color:#ffffff; color:#dbb66d;" class="vc_general vc_btn3 vc_btn3-size-md vc_btn3-shape-rounded vc_btn3-style-custom" href="/servicios/otros-servicios/" title="Otros servicios">Más información</a>
                                                 </div>
                                             </div>
                                         </div>
@@ -362,7 +227,7 @@ function searchForId($id, $array1) {
                                             <div class="wpb_wrapper">
                                                 <div class="wpb_single_image wpb_content_element vc_align_center   wpb_slideInUp slideInUp">
                                                     <figure class="wpb_wrapper vc_figure">
-                                                        <div class="vc_single_image-wrapper   vc_box_border_grey"><img src="http://www.parquedelaesperanza.com/wp-content/uploads/2020/02/otros_servicios_parque_esperanza.jpg" class="vc_single_image-img attachment-full" alt="" srcset="http://www.parquedelaesperanza.com/wp-content/uploads/2020/02/otros_servicios_parque_esperanza.jpg 650w, http://www.parquedelaesperanza.com/wp-content/uploads/2020/02/otros_servicios_parque_esperanza-300x200.jpg 300w" sizes="(max-width: 650px) 100vw, 650px" data-dt-location="http://www.parquedelaesperanza.com/inicio/attachment/otros_servicios_parque_esperanza/" width="650" height="433"></div>
+                                                        <div class="vc_single_image-wrapper   vc_box_border_grey"><img src="/wp-content/uploads/2020/02/otros_servicios_parque_esperanza.jpg" class="vc_single_image-img attachment-full" alt="" srcset="/wp-content/uploads/2020/02/otros_servicios_parque_esperanza.jpg 650w, /wp-content/uploads/2020/02/otros_servicios_parque_esperanza-300x200.jpg 300w" sizes="(max-width: 650px) 100vw, 650px" data-dt-location="/inicio/attachment/otros_servicios_parque_esperanza/" width="650" height="433"></div>
                                                     </figure>
                                                 </div>
                                             </div>
@@ -388,7 +253,7 @@ function searchForId($id, $array1) {
                                             <div class="wpb_wrapper">
                                                 <div class="wpb_single_image wpb_content_element vc_align_center">
                                                     <figure class="wpb_wrapper vc_figure">
-                                                        <div class="vc_single_image-wrapper   vc_box_border_grey"><img width="600" height="555" src="http://www.parquedelaesperanza.com/wp-content/uploads/2020/02/nido_parque_esperanza_acuarela.png" class="vc_single_image-img attachment-full" alt="" srcset="http://www.parquedelaesperanza.com/wp-content/uploads/2020/02/nido_parque_esperanza_acuarela.png 600w, http://www.parquedelaesperanza.com/wp-content/uploads/2020/02/nido_parque_esperanza_acuarela-300x278.png 300w" sizes="(max-width: 600px) 100vw, 600px" data-dt-location="http://www.parquedelaesperanza.com/servicios/attachment/nido_parque_esperanza_acuarela/" /></div>
+                                                        <div class="vc_single_image-wrapper   vc_box_border_grey"><img width="600" height="555" src="/wp-content/uploads/2020/02/nido_parque_esperanza_acuarela.png" class="vc_single_image-img attachment-full" alt="" srcset="/wp-content/uploads/2020/02/nido_parque_esperanza_acuarela.png 600w, /wp-content/uploads/2020/02/nido_parque_esperanza_acuarela-300x278.png 300w" sizes="(max-width: 600px) 100vw, 600px" data-dt-location="/servicios/attachment/nido_parque_esperanza_acuarela/" /></div>
                                                     </figure>
                                                 </div>
                                             </div>
