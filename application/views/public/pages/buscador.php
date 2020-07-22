@@ -31,6 +31,7 @@
                                     <div class="tarjeta" style="background-color: #F6F5EB;padding: 30px;">
 
                                         <?php echo form_open('/do_buscador', ['id' => 'frmBuscador']); ?>
+                                                                                
                                         <div class="form-row">
                                             <div class="form-group col-md-12">
                                                 <input type="text" id="nombre" name="nombre" placeholder="Nombres y/o apellidos" class="form-control form-control-lg" style="color: #495057;background-color: #fff;border: 1px solid #888888;border-radius: 0.3rem;font-size: 1.05rem;padding: 0.5rem 1rem;">

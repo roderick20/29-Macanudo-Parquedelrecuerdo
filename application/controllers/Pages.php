@@ -14,9 +14,9 @@ class Pages extends CI_Controller {
 
     public function index() {
         $this->load->model('BannerModel', 'Data', TRUE);
-        $this->load->model('TextModel', 'Text', TRUE);      
-        
-        
+        $this->load->model('TextModel', 'Text', TRUE);
+
+
 
         $data = array(
             'list' => $this->Data->getAllData('Home.Banner'),
@@ -29,13 +29,13 @@ class Pages extends CI_Controller {
 
     public function crematorio() {
         $this->load->model('TextModel', 'Text', TRUE);
-        $data = array(            
+        $data = array(
             'texts' => $this->Text->getAllByCategory('Crematorio'),
         );
         $this->template->set('title', 'Crematório');
         $this->template->load('template', 'contents', 'public/pages/crematorio', $data);
     }
-    
+
     public function ubicacion() {
         $data = array(
             'NombreCompleto' => $this->input->get('NombreCompleto'),
@@ -45,14 +45,14 @@ class Pages extends CI_Controller {
             'Ubicacion' => $this->input->get('Ubicacion'),
             'IdPlataforma' => $this->input->get('IdPlataforma')
         );
-        
+
         $this->template->set('title', 'Ubicación');
         $this->template->load('template', 'contents', 'public/pages/ubicacion', $data);
     }
 
     public function sepulturas() {
         $this->load->model('TextModel', 'Text', TRUE);
-        $data = array(            
+        $data = array(
             'texts' => $this->Text->getAllByCategory('Sepulturas'),
         );
         $this->template->set('title', 'Sepulturas');
@@ -93,10 +93,20 @@ class Pages extends CI_Controller {
     }
 
     public function do_buscador() {
-        $this->load->model('DataModel', 'Data', TRUE);
-        $data = array('list' => $this->Data->buscar($this->input->post('nombre')));
-        $this->template->set('title', 'Buscador');
-        $this->template->load('template', 'contents', 'public/pages/buscador', $data);
+        $getCsrfName = $this->security->get_csrf_token_name();
+        $getCsrfHash = $this->security->get_csrf_hash();
+        $csrfToken = $this->input->post($getCsrfName);
+        
+        if ($getCsrfHash == $csrfToken) {
+            $this->load->model('DataModel', 'Data', TRUE);
+            $data = array('list' => $this->Data->buscar($this->input->post('nombre')));
+            $this->template->set('title', 'Buscador');
+            $this->template->load('template', 'contents', 'public/pages/buscador', $data);
+        } else {
+            $data = array('list' => null );
+            $this->template->set('title', 'Buscador');
+            $this->template->load('template', 'contents', 'public/pages/buscador', $data);
+        }
     }
 
     public function blog() {

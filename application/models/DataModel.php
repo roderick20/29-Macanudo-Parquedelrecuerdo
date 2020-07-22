@@ -15,19 +15,22 @@ class DataModel extends CI_Model {
     }
     
     function buscar($nombre) {
-        $parque = $this->load->database('parque', TRUE);
+//        $parque = $this->load->database('parque', TRUE);
         
         $sql = "SELECT 
-                wp.[IdPersona]
-                ,wp.[NombreCompleto]      
-                ,wp.[Ubicacion]      
-                ,wp.[FechaNacimiento]
-                ,wp.[FechaDefuncion]
-                ,wp.[IdPlataforma]
-                ,(SELECT [Descripcion] FROM [Parque].[dbo].[Web_PlataformaSepultura] WHERE [IdCamposanto] = 5 AND [IdPlataformaSepultura] = wp.[IdPlataforma]) Plataforma     
-                FROM [dbo].[Web_Persona] wp WHERE wp.[IdCamposanto] = 5 AND wp.NombreCompleto LIKE ".$this->db->escape("%".$nombre."%");
+      [NombreCompleto]
+      ,[Direccion]
+      ,[Ubicacion]
+      ,[CodigoSepultura]
+      ,[IdPlataforma]
+      ,[Plataforma]      
+      ,[FechaNacimiento]
+      ,[FechaDefuncion]
+      ,[HoraDefuncion]
+      ,[FDefuncion]
+  FROM [PEWEB].[dbo].[view_BuscarDifuntos] WHERE NombreCompleto LIKE ".$this->db->escape("%".$nombre."%");
         
-        $query = $parque->query($sql);
+        $query = $this->db->query($sql);
         
        
         return $query->result_array();
