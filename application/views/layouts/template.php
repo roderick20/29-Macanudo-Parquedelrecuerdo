@@ -592,6 +592,11 @@
                         csrfName = data.csrfName;
                         csrfHash = data.csrfHash;
                         jQuery('div.wpcf7 .ajax-loader').css('visibility', 'hidden');
+                        jQuery('#form_nombre').val('');
+                        jQuery('#form_apellido').val('');
+                        jQuery('#form_email').val('');
+                        jQuery('#form_telefono').val('');
+                        jQuery('#form_mensaje').val('');
                         alert("Correo enviado, gracias");
                     },
                     error: function (XMLHttpRequest, textStatus, errorThrown) {
