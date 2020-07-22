@@ -31,6 +31,7 @@
                                     <div class="tarjeta" style="background-color: #F6F5EB;padding: 30px;">
 
                                         <?php echo form_open('/do_buscador', ['id' => 'frmBuscador']); ?>
+
                                         <div class="form-row">
                                             <div class="form-group col-md-12">
                                                 <input type="text" id="nombre" name="nombre" placeholder="Nombres y/o apellidos" class="form-control form-control-lg" style="color: #495057;background-color: #fff;border: 1px solid #888888;border-radius: 0.3rem;font-size: 1.05rem;padding: 0.5rem 1rem;">
@@ -38,12 +39,12 @@
                                         </div>
                                         <div class="form-row">
                                             <div class="form-group col-md-6">
-                                                <button type="submit" class="btn btn-md btn-block btn-enviar-form" style="background-color: #0E226C;color: white;">
-                                                    <i aria-hidden="true" class="far fa-clock"></i> Hora de sepelio
+                                                <button type="submit" class="btn btn-md btn-block btn-enviar-form" style="background-color: #0E226C;color: white;" name ="action" value="sepelios">
+                                                    <i aria-hidden="true" class="far fa-clock"></i> Sepelios del día
                                                 </button>
                                             </div>
                                             <div class="form-group col-md-6">
-                                                <button type="submit" class="btn btn-md btn-block btn-enviar-form" style="background-color: #0E226C;color: white;">
+                                                <button type="submit" class="btn btn-md btn-block btn-enviar-form" style="background-color: #0E226C;color: white;" name ="action" value="tumbas">
                                                     <i aria-hidden="true" class="fas fa-map-marker-alt"></i> Ubicación
                                                 </button>                                                   
 
@@ -51,37 +52,88 @@
                                         </div>
                                         <?php echo form_close(); ?>
                                         <br><br>
-                                        <div class="table-responsive">                                         
-                                            <table class="table table-striped" style="font-size: 0.8rem;">
-                                                <thead>
-                                                    <tr style="background-color: #D2B16E;color: white;">
-                                                        <th>Nombres y Apellidos</th>
-                                                        <th>Plataforma</th>
-                                                        <th>Código de Lapida</th>
-                                                        <th>Ubicación</th>
-                                                    </tr>
-                                                </thead>
-                                                <tbody>                                                    
-                                                    <?php
-                                                    if (isset($list)) {
-                                                        foreach ($list as $item) {
-                                                            ?>
+                                        <div class="table-responsive">  
+                                            <?php
+                                            if (isset($list)) {
 
-                                                            <tr>
-                                                                <td><?php echo $item["NombreCompleto"]; ?><br>
-                                                                    <?php echo $item["FechaNacimiento"]; ?> - <?php echo $item["FechaDefuncion"]; ?> </td>
-                                                                <td><?php echo $item["Plataforma"]; ?></td>
-                                                                <td><?php echo $item["Ubicacion"]; ?></td>
-                                                                <td>
-                                                                    <a href="<?php echo base_url(); ?>ubicacion?NombreCompleto=<?php echo $item["NombreCompleto"]; ?>&FechaNacimiento=<?php echo $item["FechaNacimiento"]; ?>&FechaDefuncion=<?php echo $item["FechaDefuncion"]; ?>&Plataforma=<?php echo $item["Plataforma"]; ?>&Ubicacion=<?php echo $item["Ubicacion"]; ?>&IdPlataforma=<?php echo $item["IdPlataforma"]; ?>" class="ubicacion" >Ver Ubicación</a>
-                                                                </td>
-                                                            </tr>
 
-                                                        <?php }
-                                                    }
+                                                if ($type == 'tumbas') {
                                                     ?>
-                                                </tbody>
-                                            </table>
+
+                                                    <table class="table table-striped" style="font-size: 0.8rem;">
+                                                        <thead>
+                                                            <tr style="background-color: #D2B16E;color: white;">
+                                                                <th>Nombres y Apellidos</th>
+                                                                <th>Plataforma</th>
+                                                                <th>Código de Lapida</th>
+                                                                <th>Ubicación</th>
+                                                            </tr>
+                                                        </thead>
+                                                        <tbody>                                                    
+                                                            <?php
+                                                            if (isset($list)) {
+                                                                foreach ($list as $item) {
+                                                                    ?>
+
+                                                                    <tr>
+                                                                        <td><?php echo $item["NombreCompleto"]; ?><br>
+                                                                            <?php echo $item["FechaNacimiento"]; ?> - <?php echo $item["FechaDefuncion"]; ?> </td>
+                                                                        <td><?php echo $item["Plataforma"]; ?></td>
+                                                                        <td><?php echo $item["Ubicacion"]; ?></td>
+                                                                        <td>
+                                                                            <a href="<?php echo base_url(); ?>ubicacion?NombreCompleto=<?php echo $item["NombreCompleto"]; ?>&FechaNacimiento=<?php echo $item["FechaNacimiento"]; ?>&FechaDefuncion=<?php echo $item["FechaDefuncion"]; ?>&Plataforma=<?php echo $item["Plataforma"]; ?>&Ubicacion=<?php echo $item["Ubicacion"]; ?>&IdPlataforma=<?php echo $item["IdPlataforma"]; ?>" class="ubicacion" >Ver Ubicación</a>
+                                                                        </td>
+                                                                    </tr>
+
+                                                                    <?php
+                                                                }
+                                                            }
+                                                            ?>
+                                                        </tbody>
+                                                    </table>
+                                                    <?php
+                                                } else {
+                                                    ?>
+
+                                                    <table class="table table-striped" style="font-size: 0.8rem;">
+                                                        <thead>
+                                                            <tr style="background-color: #D2B16E;color: white;">
+                                                                <th>Nombres y Apellidos</th>
+                                                                <th>Plataforma</th>
+                                                                <th>Fecha Sepelio / Hora Inhumación</th>
+                                                                <th>Ubicación</th>
+                                                            </tr>
+                                                        </thead>
+                                                        <tbody>                                                    
+                                                            <?php
+                                                            if (isset($list)) {
+                                                                foreach ($list as $item) {
+                                                                    ?>
+
+                                                                    <tr>
+                                                                        <td><?php echo $item["NombreCompleto"]; ?> </td>
+                                                                        <td><?php echo $item["Plataforma"]; ?> </td>
+                                                                        <td><?php echo $item["FechaSepelio"]; ?> / <?php echo $item["HoraInhumacion"]; ?></td>
+                                                                        <td>
+                                                                            <a href="<?php echo base_url(); ?>ubicacion?NombreCompleto=<?php echo $item["NombreCompleto"]; ?>
+                                                                               &FechaSepelio=<?php echo $item["FechaSepelio"]; ?>
+                                                                               &HoraInhumacion=<?php echo $item["HoraInhumacion"]; ?>
+                                                                               &Plataforma=<?php echo $item["Plataforma"]; ?>
+                                                                               &Ubicacion=<?php echo $item["Ubicacion"]; ?>
+                                                                               &IdPlataforma=<?php echo $item["IdPlataforma"]; ?>" class="ubicacion" >Ver Ubicación</a>
+                                                                        </td>
+                                                                    </tr>
+
+                                                                    <?php
+                                                                }
+                                                            }
+                                                            ?>
+                                                        </tbody>
+                                                    </table>
+                                                    <?php
+                                                }
+                                            }
+                                            ?>
                                         </div>
                                     </div>
                                     <div class="vc_empty_space"   style="height: 80px" >

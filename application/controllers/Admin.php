@@ -32,16 +32,26 @@ class Admin extends CI_Controller {
     }
 
     public function do_login() {
-        $this->load->model('UserModel', 'User', TRUE);
-        $this->User->Email = $this->input->post('Email');
-        $this->User->Password = $this->input->post('Password');
-        $user = $this->User->login();
+        $getCsrfName = $this->security->get_csrf_token_name();
+        $getCsrfHash = $this->security->get_csrf_hash();
+        $csrfToken = $this->input->post($getCsrfName);
 
-        if (isset($user)) {
-            $_SESSION['user'] = $user;
-            redirect('/Admin/Index');
+        if ($getCsrfHash == $csrfToken) {
+            $this->load->model('UserModel', 'User', TRUE);
+            $this->User->Email = $this->input->post('Email');
+            $this->User->Password = $this->input->post('Password');
+            $user = $this->User->login();
+
+            if (isset($user)) {
+                $_SESSION['user'] = $user;
+                redirect('/Admin/Index');
+            } else {
+                $data = array('message' => "Error usuario o password incorrecto");
+                $this->template->load('template_login', 'contents', 'admin/admin/login', $data);
+            }
         } else {
-            $data = array('message' => "Error usuario o password incorrecto");
+            $user = $this->session->userdata('user_data');
+            $data = array('message' => $user);
             $this->template->load('template_login', 'contents', 'admin/admin/login', $data);
         }
     }

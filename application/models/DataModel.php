@@ -13,23 +13,38 @@ class DataModel extends CI_Model {
     function __construct() {
         parent::__construct();
     }
-    
+
     function buscar($nombre) {
-        $parque = $this->load->database('parque', TRUE);
-        
         $sql = "SELECT 
-                wp.[IdPersona]
-                ,wp.[NombreCompleto]      
-                ,wp.[Ubicacion]      
-                ,wp.[FechaNacimiento]
-                ,wp.[FechaDefuncion]
-                ,wp.[IdPlataforma]
-                ,(SELECT [Descripcion] FROM [Parque].[dbo].[Web_PlataformaSepultura] WHERE [IdCamposanto] = 5 AND [IdPlataformaSepultura] = wp.[IdPlataforma]) Plataforma     
-                FROM [dbo].[Web_Persona] wp WHERE wp.[IdCamposanto] = 5 AND wp.NombreCompleto LIKE ".$this->db->escape("%".$nombre."%");
-        
-        $query = $parque->query($sql);
-        
-       
+      [NombreCompleto]
+      ,[Direccion]
+      ,[Ubicacion]
+      ,[CodigoSepultura]
+      ,[IdPlataforma]
+      ,[Plataforma]      
+      ,[FechaNacimiento]
+      ,[FechaDefuncion]
+      ,[HoraDefuncion]
+      ,[FDefuncion]
+  FROM [dbo].[view_BuscarDifuntos] WHERE NombreCompleto LIKE " . $this->db->escape("%" . $nombre . "%");
+
+        $query = $this->db->query($sql);
+        return $query->result_array();
+    }
+    
+    function buscar_sepelios($nombre) {
+        $sql = "SELECT 
+      s.FechaSepelio
+      ,s.HoraInhumacion
+      ,s.IdPlataforma as IdPlataforma
+      ,s.ApellidosDifunto + ' ' + s.NombresDifunto   as NombreCompleto     
+      ,p.Descripcion as Plataforma 
+      ,p.Descripcion as Ubicacion 
+  FROM [dbo].[Web_CargarSepelios] s
+  JOIN [dbo].[Web_PlataformaSepultura] p ON p.IdPlataformaSepultura = s.IdPlataforma   
+ WHERE s.ApellidosDifunto LIKE " . $this->db->escape("%" . $nombre . "%"). " OR s.NombresDifunto LIKE " . $this->db->escape("%" . $nombre . "%");
+
+        $query = $this->db->query($sql);
         return $query->result_array();
     }
 
@@ -49,21 +64,21 @@ class DataModel extends CI_Model {
         );
         $this->db->insert('Data', $data);
     }
-    
+
     public function getData($id) {
         $query = $this->db->get_where('Data', array('DataId' => $id));
         return $query->row_array();
     }
-    
+
     public function update() {
         $this->db->set('Title', $this->Title);
         $this->db->where('DataId', $this->DataId);
         $this->db->update('Data');
-    }    
+    }
 
     public function delete() {
         $this->db->where('DataId', $this->DataId);
-        $this->db->delete('Data');        
+        $this->db->delete('Data');
     }
 
     function GUID() {
