@@ -282,7 +282,7 @@
                 font-weight: 600;
             }
         </style>
-        
+
         <script src="<?php echo base_url(); ?>assets/theme/js/jquery_mas_plugins.js" type="text/javascript"></script>
         <!--<script src="<?php echo base_url(); ?>assets/theme/js/jquery-3.5.1.slim.min.js" type="text/javascript"></script>-->
 
@@ -308,7 +308,7 @@
                     <div class="right-widgets mini-widgets">
                         <span class="mini-contacts phone show-on-desktop in-top-bar-right in-menu-second-switch first last" style="font-size: 25px;"><i class=" the7-mw-icon-phone" style="font-size: 25px;"></i>(054) 604 848</span>
                     </div>	
-                    
+
                 </div>
                 <header class="header-bar">
                     <div class="branding">
@@ -392,45 +392,45 @@
             <div class='dt-mobile-header'>
                 <ul id="mobile-menu" class="mobile-main-nav" role="menu">
                     <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home current-menu-item page_item page-item-131 current_page_item menu-item-177 act first">
-                        <a href='/' data-level='1'><span class="menu-item-text"><span class="menu-text">Inicio</span></span></a>
+                        <a href='<?php echo base_url(); ?>' data-level='1'><span class="menu-item-text"><span class="menu-text">Inicio</span></span></a>
                     </li> 
                     <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-205 has-children">
-                        <a href='/servicios/' data-level='1'><span class="menu-item-text"><span class="menu-text">Servicios</span></span></a>
+                        <a href='<?php echo base_url(); ?>servicios/' data-level='1'><span class="menu-item-text"><span class="menu-text">Servicios</span></span></a>
                         <ul class="sub-nav hover-style-bg level-arrows-on">
                             <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-470 first">
-                                <a href='/servicios/necesidad-futura/' data-level='2'><span class="menu-item-text"><span class="menu-text">Necesidad Futura</span></span></a>
+                                <a href='<?php echo base_url(); ?>servicios/necesidad-futura/' data-level='2'><span class="menu-item-text"><span class="menu-text">Necesidad Futura</span></span></a>
                             </li> 
                             <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-469">
-                                <a href='/servicios/necesidad-inmediata/' data-level='2'><span class="menu-item-text"><span class="menu-text">Necesidad Inmediata</span></span></a>
+                                <a href='<?php echo base_url(); ?>servicios/necesidad-inmediata/' data-level='2'><span class="menu-item-text"><span class="menu-text">Necesidad Inmediata</span></span></a>
                             </li> 
                             <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-468">
-                                <a href='/servicios/cremacion/' data-level='2'><span class="menu-item-text"><span class="menu-text">Cremación</span></span></a>
+                                <a href='<?php echo base_url(); ?>servicios/cremacion/' data-level='2'><span class="menu-item-text"><span class="menu-text">Cremación</span></span></a>
                             </li> 
                             <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-467">
-                                <a href='/servicios/sepelio/' data-level='2'><span class="menu-item-text"><span class="menu-text">Servicio de Sepelio</span></span></a>
+                                <a href='<?php echo base_url(); ?>servicios/sepelio/' data-level='2'><span class="menu-item-text"><span class="menu-text">Servicio de Sepelio</span></span></a>
                             </li> 
                             <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-466">
-                                <a href='/servicios/velatorios/' data-level='2'><span class="menu-item-text"><span class="menu-text">Velatorios</span></span></a>
+                                <a href='<?php echo base_url(); ?>servicios/velatorios/' data-level='2'><span class="menu-item-text"><span class="menu-text">Velatorios</span></span></a>
                             </li> 
                             <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-465">
-                                <a href='/servicios/otros-servicios/' data-level='2'><span class="menu-item-text"><span class="menu-text">Otros servicios</span></span></a>
+                                <a href='<?php echo base_url(); ?>servicios/otros-servicios/' data-level='2'><span class="menu-item-text"><span class="menu-text">Otros servicios</span></span></a>
                             </li> 
                         </ul>
                     </li> 
                     <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-691">
-                        <a href='/crematorio/' data-level='1'><span class="menu-item-text"><span class="menu-text">Crematorio</span></span></a>
+                        <a href='<?php echo base_url(); ?>crematorio/' data-level='1'><span class="menu-item-text"><span class="menu-text">Crematorio</span></span></a>
                     </li> 
                     <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-353">
-                        <a href='/sepulturas/' data-level='1'><span class="menu-item-text"><span class="menu-text">Sepulturas</span></span></a>
+                        <a href='<?php echo base_url(); ?>sepulturas/' data-level='1'><span class="menu-item-text"><span class="menu-text">Sepulturas</span></span></a>
                     </li> 
                     <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-181">
-                        <a href='/galeria/' data-level='1'><span class="menu-item-text"><span class="menu-text">Galería</span></span></a>
+                        <a href='<?php echo base_url(); ?>galeria/' data-level='1'><span class="menu-item-text"><span class="menu-text">Galería</span></span></a>
                     </li> 
                     <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-294">
-                        <a href='/preguntas-frecuentes/' data-level='1'><span class="menu-item-text"><span class="menu-text">Preguntas Frecuentes</span></span></a>
+                        <a href='<?php echo base_url(); ?>preguntas-frecuentes/' data-level='1'><span class="menu-item-text"><span class="menu-text">Preguntas Frecuentes</span></span></a>
                     </li> 
                     <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-179">
-                        <a href='/contacto/' data-level='1'><span class="menu-item-text"><span class="menu-text">Contacto</span></span></a>
+                        <a href='<?php echo base_url(); ?>contacto/' data-level='1'><span class="menu-item-text"><span class="menu-text">Contacto</span></span></a>
                     </li> 	
                 </ul>
                 <div class='mobile-mini-widgets-in-menu'></div>
@@ -517,12 +517,12 @@
 
     <script type='text/javascript'>
             /* <![CDATA[ */
-            var wpcf7 = {"apiSettings": {"root": "http:\/\/www.parquedelaesperanza.com\/wp-json\/contact-form-7\/v1", "namespace": "contact-form-7\/v1"}};
+//            var wpcf7 = {"apiSettings": {"root": "http:\/\/www.parquedelaesperanza.com\/wp-json\/contact-form-7\/v1", "namespace": "contact-form-7\/v1"}};
             /* ]]> */
     </script>
-    
+
     <script src="<?php echo base_url(); ?>assets/theme/js/scripts.js" type="text/javascript"></script>
-    <script type='text/javascript' src='https://www.google.com/recaptcha/api.js?render=6LfD56MZAAAAAJefbA9hqJjLAh4aG6oD6-uh7Xob&#038;ver=3.0'></script>
+    <!--<script type='text/javascript' src='https://www.google.com/recaptcha/api.js?render=6LfD56MZAAAAAJefbA9hqJjLAh4aG6oD6-uh7Xob&#038;ver=3.0'></script>-->
     <script src="<?php echo base_url(); ?>assets/theme/js/legacy.min.js" type="text/javascript"></script>
     <script src="<?php echo base_url(); ?>assets/theme/js/info-box.min.js" type="text/javascript"></script>
     <script src="<?php echo base_url(); ?>assets/theme/js/wp-embed.min.js" type="text/javascript"></script>
@@ -537,57 +537,71 @@
 <script type='text/javascript' src='/wp-content/plugins/js_composer/assets/lib/waypoints/waypoints.min.js?ver=5.7'></script>
     -->
 
-
+<!--    <script src="<?php echo base_url(); ?>assets/theme_admin/vendor/jquery/jquery.min.js" type="text/javascript"></script>-->
 
 
     <script type="text/javascript">
-            (function (sitekey, actions) {
-                document.addEventListener('DOMContentLoaded', function (event) {
-                    var wpcf7recaptcha = {
-                        execute: function (action) {
-                            grecaptcha.execute(
-                                    sitekey,
-                                    {action: action}
-                            ).then(function (token) {
-                                var event = new CustomEvent('wpcf7grecaptchaexecuted', {
-                                    detail: {
-                                        action: action,
-                                        token: token,
-                                    },
-                                });
-                                document.dispatchEvent(event);
-                            });
-                        },
-                        executeOnHomepage: function () {
-                            wpcf7recaptcha.execute(actions['homepage']);
-                        },
-                        executeOnContactform: function () {
-                            wpcf7recaptcha.execute(actions['contactform']);
-                        },
-                    };
-                    grecaptcha.ready(
-                            wpcf7recaptcha.executeOnHomepage
-                            );
-                    document.addEventListener('change',
-                            wpcf7recaptcha.executeOnContactform, false
-                            );
-                    document.addEventListener('wpcf7submit',
-                            wpcf7recaptcha.executeOnHomepage, false
-                            );
-                });
-                document.addEventListener('wpcf7grecaptchaexecuted', function (event) {
-                    var fields = document.querySelectorAll(
-                            "form.wpcf7-form input[name='g-recaptcha-response']"
-                            );
-                    for (var i = 0; i < fields.length; i++) {
-                        var field = fields[i];
-                        field.setAttribute('value', event.detail.token);
+
+            var csrfName = '<?php echo $this->security->get_csrf_token_name(); ?>';
+            var csrfHash = '<?php echo $this->security->get_csrf_hash(); ?>';
+
+
+
+            jQuery("#btnEnviar").click(function () {
+                if (jQuery('#form_nombre').val() == '') {
+                    alert("Ingrese nombre");
+                    return;
+                }
+                if (jQuery('#form_apellido').val() == '') {
+                    alert("Ingrese apellido");
+                    return;
+                }
+                if (jQuery('#form_telefono').val() == '') {
+                    alert("Ingrese telefono");
+                    return;
+                }
+                if (jQuery('#form_email').val() == '') {
+                    alert("Ingrese email");
+                    return;
+                }
+                if (jQuery('#form_mensaje').val() == '') {
+                    alert("Ingrese mensaje");
+                    return;
+                }
+
+                if (!jQuery('#form_terminos_condiciones').prop('checked')) {
+                    alert('Debe aceptar los términos y condiciones ');
+                    return;
+                }
+
+                var dataJson = {[csrfName]: csrfHash,
+                    nombre: jQuery('#form_nombre').val(),
+                    apellidos: jQuery('#form_apellido').val(),
+                    email: jQuery('#form_email').val(),
+                    telefono: jQuery('#form_telefono').val(),
+                    mensaje: jQuery('#form_mensaje').val(),
+                    pagina: jQuery('#form_pagina').val()};
+
+                jQuery('div.wpcf7 .ajax-loader').css('visibility', 'visible')
+                jQuery.ajax({
+                    url: "/ContactenosForm",
+                    type: 'post',
+                    data: dataJson,
+                    success: function (data)
+                    {
+                        csrfName = data.csrfName;
+                        csrfHash = data.csrfHash;
+                        jQuery('div.wpcf7 .ajax-loader').css('visibility', 'hidden');
+                        alert("Correo enviado, gracias");
+                    },
+                    error: function (XMLHttpRequest, textStatus, errorThrown) {
+                        csrfName = data.csrfName;
+                        csrfHash = data.csrfHash;
+                        jQuery('div.wpcf7 .ajax-loader').css('visibility', 'hidden')
+                        alert("Error en envio de correo");
                     }
                 });
-            })(
-                    '6LfD56MZAAAAAJefbA9hqJjLAh4aG6oD6-uh7Xob',
-                    {"homepage": "homepage", "contactform": "contactform"}
-            );
+            });
     </script>
     <div class="pswp" tabindex="-1" role="dialog" aria-hidden="true">
         <div class="pswp__bg"></div>

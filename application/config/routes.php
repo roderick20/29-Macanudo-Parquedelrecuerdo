@@ -72,3 +72,6 @@ $route['blog'] = 'pages/blog';
 $route['post/(:any)'] = 'pages/post/$1';
 $route['politica-privacidad'] = 'pages/politica_privacidad';
 
+$route['ContactenosForm'] = 'pages/ContactenosForm';
+
+

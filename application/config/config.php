@@ -453,7 +453,7 @@ $config['csrf_token_name'] = 'csrf_app_name';
 $config['csrf_cookie_name'] = 'csrf_cookie_name';
 $config['csrf_expire'] = 7200;
 $config['csrf_regenerate'] = TRUE;
-$config['csrf_exclude_uris'] = array( 'do_buscador', '/admin/do_login');//array de formularios
+$config['csrf_exclude_uris'] = array( 'do_buscador', '/admin/do_login', 'ContactenosForm');//array de formularios
 
 /*
 |--------------------------------------------------------------------------
