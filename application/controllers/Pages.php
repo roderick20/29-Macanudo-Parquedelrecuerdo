@@ -96,14 +96,23 @@ class Pages extends CI_Controller {
         $getCsrfName = $this->security->get_csrf_token_name();
         $getCsrfHash = $this->security->get_csrf_hash();
         $csrfToken = $this->input->post($getCsrfName);
-        
+
         if ($getCsrfHash == $csrfToken) {
-            $this->load->model('DataModel', 'Data', TRUE);
-            $data = array('list' => $this->Data->buscar($this->input->post('nombre')));
-            $this->template->set('title', 'Buscador');
-            $this->template->load('template', 'contents', 'public/pages/buscador', $data);
+
+            if ($this->input->post('action') == 'tumbas') {
+                $this->load->model('DataModel', 'Data', TRUE);
+                $data = array('list' => $this->Data->buscar($this->input->post('nombre')), 'type' => 'tumbas');
+                $this->template->set('title', 'Buscador');
+                $this->template->load('template', 'contents', 'public/pages/buscador', $data);
+            }
+            if($this->input->post('action') == 'sepelios'){
+                $this->load->model('DataModel', 'Data', TRUE);
+                $data = array('list' => $this->Data->buscar_sepelios($this->input->post('nombre')), 'type' => 'sepelios');
+                $this->template->set('title', 'Buscador');
+                $this->template->load('template', 'contents', 'public/pages/buscador', $data);
+            }
         } else {
-            $data = array('list' => null );
+            $data = array('list' => null);
             $this->template->set('title', 'Buscador');
             $this->template->load('template', 'contents', 'public/pages/buscador', $data);
         }
