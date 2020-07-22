@@ -7,8 +7,8 @@ $query_builder = TRUE;
 
 $db['default'] = array(
 	'dsn'	=> '',
-	'hostname' => 'WIN-P3761AM5DC1\SQLEXPRESS',
-	'username' => 'sa',
+	'hostname' => '.\SQLEXPRESS',
+	'username' => 'sa2',
 	'password' => 'Aladino_09',
 	'database' => 'Parque',
 	'dbdriver' => 'sqlsrv',
@@ -29,8 +29,8 @@ $db['default'] = array(
 
 $db['parque'] = array(
 	'dsn'	=> '',
-	'hostname' => 'WIN-P3761AM5DC1\SQLEXPRESS',
-	'username' => 'sa',
+	'hostname' => '.\SQLEXPRESS',
+	'username' => 'sa2',
 	'password' => 'Aladino_09',
 	'database' => 'Parque',
 	'dbdriver' => 'sqlsrv',
