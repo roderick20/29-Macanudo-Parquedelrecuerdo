@@ -453,12 +453,12 @@
                             </div>
                         </section><section id="text-4" class="widget widget_text wf-cell wf-1-1">			<div class="textwidget"><ul>
                                     <li><a href="<?php echo base_url(); ?>">Inicio</a></li>
-                                    <li><a href="<?php echo base_url(); ?>/servicios/">Servicios</a></li>
-                                    <li><a href="<?php echo base_url(); ?>/crematorio/">Crematorio</a></li>
-                                    <li><a href="<?php echo base_url(); ?>/sepulturas/">Sepulturas</a></li>
-                                    <li><a href="<?php echo base_url(); ?>/galeria/">Galería</a></li>
-                                    <li><a href="<?php echo base_url(); ?>/preguntas-frecuentes/">Preguntas frecuentes</a></li>
-                                    <li><a href="<?php echo base_url(); ?>/contacto">Contacto</a></li>
+                                    <li><a href="<?php echo base_url(); ?>servicios/">Servicios</a></li>
+                                    <li><a href="<?php echo base_url(); ?>crematorio/">Crematorio</a></li>
+                                    <li><a href="<?php echo base_url(); ?>sepulturas/">Sepulturas</a></li>
+                                    <li><a href="<?php echo base_url(); ?>galeria/">Galería</a></li>
+                                    <li><a href="<?php echo base_url(); ?>preguntas-frecuentes/">Preguntas frecuentes</a></li>
+                                    <li><a href="<?php echo base_url(); ?>contacto">Contacto</a></li>
                                 </ul>
                             </div>
                         </section>					</div><!-- .wf-container -->
@@ -589,15 +589,22 @@
                     data: dataJson,
                     success: function (data)
                     {
+                        data =jQuery.parseJSON(data);
                         csrfName = data.csrfName;
                         csrfHash = data.csrfHash;
-                        jQuery('div.wpcf7 .ajax-loader').css('visibility', 'hidden');
-                        jQuery('#form_nombre').val('');
-                        jQuery('#form_apellido').val('');
-                        jQuery('#form_email').val('');
-                        jQuery('#form_telefono').val('');
-                        jQuery('#form_mensaje').val('');
-                        alert("Correo enviado, gracias");
+                        if (data.resultado == 'ok') {
+                            jQuery('div.wpcf7 .ajax-loader').css('visibility', 'hidden');
+                            jQuery('#form_nombre').val('');
+                            jQuery('#form_apellido').val('');
+                            jQuery('#form_email').val('');
+                            jQuery('#form_telefono').val('');
+                            jQuery('#form_mensaje').val('');
+                            jQuery('#form_terminos_condiciones').prop('checked', '')
+                            alert("Correo enviado, gracias");
+                        } else {
+                            jQuery('div.wpcf7 .ajax-loader').css('visibility', 'hidden')
+                            alert("Error en envio de correo");
+                        }
                     },
                     error: function (XMLHttpRequest, textStatus, errorThrown) {
                         csrfName = data.csrfName;

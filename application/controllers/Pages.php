@@ -154,7 +154,7 @@ class Pages extends CI_Controller {
             $this->email->subject('Informacion desde pagina Web');
 
             $mensaje = '<style>table, th, td { border: 1px solid black; }</style>'
-                    . '<table >'
+                    . '<table style="width: 100%;" >'
                     . '<tr><td>Nombre</td><td>' . $this->input->post('nombre') . '</td></tr>'
                     . '<tr><td>Apellido</td><td>' . $this->input->post('apellidos') . '</td></tr>'
                     . '<tr><td>Telefono</td><td>' . $this->input->post('telefono') . '</td></tr>'
@@ -169,7 +169,7 @@ class Pages extends CI_Controller {
                 $reponse = array(
                     'csrfName' => $this->security->get_csrf_token_name(),
                     'csrfHash' => $this->security->get_csrf_hash(),
-                    'rultado' => 'ok'
+                    'resultado' => 'ok'
                 );
 
                 echo json_encode($reponse);
@@ -177,7 +177,7 @@ class Pages extends CI_Controller {
                 $reponse = array(
                     'csrfName' => $this->security->get_csrf_token_name(),
                     'csrfHash' => $this->security->get_csrf_hash(),
-                    'rultado' => 'mal'
+                    'resultado' => 'mal'
                 );
 
                 echo json_encode($reponse);
@@ -186,7 +186,7 @@ class Pages extends CI_Controller {
             $reponse = array(
                 'csrfName' => $this->security->get_csrf_token_name(),
                 'csrfHash' => $this->security->get_csrf_hash(),
-                'rultado' => 'mal'
+                'resultado' => 'mal'
             );
 
             echo json_encode($reponse);
