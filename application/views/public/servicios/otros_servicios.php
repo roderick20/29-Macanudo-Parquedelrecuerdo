@@ -39,20 +39,11 @@ function searchForId($id, $array1) {
                                     <div class="wpb_column vc_column_container vc_col-sm-6">
                                         <div class="vc_column-inner vc_custom_1590460223748">
                                             <div class="wpb_wrapper">
-                                                <div class="wpb_text_column wpb_content_element  wpb_animate_when_almost_visible wpb_fadeIn fadeIn">
-                                                    
+                                                <div class="wpb_text_column wpb_content_element  wpb_animate_when_almost_visible wpb_fadeIn fadeIn">                                                    
                                                     <?php
-                                                        echo searchForId('ServiciosOtrosServicios.Texto1', $texts)['Description'];
-                                                        ?>
-                                                    
-                                                    
-                                                    
-<!--                                                    <div class="wpb_wrapper">
-                                                        <p style="text-align: justify;"><strong>Lápidas</strong></p>
-                                                        <p style="text-align: justify;">Usted podrá rendirle un tributo de reconocimiento a su ser querido y para ello contamos con exclusivas lapidas de granito negro.</p>
-                                                        <p><strong>Cofres para cenizas</strong></p>
-                                                        <p>Igualmente al optar por la cremación podrá elegir, cofres exclusivos que ofrece Parque de la Esperanza.</p>
-                                                    </div>-->
+                                                        $getinformacion = searchForId('ServiciosOtrosServicios.Texto1', $texts);
+                                                        echo $getinformacion['Description'];
+                                                        ?>                                                    
                                                 </div>
                                             </div>
                                         </div>

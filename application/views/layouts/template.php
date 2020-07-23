@@ -529,92 +529,9 @@
     <script src="<?php echo base_url(); ?>assets/theme/js/js_composer_front.min.js" type="text/javascript"></script>
     <script src="<?php echo base_url(); ?>assets/theme/js/waypoints.min.js" type="text/javascript"></script>
 
-
-<!--    <script type='text/javascript' src='/wp-content/themes/dt-the7/js/legacy.min.js?ver=5.2.7'></script>
-<script type='text/javascript' src='/wp-content/plugins/Ultimate_VC_Addons/assets/min-js/info-box.min.js?ver=3.16.22'></script>
-<script type='text/javascript' src='/wp-includes/js/wp-embed.min.js?ver=5.2.7'></script>
-<script type='text/javascript' src='/wp-content/plugins/js_composer/assets/js/dist/js_composer_front.min.js?ver=5.7'></script>
-<script type='text/javascript' src='/wp-content/plugins/js_composer/assets/lib/waypoints/waypoints.min.js?ver=5.7'></script>
-    -->
-
-<!--    <script src="<?php echo base_url(); ?>assets/theme_admin/vendor/jquery/jquery.min.js" type="text/javascript"></script>-->
-
-
-    <script type="text/javascript">
-
-            var csrfName = '<?php echo $this->security->get_csrf_token_name(); ?>';
-            var csrfHash = '<?php echo $this->security->get_csrf_hash(); ?>';
-
-
-
-            jQuery("#btnEnviar").click(function () {
-                if (jQuery('#form_nombre').val() == '') {
-                    alert("Ingrese nombre");
-                    return;
-                }
-                if (jQuery('#form_apellido').val() == '') {
-                    alert("Ingrese apellido");
-                    return;
-                }
-                if (jQuery('#form_telefono').val() == '') {
-                    alert("Ingrese telefono");
-                    return;
-                }
-                if (jQuery('#form_email').val() == '') {
-                    alert("Ingrese email");
-                    return;
-                }
-                if (jQuery('#form_mensaje').val() == '') {
-                    alert("Ingrese mensaje");
-                    return;
-                }
-
-                if (!jQuery('#form_terminos_condiciones').prop('checked')) {
-                    alert('Debe aceptar los términos y condiciones ');
-                    return;
-                }
-
-                var dataJson = {[csrfName]: csrfHash,
-                    nombre: jQuery('#form_nombre').val(),
-                    apellidos: jQuery('#form_apellido').val(),
-                    email: jQuery('#form_email').val(),
-                    telefono: jQuery('#form_telefono').val(),
-                    mensaje: jQuery('#form_mensaje').val(),
-                    pagina: jQuery('#form_pagina').val()};
-
-                jQuery('div.wpcf7 .ajax-loader').css('visibility', 'visible')
-                jQuery.ajax({
-                    url: "/ContactenosForm",
-                    type: 'post',
-                    data: dataJson,
-                    success: function (data)
-                    {
-                        data =jQuery.parseJSON(data);
-                        csrfName = data.csrfName;
-                        csrfHash = data.csrfHash;
-                        if (data.resultado == 'ok') {
-                            jQuery('div.wpcf7 .ajax-loader').css('visibility', 'hidden');
-                            jQuery('#form_nombre').val('');
-                            jQuery('#form_apellido').val('');
-                            jQuery('#form_email').val('');
-                            jQuery('#form_telefono').val('');
-                            jQuery('#form_mensaje').val('');
-                            jQuery('#form_terminos_condiciones').prop('checked', '')
-                            alert("Correo enviado, gracias");
-                        } else {
-                            jQuery('div.wpcf7 .ajax-loader').css('visibility', 'hidden')
-                            alert("Error en envio de correo");
-                        }
-                    },
-                    error: function (XMLHttpRequest, textStatus, errorThrown) {
-                        csrfName = data.csrfName;
-                        csrfHash = data.csrfHash;
-                        jQuery('div.wpcf7 .ajax-loader').css('visibility', 'hidden')
-                        alert("Error en envio de correo");
-                    }
-                });
-            });
-    </script>
+    <script src="<?php echo base_url(); ?>assets/index/email.js" type="text/javascript"></script>
+   
+    
     <div class="pswp" tabindex="-1" role="dialog" aria-hidden="true">
         <div class="pswp__bg"></div>
         <div class="pswp__scroll-wrap">

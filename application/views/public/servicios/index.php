@@ -63,7 +63,8 @@ function searchForId($id, $array1) {
                                                     <div class="wpb_wrapper">
                                                         <h2><strong>Compra anticipada – Necesidad Futura</strong></h2>
                                                         <?php
-                                                        echo searchForId('Servicios.CompraAnticipadaNecesidadFutura', $texts)['Description'];
+                                                        $getinformacion = searchForId('Servicios.CompraAnticipadaNecesidadFutura', $texts);
+                                                        echo $getinformacion['Description'];
                                                         ?>
                                                         </div>
                                                 </div>
@@ -84,7 +85,8 @@ function searchForId($id, $array1) {
                                                     <div class="wpb_wrapper">
                                                         <h2><strong>Compra inaplazable – Necesidad Inmediata</strong></h2>
                                                         <?php
-                                                        echo searchForId('Servicios.CompraInaplazableNecesidadInmediata', $texts)['Description'];
+                                                        $getinformacion = searchForId('Servicios.CompraInaplazableNecesidadInmediata', $texts);
+                                                        echo $getinformacion['Description'];
                                                         ?>
                                                     </div>
                                                 </div>
@@ -127,7 +129,8 @@ function searchForId($id, $array1) {
                                                     <div class="wpb_wrapper">
                                                         <h2>Cremación</h2>
                                                         <?php
-                                                        echo searchForId('Servicios.Cremacion', $texts)['Description'];
+                                                        $getinformacion =  searchForId('Servicios.Cremacion', $texts);
+                                                        echo $getinformacion['Description'];
                                                         ?>
                                                     </div>
                                                 </div>
@@ -148,7 +151,8 @@ function searchForId($id, $array1) {
                                                     <div class="wpb_wrapper">
                                                         <h2><strong>Sepelio</strong></h2>
                                                         <?php
-                                                        echo searchForId('Servicios.Sepelio', $texts)['Description'];
+                                                        $getinformacion = searchForId('Servicios.Sepelio', $texts);
+                                                        echo $getinformacion['Description'];
                                                         ?>
                                                     </div>
                                                 </div>
@@ -191,7 +195,8 @@ function searchForId($id, $array1) {
                                                     <div class="wpb_wrapper">
                                                         <h2>Velatorios</h2>
                                                         <?php
-                                                        echo searchForId('Servicios.Velatorios', $texts)['Description'];
+                                                        $getinformacion = searchForId('Servicios.Velatorios', $texts);
+                                                        echo $getinformacion['Description'];
                                                         ?>
                                                     </div>
                                                 </div>
@@ -212,7 +217,8 @@ function searchForId($id, $array1) {
                                                     <div class="wpb_wrapper">
                                                         <h2>Otros servicios</h2>
                                                         <?php
-                                                        echo searchForId('Servicios.OtrosServicios', $texts)['Description'];
+                                                        $getinformacion = searchForId('Servicios.OtrosServicios', $texts);
+                                                        echo $getinformacion['Description'];
                                                         ?>
                                                     </div>
                                                 </div>

@@ -43,16 +43,10 @@ function searchForId($id, $array1) {
                                                 <div class="wpb_text_column wpb_content_element  wpb_animate_when_almost_visible wpb_fadeIn fadeIn">
                                                     
                                                     <?php
-                                                        echo searchForId('ServiciosVelatorios.Texto1', $texts)['Description'];
+                                                        $getinformacion = searchForId('ServiciosVelatorios.Texto1', $texts);
+                                                        echo $getinformacion['Description'];
                                                         ?>
-                                                    
-                                                    
-<!--                                                    <div class="wpb_wrapper">
-                                                        <p>Parque de la Esperanza cuenta con cómodos y acogedores espacios para despedir a su ser querido.</p>
-                                                        <p>Contamos con dos salones velatorios, Esperanza y San Juan con moderno diseño, cafetería, y equipo especializado que se hará cargo de cada detalle que necesite.</p>
-                                                        <p>&#8211; Velatorio Esperanza</p>
-                                                        <p>&#8211; Velatorio San Juan</p>
-                                                    </div>-->
+
                                                 </div>
                                             </div>
                                         </div>

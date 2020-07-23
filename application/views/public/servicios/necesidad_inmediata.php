@@ -14,23 +14,6 @@ function searchForId($id, $array1) {
 ?>
 <link href="/assets/index/necesitdad_inmediata.css" rel="stylesheet" type="text/css"/>
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 <div id="main" class="sidebar-none sidebar-divider-vertical" style="padding-bottom:0px;">
     <div class="main-gradient"></div>
     <div class="wf-wrap">
@@ -54,27 +37,15 @@ function searchForId($id, $array1) {
                                 <div class="vc_row wpb_row vc_inner vc_row-fluid">
                                     <div class="wpb_column vc_column_container vc_col-sm-6">
                                         <?php
-                                                        echo searchForId('ServiciosCompraInaplazable.Texto1', $texts)['Description'];
-                                                        ?>
-<!--                                        <div class="vc_column-inner">
-                                            <div class="wpb_wrapper">
-                                                <div class="wpb_text_column wpb_content_element  wpb_animate_when_almost_visible wpb_fadeIn fadeIn">
-                                                    <div class="wpb_wrapper">
-                                                        <p style="text-align: center; color: #40454a; font-size: 23px; margin-bottom: 20px;"><strong>¿Por qué se debe elegir Parque de la Esperanza?<br />
-                                                            </strong></p>
-                                                        <p style="text-align: justify;">Se debe elegir Parque de la Esperanza porque al perder un ser querido nos encontramos emocionalmente afectados y muy vulnerables, en esos momentos de dolor nos vemos obligados a tomar decisiones inmediatas.</p>
-                                                        <p style="text-align: justify;">Siempre buscamos ofrecerle lo mejor a nuestro ser querido quien en vida nos dio amor, enseñanzas y valiosos ejemplos.</p>
-                                                        <p style="text-align: justify;">Es cuando Parque de la Esperanza se convierte en el mejor tributo brindando un homenaje de despedida lleno de amor y reverencia.</p>
-                                                        <p style="text-align: justify;">Usted podrá elegir entre los diferentes tipos de sepulturas y servicios que ofrece Parque de la Esperanza.</p>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>-->
+                                        $getinformacion = searchForId('ServiciosCompraInaplazable.Texto1', $texts);
+                                        echo $getinformacion['Description'];
+                                        ?>
+
                                     </div>
                                     <div class="wpb_column vc_column_container vc_col-sm-6">
                                         <div class="vc_column-inner">
                                             <div class="wpb_wrapper">
-                                                
+
                                                 <div class="owl-carousel gallery-carousel-shortcode gallery-shortcode  dt-gallery-container dt-owl-carousel-call gallery-carousel-shortcode-id-4693b16a31761793529d52d5e1707b44 meta-info-off dt-arrow-border-on dt-arrow-hover-border-on bullets-small-dot-stroke reposition-arrows dt-icon-bg-off arrows-bg-on disable-arrows-hover-bg arrows-hover-bg-on  hover-fade " data-scroll-mode="1" data-col-num="1" data-wide-col-num="1" data-laptop-col="1" data-h-tablet-columns-num="1" data-v-tablet-columns-num="1" data-phone-columns-num="1" data-col-gap="0" data-speed="600" data-autoplay="true" data-autoplay_speed="4000" data-arrows="false" data-bullet="true" data-next-icon="icon-ar-017-r" data-prev-icon="icon-ar-017-l" data-img-shadow-size="12px" data-img-shadow-spread="3px">
                                                     <div data-post-id="551" data-date="2020-05-23T04:01:24-05:00" data-name="necesidad-inmediata-pe-tres">
                                                         <figure class="post">
@@ -303,7 +274,7 @@ function searchForId($id, $array1) {
                                                 </div>
                                                 <div role="form" class="wpcf7" id="wpcf7-f193-p438-o1" lang="es-ES" dir="ltr">
                                                     <div class="screen-reader-response" aria-live="polite"></div>
-                                                    
+
                                                     <!--formulario contacto -->
                                                     <div class="formulario-contacto">
                                                         <div class="form-50">

@@ -46,7 +46,8 @@ function searchForId($id, $array1) {
                                                 <div class="wpb_wrapper">
                                                     <h2 style="text-align: center;"><strong>Espacio Familiar – capacidad 5 niveles</strong></h2>
                                                     <?php
-                                                        echo searchForId('Sepulturas.EspacioFamiliarCapacidad5Niveles', $texts)['Description'];
+                                                        $getinformacion = searchForId('Sepulturas.EspacioFamiliarCapacidad5Niveles', $texts);
+                                                        echo $getinformacion['Description'];
                                                         ?>                                                    
                                                 </div>
                                             </div>
@@ -66,7 +67,8 @@ function searchForId($id, $array1) {
                                                 <div class="wpb_wrapper">
                                                     <h2 style="text-align: center;"><strong>Espacio Doble – capacidad 2 niveles</strong></h2>
                                                     <?php
-                                                        echo searchForId('Sepulturas.EspacioDobleCapacidad2Niveles', $texts)['Description'];
+                                                        $getinformacion = searchForId('Sepulturas.EspacioDobleCapacidad2Niveles', $texts);
+                                                        echo $getinformacion['Description'];
                                                         ?> 
                                                     
                                                    
@@ -88,7 +90,8 @@ function searchForId($id, $array1) {
                                                 <div class="wpb_wrapper">
                                                     <h2 style="text-align: center;"><strong>Espacio Compartido</strong></h2>
                                                     <?php
-                                                        echo searchForId('Sepulturas.EspacioCompartido', $texts)['Description'];
+                                                        $getinformacion = searchForId('Sepulturas.EspacioCompartido', $texts);
+                                                        echo $getinformacion['Description'];
                                                         ?> 
                                                     </div>
                                             </div>
@@ -108,7 +111,8 @@ function searchForId($id, $array1) {
                                                 <div class="wpb_wrapper">
                                                     <h2 style="text-align: center;"><strong>Mausoleo Horizontal – capacidad <span class="numbers">10 niveles</span></strong></h2>
                                                     <?php
-                                                        echo searchForId('Sepulturas.MausoleoHorizontalCapacidad10Niveles', $texts)['Description'];
+                                                        $getinformacion = searchForId('Sepulturas.MausoleoHorizontalCapacidad10Niveles', $texts);
+                                                        echo $getinformacion['Description'];
                                                         ?> 
                                                     </div>
                                             </div>
@@ -128,7 +132,8 @@ function searchForId($id, $array1) {
                                                 <div class="wpb_wrapper">
                                                     <h2 style="text-align: center;"><strong>Mausoleo Vertical – capacidad <span class="numbers">10 niveles</span></strong></h2>
                                                     <?php
-                                                        echo searchForId('Sepulturas.MausoleoVerticalCapacidad10Niveles', $texts)['Description'];
+                                                        $getinformacion = searchForId('Sepulturas.MausoleoVerticalCapacidad10Niveles', $texts);
+                                                         echo $getinformacion['Description'];
                                                         ?>
                                                 </div>
                                             </div>
@@ -148,7 +153,8 @@ function searchForId($id, $array1) {
                                                 <div class="wpb_wrapper">
                                                     <h2 style="text-align: center;"><strong>Cinerarios</strong></h2>
                                                     <?php
-                                                        echo searchForId('Sepulturas.Cinerarios', $texts)['Description'];
+                                                        $getinformacion = searchForId('Sepulturas.Cinerarios', $texts);
+                                                        echo $getinformacion['Description'];
                                                         ?>
                                                 </div>
                                             </div>
@@ -168,7 +174,8 @@ function searchForId($id, $array1) {
                                                 <div class="wpb_wrapper">
                                                     <h2 style="text-align: center;"><strong>Columbarios</strong></h2>
                                                     <?php
-                                                        echo searchForId('Sepulturas.Columbarios', $texts)['Description'];
+                                                        $getinformacion = searchForId('Sepulturas.Columbarios', $texts);
+                                                        echo $getinformacion['Description'];
                                                         ?>
                                                 
                                                 </div>
@@ -194,7 +201,8 @@ function searchForId($id, $array1) {
                                                 <div class="wpb_wrapper">
                                                     <h2 style="text-align: center;"><strong>Cinerarios – Jardinera</strong></h2>
                                                      <?php
-                                                        echo searchForId('Sepulturas.CinerariosJardinera', $texts)['Description'];
+                                                        $getinformacion = searchForId('Sepulturas.CinerariosJardinera', $texts);
+                                                        echo $getinformacion['Description'];
                                                         ?>
                                                 
                                                 </div>

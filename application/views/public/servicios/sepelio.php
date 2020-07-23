@@ -42,16 +42,9 @@ function searchForId($id, $array1) {
                                             <div class="wpb_wrapper">
                                                 <div class="wpb_text_column wpb_content_element  wpb_animate_when_almost_visible wpb_fadeIn fadeIn">
                                                      <?php
-                                                        echo searchForId('ServiciosSepelio.Texto1', $texts)['Description'];
+                                                        $getinformacion = searchForId('ServiciosSepelio.Texto1', $texts);
+                                                        echo $getinformacion['Description'];
                                                         ?>
-<!--                                                    <div class="wpb_wrapper">
-                                                        <p style="text-align: justify;">Contamos con un equipo especializado para hacer de la ceremonia de despedida un homenaje único para su ser querido.</p>
-                                                        <p style="text-align: justify;">Queremos estar a su lado, cuando más nos necesite y acompañarlo en el último adiós.</p>
-                                                        <p style="text-align: justify;">Es por ello que nos hemos preocupado de todos los detalles y las familias puedan elegir entre 3 tipos de servicios de sepelio.</p>
-                                                        <p><a style="text-decoration: none;" href="#servicio-tradicional">&#8211; Servicio Tradicional</a></p>
-                                                        <p><a style="text-decoration: none;" href="#servicio-esperanza">&#8211; Servicio Esperanza</a></p>
-                                                        <p><a style="text-decoration: none;" href="#servicio-alba"> &#8211; Servicio Alba</a></p>
-                                                    </div>-->
                                                 </div>
                                             </div>
                                         </div>
@@ -136,21 +129,10 @@ function searchForId($id, $array1) {
                                                             <div class="wpb_wrapper">
                                                                 <div class="wpb_text_column wpb_content_element  p-18">
                                                                     <?php
-                                                        echo searchForId('ServiciosSepelio.Tradicional', $texts)['Description'];
+                                                        $getinformacion = searchForId('ServiciosSepelio.Tradicional', $texts);
+                                                        echo $getinformacion['Description'];
                                                         ?>
-<!--                                                                    <div class="wpb_wrapper">
-                                                                        <p><strong>Servicio Tradicional</strong> es nuestro compromiso brindarles el mejor servicio de sepelio en este difícil momento en el que perdemos a un ser querido, nuestro servicio consta de:</p>
-                                                                        <ul>
-                                                                            <li>Ceremonia de inhumación</li>
-                                                                            <li>Protocolo estandarizado de recepción y entierro</li>
-                                                                            <li>Responso</li>
-                                                                            <li>Un toldo verde</li>
-                                                                            <li>12 sillas vestidas de color verde</li>
-                                                                            <li>Alfombras</li>
-                                                                            <li>Lápida de mármol</li>
-                                                                            <li>Urna de concreto</li>
-                                                                        </ul>
-                                                                    </div>-->
+
                                                                 </div>
                                                             </div>
                                                         </div>
@@ -176,19 +158,10 @@ function searchForId($id, $array1) {
                                                             <div class="wpb_wrapper">
                                                                 <div class="wpb_text_column wpb_content_element  p-18">
                                                                     <?php
-                                                        echo searchForId('ServiciosSepelio.Esperanza', $texts)['Description'];
+                                                        $getinformacion = searchForId('ServiciosSepelio.Esperanza', $texts);
+                                                        echo $getinformacion['Description'];
                                                         ?>
-                                                                    
-<!--                                                                    <div class="wpb_wrapper">
-                                                                        <p><strong>Servicio Esperanza</strong> es un servicio de sepelio con sobriedad y elegancia, sabemos que el momento del último adiós es importante para cerrar el ciclo de vida de nuestro ser querido, es por eso que el servicio Esperanza ofrece:</p>
-                                                                        <ul>
-                                                                            <li>Dos toldos color verde</li>
-                                                                            <li>20 sillas vestidas de color verde</li>
-                                                                            <li>Alfombras</li>
-                                                                            <li>Canasta con 12 rosas blancas</li>
-                                                                            <li>Lapida de granito negro</li>
-                                                                        </ul>
-                                                                    </div>-->
+
                                                                 </div>
                                                             </div>
                                                         </div>
@@ -215,20 +188,9 @@ function searchForId($id, $array1) {
                                                                 <div class="wpb_text_column wpb_content_element  p-18">
                                                                     
                                                                     <?php
-                                                        echo searchForId('ServiciosSepelio.Alba', $texts)['Description'];
+                                                        $getinformacion = searchForId('ServiciosSepelio.Alba', $texts);
+                                                         echo $getinformacion['Description'];
                                                         ?>
-                                                                    
-<!--                                                                    <div class="wpb_wrapper">
-                                                                        <p><strong>Servicio Alba</strong> es nuestro servicio de sepelio más exclusivo, sabemos que la ceremonia de sepultura en sí misma es un acto de simbolismos, consideramos que dar el último adiós es un momento único. Por ello el servicio alba está lleno de detalles que hacen la diferencia:</p>
-                                                                        <ul>
-                                                                            <li>Dos toldos color blanco.</li>
-                                                                            <li>20 sillas vestidas de blanco.</li>
-                                                                            <li>Canasta con 12 rosas blancas.</li>
-                                                                            <li>Bouquet con 12 rosas blancas.</li>
-                                                                            <li>Acompañamiento musical (2 violines)</li>
-                                                                            <li>Lápida de granito negro</li>
-                                                                        </ul>
-                                                                    </div>-->
                                                                 </div>
                                                             </div>
                                                         </div>

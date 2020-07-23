@@ -40,27 +40,9 @@ function searchForId($id, $array1) {
                                     <div class="wpb_column vc_column_container vc_col-sm-6">
                                         <div class="vc_column-inner">
                                              <?php
-                                                        echo searchForId('ServiciosCompraAnticipada.Texto1', $texts)['Description'];
+                                                        $getinformacion = searchForId('ServiciosCompraAnticipada.Texto1', $texts);
+                                                        echo $getinformacion['Description'];
                                                         ?>
-<!--                                            <div class="wpb_wrapper">
-                                                <div class="wpb_text_column wpb_content_element  wpb_animate_when_almost_visible wpb_fadeIn fadeIn">
-                                                    <div class="wpb_wrapper">
-                                                        
-                                                       
-                                                        
-                                                        
-                                                        
-                                                        <p style="color: #40454a; font-size: 21px; margin-bottom: 20px; text-align: left;"><strong>¿Por qué es importante una compra anticipada?</strong></p>
-                                                        <div class="descripcion-p">
-                                                            <p style="text-align: justify;">Es importante porque el dolor que produce la separación de las personas a quienes amamos, llegará a nuestra vida tarde o temprano.</p>
-                                                            <p style="text-align: justify;">Cuando perdemos a un ser querido nos encontramos abrumados porque sabemos que es un hecho irreversible.</p>
-                                                            <p style="text-align: justify;">No fuimos hechos para soportar el dolor de perder a quienes amamos, el dolor no se explica, el dolor se sufre, se siente, se vive.</p>
-                                                            <p style="text-align: justify;">Podremos tomar decisiones correctas en estos momentos en el que somos tan vulnerables.</p>
-                                                            <p style="text-align: justify;">Sabemos que es muy difícil hacerlo, por eso tomar una decisión anticipada nos permitirá vivir el dolor con tranquilidad y no con una carga de decisiones, gastos y trámites.</p>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>-->
                                         </div>
                                     </div>
                                     <div class="wpb_column vc_column_container vc_col-sm-6">

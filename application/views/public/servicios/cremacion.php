@@ -15,22 +15,6 @@ function searchForId($id, $array1) {
 
 <link href="/assets/index/cremacion.css" rel="stylesheet" type="text/css"/>
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 <div id="main" class="sidebar-none sidebar-divider-vertical" style="padding-bottom:0px;">
     <div class="main-gradient"></div>
     <div class="wf-wrap">
@@ -56,76 +40,10 @@ function searchForId($id, $array1) {
                                         <div class="vc_column-inner vc_custom_1591311853228">
                                             <div class="wpb_wrapper">
                                                 <?php
-                                                        echo searchForId('ServiciosCremacion.Texto1', $texts)['Description'];
+                                                        $getinformacion = searchForId('ServiciosCremacion.Texto1', $texts);
+                                                        echo $getinformacion['Description'];
                                                         ?>
-                                                <!--<div class="wpb_text_column wpb_content_element  wpb_animate_when_almost_visible wpb_fadeIn fadeIn vc_custom_1591321023117">
-                                                    
-                                                    
-                                                    
-                                                    <div class="wpb_wrapper">
-                                                        <h3 style="text-align: center; margin-bottom: 0px;"><b>Ofrecemos un servicio integral</b></h3>
-                                                        <p style="text-align: center;">Cremación – Jardinera cineraria perpetua</p>
-                                                        <p style="text-align: justify; margin-top: 20px;">Bríndele el último adiós de manera digna y reverente, a esa persona que tanto amó.</p>
-                                                        <p style="text-align: justify;">Te ofrecemos el mejor camposanto de Arequipa para la conservación de las cenizas de su ser querido.</p>
-                                                        <p style="text-align: left;">Nuestro servicio incluye</p>
-                                                    </div>
-                                                </div>-->
-<!--                                                <div class="uavc-list-icon uavc-list-icon-wrapper ult-adjust-bottom-margin   ">
-                                                    <ul class="uavc-list">
-                                                        <li>
-                                                            <div class="uavc-list-content" id="list-icon-wrap-4449">
-                                                                <div class="uavc-list-icon  " data-animation="" data-animation-delay="03" style="margin-right:5px;">
-                                                                    <div class="ult-just-icon-wrapper  ">
-                                                                        <div class="align-icon" style="text-align:center;">
-                                                                            <div class="aio-icon circle " style="color:#ffffff;background:#b98d37;font-size:12px;display:inline-block;">
-                                                                                <i class="Defaults-check"></i>
-                                                                            </div>
-                                                                        </div>
-                                                                    </div>
-                                                                </div><span data-ultimate-target='#list-icon-wrap-4449 .uavc-list-desc' data-responsive-json-new='{"font-size":"","line-height":""}' class="uavc-list-desc ult-responsive" style="">Servicio de responso</span></div>
-                                                        </li>
-                                                        <li>
-                                                            <div class="uavc-list-content" id="list-icon-wrap-4507">
-                                                                <div class="uavc-list-icon  " data-animation="" data-animation-delay="03" style="margin-right:5px;">
-                                                                    <div class="ult-just-icon-wrapper  ">
-                                                                        <div class="align-icon" style="text-align:center;">
-                                                                            <div class="aio-icon circle " style="color:#ffffff;background:#b98d37;font-size:12px;display:inline-block;">
-                                                                                <i class="Defaults-check"></i>
-                                                                            </div>
-                                                                        </div>
-                                                                    </div>
-                                                                </div><span data-ultimate-target='#list-icon-wrap-4507 .uavc-list-desc' data-responsive-json-new='{"font-size":"","line-height":""}' class="uavc-list-desc ult-responsive" style="">Certificado de cremación</span></div>
-                                                        </li>
-                                                    </ul>
-                                                </div>
-                                                <div class="uavc-list-icon uavc-list-icon-wrapper ult-adjust-bottom-margin   ">
-                                                    <ul class="uavc-list">
-                                                        <li>
-                                                            <div class="uavc-list-content" id="list-icon-wrap-6422">
-                                                                <div class="uavc-list-icon  " data-animation="" data-animation-delay="03" style="margin-right:5px;">
-                                                                    <div class="ult-just-icon-wrapper  ">
-                                                                        <div class="align-icon" style="text-align:center;">
-                                                                            <div class="aio-icon circle " style="color:#ffffff;background:#b98d37;font-size:12px;display:inline-block;">
-                                                                                <i class="Defaults-check"></i>
-                                                                            </div>
-                                                                        </div>
-                                                                    </div>
-                                                                </div><span data-ultimate-target='#list-icon-wrap-6422 .uavc-list-desc' data-responsive-json-new='{"font-size":"","line-height":""}' class="uavc-list-desc ult-responsive" style="">Protocolo de entrega de cenizas</span></div>
-                                                        </li>
-                                                        <li>
-                                                            <div class="uavc-list-content" id="list-icon-wrap-1812">
-                                                                <div class="uavc-list-icon  " data-animation="" data-animation-delay="03" style="margin-right:5px;">
-                                                                    <div class="ult-just-icon-wrapper  ">
-                                                                        <div class="align-icon" style="text-align:center;">
-                                                                            <div class="aio-icon circle " style="color:#ffffff;background:#b98d37;font-size:12px;display:inline-block;">
-                                                                                <i class="Defaults-check"></i>
-                                                                            </div>
-                                                                        </div>
-                                                                    </div>
-                                                                </div><span data-ultimate-target='#list-icon-wrap-1812 .uavc-list-desc' data-responsive-json-new='{"font-size":"","line-height":""}' class="uavc-list-desc ult-responsive" style="">Cofre de cenizas</span></div>
-                                                        </li>
-                                                    </ul>
-                                                </div>-->
+                                               
                                                 <div class="vc_btn3-container  wpb_animate_when_almost_visible wpb_fadeIn fadeIn vc_btn3-center">
                                                     <a onmouseleave="this.style.borderColor='#dbb66d'; this.style.backgroundColor='transparent'; this.style.color='#dbb66d'" onmouseenter="this.style.borderColor='#dbb66d'; this.style.backgroundColor='#dbb66d'; this.style.color='#ffffff';" style="border-color:#dbb66d; color:#dbb66d;" class="vc_general vc_btn3 vc_btn3-size-md vc_btn3-shape-rounded vc_btn3-style-outline-custom anchor-link" href="#mayor-informacion" title="">Mayor información</a></div>
                                             </div>

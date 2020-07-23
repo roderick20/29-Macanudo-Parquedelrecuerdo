@@ -72,7 +72,8 @@ function searchForId($id, $array1) {
                                                         <p style="text-align: center;">Cremación – Jardinera cineraria perpetua</p>
 
                                                         <?php
-                                                        echo searchForId('Crematorio.OfrecemosServicioIntegral', $texts)['Description'];
+                                                        $getinformacion = searchForId('Crematorio.OfrecemosServicioIntegral', $texts);
+                                                        echo $getinformacion['Description'];
                                                         ?>
                                                     </div>
                                                 </div>                                                
