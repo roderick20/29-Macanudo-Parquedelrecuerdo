@@ -31,15 +31,42 @@ function searchForId($id, $array1) {
                                             que nos lleva a la vida eterna</p>
                                     </div>
                                 </div>
-                            </div></div></div></div><div class="vc_row-full-width vc_clearfix"></div><div class="vc_row wpb_row vc_row-fluid dt-default" style="margin-top: 0px;margin-bottom: 0px"><div class="wpb_column vc_column_container vc_col-sm-12"><div class="vc_column-inner"><div class="wpb_wrapper"><div class="vc_empty_space"   style="height: 100px" ><span class="vc_empty_space_inner"></span></div>
-                            </div></div></div></div><div class="vc_row wpb_row vc_row-fluid dt-default" style="margin-top: 0px;margin-bottom: 0px"><div class="wpb_column vc_column_container vc_col-sm-12"><div class="vc_column-inner"><div class="wpb_wrapper">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="vc_row-full-width vc_clearfix"></div>
+                <div class="vc_row wpb_row vc_row-fluid dt-default" style="margin-top: 0px;margin-bottom: 0px"><div class="wpb_column vc_column_container vc_col-sm-12">
+                        <div class="vc_column-inner">
+                            <div class="wpb_wrapper">
+                                <div class="vc_empty_space"   style="height: 100px" ><span class="vc_empty_space_inner"></span></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="vc_row wpb_row vc_row-fluid dt-default" style="margin-top: 0px;margin-bottom: 0px">
+                    <div class="wpb_column vc_column_container vc_col-sm-12"><div class="vc_column-inner">
+                            <div class="wpb_wrapper">
                                 <div class="wpb_tour wpb_content_element  tab-style-one" data-interval="0">
                                     <div class="wpb_wrapper wpb_tour_tabs_wrapper ui-tabs vc_clearfix">
-                                        <ul class="wpb_tabs_nav ui-tabs-nav vc_clearfix text-big"><li><a href="#tab-1581069322984-2-6">Espacio Familiar – capacidad 5</a></li><li><a href="#tab-1581069323997-3-0">Espacio Doble – capacidad 2</a></li><li><a href="#tab-1581069325944-4-2">Espacio Compartido</a></li><li><a href="#tab-705d4a06-6f9a-1">Mausoleo Horizontal – capacidad 10</a></li><li><a href="#tab-5f28fffb-ef72-2">Mausoleo Vertical - capacidad 10</a></li><li><a href="#tab-1581069327390-6-0">Cinerarios</a></li><li><a href="#tab-1581069326677-5-0">Columbarios</a></li><li><a href="#tab-1581069328134-7-1">Cinerarios – Jardinera</a></li></ul>
+                                        <ul class="wpb_tabs_nav ui-tabs-nav vc_clearfix text-big">
+                                            <li><a href="#tab-1581069322984-2-6">Espacio Familiar – capacidad 5</a></li>
+                                            <li><a href="#tab-1581069323997-3-0">Espacio Doble – capacidad 2</a></li>
+                                            <li><a href="#tab-1581069325944-4-2">Espacio Compartido</a></li>
+                                            <li><a href="#tab-705d4a06-6f9a-1">Mausoleo Horizontal – capacidad 10</a></li>
+                                            <li><a href="#tab-5f28fffb-ef72-2">Mausoleo Vertical - capacidad 6</a></li>
+                                            <li><a href="#tab-1581069327390-6-0">Cinerarios</a></li>
+                                            <li><a href="#tab-1581069326677-5-0">Columbarios</a></li>
+                                            <li><a href="#tab-1581069328134-7-1">Cinerarios – Jardinera</a></li>
+                                        </ul>
                                         <div id="tab-1581069322984-2-6" class="wpb_tab ui-tabs-panel wpb_ui-tabs-hide vc_clearfix">
                                             <div  class="wpb_single_image wpb_content_element vc_align_center  vc_custom_1582861811299">
                                                 <figure class="wpb_wrapper vc_figure">
-                                                    <div class="vc_single_image-wrapper   vc_box_border_grey"><img width="109" height="39" src="/wp-content/uploads/2020/02/pe_icons_titles.png" class="vc_single_image-img attachment-full" alt=""  data-dt-location="/inicio/attachment/pe_icons_titles/" /></div>
+                                                    <div class="vc_single_image-wrapper   vc_box_border_grey">
+                                                        <img width="109" height="39" src="/wp-content/uploads/2020/02/pe_icons_titles.png" 
+                                                             class="vc_single_image-img attachment-full" alt=""  
+                                                             data-dt-location="/inicio/attachment/pe_icons_titles/" />
+                                                    </div>
                                                 </figure>
                                             </div>
                                             <div class="wpb_text_column wpb_content_element " >
@@ -53,7 +80,11 @@ function searchForId($id, $array1) {
                                             </div>
                                             <div  class="wpb_single_image wpb_content_element vc_align_center">
                                                 <figure class="wpb_wrapper vc_figure">
-                                                    <div class="vc_single_image-wrapper   vc_box_border_grey"><img width="400" height="630" src="/wp-content/uploads/2020/05/actualizado-espacio-familiar-5.jpg" class="vc_single_image-img attachment-full" alt="" srcset="/wp-content/uploads/2020/05/actualizado-espacio-familiar-5.jpg 400w, /wp-content/uploads/2020/05/actualizado-espacio-familiar-5-190x300.jpg 190w" sizes="(max-width: 400px) 100vw, 400px"  data-dt-location="/sepulturas/attachment/actualizado-espacio-familiar-5/" /></div>
+                                                    <div class="vc_single_image-wrapper   vc_box_border_grey">
+                                                        <img width="400" height="630" src="/wp-content/uploads/2020/05/actualizado-espacio-familiar-5.jpg" 
+                                                             class="vc_single_image-img attachment-full" alt="" 
+                                                             srcset="/wp-content/uploads/2020/05/actualizado-espacio-familiar-5.jpg 400w, /wp-content/uploads/2020/05/actualizado-espacio-familiar-5-190x300.jpg 190w" 
+                                                             sizes="(max-width: 400px) 100vw, 400px"  data-dt-location="/sepulturas/attachment/actualizado-espacio-familiar-5/" /></div>
                                                 </figure>
                                             </div>
                                         </div>
@@ -130,7 +161,7 @@ function searchForId($id, $array1) {
                                             </div>
                                             <div class="wpb_text_column wpb_content_element " >
                                                 <div class="wpb_wrapper">
-                                                    <h2 style="text-align: center;"><strong>Mausoleo Vertical – capacidad <span class="numbers">10 niveles</span></strong></h2>
+                                                    <h2 style="text-align: center;"><strong>Mausoleo Vertical – capacidad para 6 seres queridos</strong></h2>
                                                     <?php
                                                         $getinformacion = searchForId('Sepulturas.MausoleoVerticalCapacidad10Niveles', $texts);
                                                          echo $getinformacion['Description'];
