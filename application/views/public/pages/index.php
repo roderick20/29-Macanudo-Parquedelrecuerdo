@@ -111,7 +111,7 @@ function searchForId($id, $array1) {
                                             <div class="icon">
                                                 <a class="icon-primary" href="https://www.facebook.com/ParquedelaesperanzaPERU/" target="_blank"><i class="Defaults-facebook facebook-f"></i></a>
                                                 <div class="container-description">
-                                                    <a class="icon-description" href="https://www.facebook.com/ParquedelaesperanzaPERU/">Síguenos en facebook</a>
+                                                    <a class="icon-description" href="https://www.facebook.com/ParquedelaesperanzaPERU/">Síguenos en Facebook</a>
                                                 </div>
                                             </div>
                                         </div>
