@@ -26,12 +26,9 @@
                                 <div class="wpb_wrapper">
                                     <div class="vc_empty_space"   style="height: 100px" >
                                         <span class="vc_empty_space_inner"></span>
-                                    </div>                                 
-
+                                    </div>
                                     <div class="tarjeta" style="background-color: #F6F5EB;padding: 30px;">
-
                                         <?php echo form_open('/do_buscador', ['id' => 'frmBuscador']); ?>
-
                                         <div class="form-row">
                                             <div class="form-group col-md-12">
                                                 <input type="text" id="nombre" name="nombre" placeholder="Nombres y/o apellidos" class="form-control form-control-lg" style="color: #495057;background-color: #fff;border: 1px solid #888888;border-radius: 0.3rem;font-size: 1.05rem;padding: 0.5rem 1rem;">
@@ -46,8 +43,7 @@
                                             <div class="form-group col-md-6">
                                                 <button type="submit" class="btn btn-md btn-block btn-enviar-form" style="background-color: #0E226C;color: white;" name ="action" value="tumbas">
                                                     <i aria-hidden="true" class="fas fa-map-marker-alt"></i> Ubicación
-                                                </button>                                                   
-
+                                                </button>
                                             </div>
                                         </div>
                                         <?php echo form_close(); ?>
@@ -55,11 +51,8 @@
                                         <div class="table-responsive">  
                                             <?php
                                             if (isset($list)) {
-
-
                                                 if ($type == 'tumbas') {
                                                     ?>
-
                                                     <table class="table table-striped" style="font-size: 0.8rem;">
                                                         <thead>
                                                             <tr style="background-color: #D2B16E;color: white;">
@@ -74,7 +67,6 @@
                                                             if (isset($list)) {
                                                                 foreach ($list as $item) {
                                                                     ?>
-
                                                                     <tr>
                                                                         <td><?php echo $item["NombreCompleto"]; ?><br>
                                                                             <?php echo $item["FechaNacimiento"]; ?> - <?php echo $item["FechaDefuncion"]; ?> </td>
@@ -84,7 +76,6 @@
                                                                             <a href="<?php echo base_url(); ?>ubicacion?NombreCompleto=<?php echo $item["NombreCompleto"]; ?>&FechaNacimiento=<?php echo $item["FechaNacimiento"]; ?>&FechaDefuncion=<?php echo $item["FechaDefuncion"]; ?>&Plataforma=<?php echo $item["Plataforma"]; ?>&Ubicacion=<?php echo $item["Ubicacion"]; ?>&IdPlataforma=<?php echo $item["IdPlataforma"]; ?>" class="ubicacion" >Ver Ubicación</a>
                                                                         </td>
                                                                     </tr>
-
                                                                     <?php
                                                                 }
                                                             }
@@ -94,7 +85,6 @@
                                                     <?php
                                                 } else {
                                                     ?>
-
                                                     <table class="table table-striped" style="font-size: 0.8rem;">
                                                         <thead>
                                                             <tr style="background-color: #D2B16E;color: white;">
@@ -109,7 +99,6 @@
                                                             if (isset($list)) {
                                                                 foreach ($list as $item) {
                                                                     ?>
-
                                                                     <tr>
                                                                         <td><?php echo $item["NombreCompleto"]; ?> </td>
                                                                         <td><?php echo $item["Plataforma"]; ?> </td>
@@ -123,7 +112,6 @@
                                                                                &IdPlataforma=<?php echo $item["IdPlataforma"]; ?>" class="ubicacion" >Ver Ubicación</a>
                                                                         </td>
                                                                     </tr>
-
                                                                     <?php
                                                                 }
                                                             }
@@ -227,9 +215,9 @@
                                                             <div class="aio-icon-description ult-responsive"  data-ultimate-target='#Info-box-wrap-5286 .aio-icon-description'  
                                                                  data-responsive-json-new='{"font-size":"desktop:18px;","line-height":""}'  style="">(054) 604 848</p>
                                                                 <p>Usted y su familia pueden contactarse telefónicamente las 24 horas del día.
-                                                            </div> <!-- description -->
-                                                        </div> <!-- aio-icon-box -->
-                                                    </div> <!-- aio-icon-component -->
+                                                            </div> 
+                                                        </div> 
+                                                    </div> 
                                                 </div>
                                             </div>
                                         </div>
@@ -254,7 +242,7 @@
                         </div>
                     </div>
                     <div class="vc_row-full-width vc_clearfix"></div>
-            </div><!-- #content -->
-        </div><!-- .wf-container -->
-    </div><!-- .wf-wrap -->
-</div><!-- #main -->
+            </div>
+        </div>
+    </div>
+</div>

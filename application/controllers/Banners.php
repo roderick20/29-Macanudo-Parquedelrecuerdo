@@ -55,62 +55,14 @@ class Banners extends CI_Controller {
         if (!$this->upload->do_upload('file')) {
             $error = array('error' => $this->upload->display_errors());
         } else {
+
+
             redirect('/Banners/Index');
         }
 
         $data = array("error" => $error);
-        $this->template->load('template_admin', 'contents', 'banners/create', $data);
+        $this->template->load('template_admin', 'contents', '/admin/banners/create', $data);
     }
-
-//    public function update() {
-//        $this->load->helper('url');
-//        $this->load->model('BannerModel');
-//
-//        $model = new BannerModel();
-//        $model->BannerID = $this->input->get('id');
-//        $data = array("banner" => $model->Get());
-//
-//        $this->template->load('template_admin', 'contents', 'banners/update', $data);
-//    }
-//
-//    public function do_update() {
-//        $this->load->helper('url');
-//        $this->load->model('BannerModel');
-//
-//        $config['upload_path'] = './uploads/';
-//        $config['allowed_types'] = 'gif|jpg|png';
-//        $config['max_size'] = 100;
-//        $config['max_width'] = 1024;
-//        $config['max_height'] = 768;
-//
-//        $this->load->library('upload', $config);
-//
-//        if (!$this->upload->do_upload('file')) {
-//            $error = array('error' => $this->upload->display_errors());
-//        } else {
-//            $upload_data = array('upload_data' => $this->upload->data());
-//
-//            $this->load->model('BannerModel');
-//
-//            $model = new BannerModel();
-//            $model->BannerID = $this->input->post('BannerID');
-//            $model->Name = $this->input->post('Name');
-//            $model->Url = $upload_data['upload_data']['file_name'];
-//            $model->Update();
-//
-//            $data = array("upload_data" => $upload_data);
-//
-//            redirect('/Banners/Index');
-//        }
-//
-//        $model = new UserModel();
-//
-//
-//
-//        $model->Save();
-//
-//        redirect('/Banners/Index');
-//    }
 
     public function delete() {
         $data = array("data" => $this->Data->getData($this->input->get('id')));

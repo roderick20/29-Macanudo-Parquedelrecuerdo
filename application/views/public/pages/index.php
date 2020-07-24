@@ -24,9 +24,6 @@ function searchForId($id, $array1) {
 <link rel='stylesheet' id='ult-background-style-css'  href='/assets/Ultimate_VC_Addons/assets/min-css/background-style.min.css?ver=3.16.22' type='text/css' media='all' /> 
 <link href="/assets/index/style.css" rel="stylesheet" type="text/css"/>
 
-
-
-
 <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
     <ol class="carousel-indicators">
         <?php
@@ -203,7 +200,7 @@ function searchForId($id, $array1) {
                                     <div class="wpb_wrapper">
                                         <h1 style="text-align: center; color: #dbb66d;">Nuestros Servicios</h1>
                                         <div style="text-align: center; color: #40454a; font-weight: 200;"><?php
-                                            $getinformacion =  searchForId('Inicio.NuestrosServicios', $texts);
+                                            $getinformacion = searchForId('Inicio.NuestrosServicios', $texts);
                                             echo $getinformacion['Description'];
                                             ?></div>
                                     </div>

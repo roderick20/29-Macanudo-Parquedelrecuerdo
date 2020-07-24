@@ -73,9 +73,9 @@ function searchForId($id, $array1) {
                                                 <div class="wpb_wrapper">
                                                     <h2 style="text-align: center;"><strong>Espacio Familiar – capacidad 5 niveles</strong></h2>
                                                     <?php
-                                                        $getinformacion = searchForId('Sepulturas.EspacioFamiliarCapacidad5Niveles', $texts);
-                                                        echo $getinformacion['Description'];
-                                                        ?>                                                    
+                                                    $getinformacion = searchForId('Sepulturas.EspacioFamiliarCapacidad5Niveles', $texts);
+                                                    echo $getinformacion['Description'];
+                                                    ?>                                                    
                                                 </div>
                                             </div>
                                             <div  class="wpb_single_image wpb_content_element vc_align_center">
@@ -98,11 +98,11 @@ function searchForId($id, $array1) {
                                                 <div class="wpb_wrapper">
                                                     <h2 style="text-align: center;"><strong>Espacio Doble – capacidad 2 niveles</strong></h2>
                                                     <?php
-                                                        $getinformacion = searchForId('Sepulturas.EspacioDobleCapacidad2Niveles', $texts);
-                                                        echo $getinformacion['Description'];
-                                                        ?> 
-                                                    
-                                                   
+                                                    $getinformacion = searchForId('Sepulturas.EspacioDobleCapacidad2Niveles', $texts);
+                                                    echo $getinformacion['Description'];
+                                                    ?> 
+
+
                                                 </div>
                                             </div>
                                             <div  class="wpb_single_image wpb_content_element vc_align_center">
@@ -121,10 +121,10 @@ function searchForId($id, $array1) {
                                                 <div class="wpb_wrapper">
                                                     <h2 style="text-align: center;"><strong>Espacio Compartido</strong></h2>
                                                     <?php
-                                                        $getinformacion = searchForId('Sepulturas.EspacioCompartido', $texts);
-                                                        echo $getinformacion['Description'];
-                                                        ?> 
-                                                    </div>
+                                                    $getinformacion = searchForId('Sepulturas.EspacioCompartido', $texts);
+                                                    echo $getinformacion['Description'];
+                                                    ?> 
+                                                </div>
                                             </div>
                                             <div  class="wpb_single_image wpb_content_element vc_align_center">
                                                 <figure class="wpb_wrapper vc_figure">
@@ -142,10 +142,10 @@ function searchForId($id, $array1) {
                                                 <div class="wpb_wrapper">
                                                     <h2 style="text-align: center;"><strong>Mausoleo Horizontal – capacidad <span class="numbers">10 niveles</span></strong></h2>
                                                     <?php
-                                                        $getinformacion = searchForId('Sepulturas.MausoleoHorizontalCapacidad10Niveles', $texts);
-                                                        echo $getinformacion['Description'];
-                                                        ?> 
-                                                    </div>
+                                                    $getinformacion = searchForId('Sepulturas.MausoleoHorizontalCapacidad10Niveles', $texts);
+                                                    echo $getinformacion['Description'];
+                                                    ?> 
+                                                </div>
                                             </div>
                                             <div  class="wpb_single_image wpb_content_element vc_align_center">
                                                 <figure class="wpb_wrapper vc_figure">
@@ -163,9 +163,9 @@ function searchForId($id, $array1) {
                                                 <div class="wpb_wrapper">
                                                     <h2 style="text-align: center;"><strong>Mausoleo Vertical – capacidad para 6 seres queridos</strong></h2>
                                                     <?php
-                                                        $getinformacion = searchForId('Sepulturas.MausoleoVerticalCapacidad10Niveles', $texts);
-                                                         echo $getinformacion['Description'];
-                                                        ?>
+                                                    $getinformacion = searchForId('Sepulturas.MausoleoVerticalCapacidad10Niveles', $texts);
+                                                    echo $getinformacion['Description'];
+                                                    ?>
                                                 </div>
                                             </div>
                                             <div  class="wpb_single_image wpb_content_element vc_align_center">
@@ -184,9 +184,9 @@ function searchForId($id, $array1) {
                                                 <div class="wpb_wrapper">
                                                     <h2 style="text-align: center;"><strong>Cinerarios</strong></h2>
                                                     <?php
-                                                        $getinformacion = searchForId('Sepulturas.Cinerarios', $texts);
-                                                        echo $getinformacion['Description'];
-                                                        ?>
+                                                    $getinformacion = searchForId('Sepulturas.Cinerarios', $texts);
+                                                    echo $getinformacion['Description'];
+                                                    ?>
                                                 </div>
                                             </div>
                                             <div  class="wpb_single_image wpb_content_element vc_align_center">
@@ -205,10 +205,10 @@ function searchForId($id, $array1) {
                                                 <div class="wpb_wrapper">
                                                     <h2 style="text-align: center;"><strong>Columbarios</strong></h2>
                                                     <?php
-                                                        $getinformacion = searchForId('Sepulturas.Columbarios', $texts);
-                                                        echo $getinformacion['Description'];
-                                                        ?>
-                                                
+                                                    $getinformacion = searchForId('Sepulturas.Columbarios', $texts);
+                                                    echo $getinformacion['Description'];
+                                                    ?>
+
                                                 </div>
                                             </div>
                                             <div  class="wpb_single_image wpb_content_element vc_align_center  vc_custom_1590628573445">
@@ -231,11 +231,11 @@ function searchForId($id, $array1) {
                                             <div class="wpb_text_column wpb_content_element " >
                                                 <div class="wpb_wrapper">
                                                     <h2 style="text-align: center;"><strong>Cinerarios – Jardinera</strong></h2>
-                                                     <?php
-                                                        $getinformacion = searchForId('Sepulturas.CinerariosJardinera', $texts);
-                                                        echo $getinformacion['Description'];
-                                                        ?>
-                                                
+                                                    <?php
+                                                    $getinformacion = searchForId('Sepulturas.CinerariosJardinera', $texts);
+                                                    echo $getinformacion['Description'];
+                                                    ?>
+
                                                 </div>
                                             </div>
                                             <div  class="wpb_single_image wpb_content_element vc_align_center  vc_custom_1590628640836">
@@ -316,7 +316,7 @@ function searchForId($id, $array1) {
                                                 </div>
                                                 <div role="form" class="wpcf7" id="wpcf7-f193-p345-o1" lang="es-ES" dir="ltr">
                                                     <div class="screen-reader-response" aria-live="polite"></div>
- <!--formulario contacto -->
+                                                    <!--formulario contacto -->
                                                     <div class="formulario-contacto">
                                                         <div class="form-50">
                                                             <span class="wpcf7-form-control-wrap nombre">
@@ -369,15 +369,20 @@ function searchForId($id, $array1) {
                                                                                                  padding: 3px 45px !important;
                                                                                                  background: #fff !important;
                                                                                                  border: 2px solid #dbb66d !important;
-                                                                                                 color: #dbb66d !important;">Enviar</button> <span class="ajax-loader"></span></div>
-                                                    <div class="wpcf7-response-output wpcf7-display-none" aria-hidden="true"></div>
-                                                    <!-- end formulario contacto-->
-                                                            
-                                                    
-                                                </div></div></div></div></div><div class="vc_empty_space"   style="height: 10px" ><span class="vc_empty_space_inner"></span></div>
-                            </div></div></div></div>
-            </div><!-- #content -->
-
+                                                                                                 color: #dbb66d !important;">Enviar</button> <span class="ajax-loader"></span>
+                                                    </div>
+                                                    <div class="wpcf7-response-output wpcf7-display-none" aria-hidden="true"></div>  
+                                                </div>                                                    
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="vc_empty_space"   style="height: 10px" ><span class="vc_empty_space_inner"></span></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div><!-- .wf-container -->
     </div><!-- .wf-wrap -->
 </div><!-- #main -->

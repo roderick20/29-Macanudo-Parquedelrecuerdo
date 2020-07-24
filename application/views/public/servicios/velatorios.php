@@ -40,13 +40,11 @@ function searchForId($id, $array1) {
                                     <div class="wpb_column vc_column_container vc_col-sm-6">
                                         <div class="vc_column-inner vc_custom_1590180359899">
                                             <div class="wpb_wrapper">
-                                                <div class="wpb_text_column wpb_content_element  wpb_animate_when_almost_visible wpb_fadeIn fadeIn">
-                                                    
+                                                <div class="wpb_text_column wpb_content_element  wpb_animate_when_almost_visible wpb_fadeIn fadeIn">                                                    
                                                     <?php
                                                         $getinformacion = searchForId('ServiciosVelatorios.Texto1', $texts);
                                                         echo $getinformacion['Description'];
                                                         ?>
-
                                                 </div>
                                             </div>
                                         </div>
@@ -325,11 +323,6 @@ function searchForId($id, $array1) {
                     </div>
                 </div>
             </div>
-            <!-- #content -->
-
         </div>
-        <!-- .wf-container -->
     </div>
-    <!-- .wf-wrap -->
 </div>
-<!-- #main -->

@@ -549,15 +549,9 @@ function searchForId($id, $array1) {
                     </div>
                 </div>
             </div>
-            <!-- #content -->
-
         </div>
-        <!-- .wf-container -->
     </div>
-    <!-- .wf-wrap -->
 </div>
-<!-- #main -->
-<!-- !Footer -->
 
 <link rel='stylesheet' id='ultimate-style-css'  href='/wp-content/plugins/Ultimate_VC_Addons/assets/min-css/style.min.css?ver=3.16.22' type='text/css' media='all' /> 
 <link rel='stylesheet' id='ultimate-animate-css'  href='/wp-content/plugins/Ultimate_VC_Addons/assets/min-css/animate.min.css?ver=3.16.22' type='text/css' media='all' /> 

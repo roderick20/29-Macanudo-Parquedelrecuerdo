@@ -284,12 +284,7 @@ function searchForId($id, $array1) {
                 </div>
                 <div class="vc_row-full-width vc_clearfix"></div>
             </div>
-            <!-- #content -->
-
         </div>
-        <!-- .wf-container -->
     </div>
-    <!-- .wf-wrap -->
 </div>
-<!-- #main -->
 

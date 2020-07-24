@@ -46,14 +46,6 @@
                                     <div class="vc_empty_space"   style="height: 100px" >
                                         <span class="vc_empty_space_inner"></span>
                                     </div>
-                                    <!--                                    <div class="wpb_text_column wpb_content_element " >
-                                                                            <div class="wpb_wrapper">
-                                                                                <h2 style="text-align: center;"><strong>Encuentra a tu ser querido</strong></h2>
-                                                                                <h6 style="text-align: center;">Si deseas conocer la ubicación de la sepultura de un familiar o amigo, consulta ingresando los datos de la persona en lo siguiente:</h6>
-                                                                            </div>
-                                                                        </div>-->
-
-
 
                                     <div id="pdf" class="tarjeta" style="background-color: #F6F5EB;padding: 30px;">
                                         <div class="row">
@@ -81,40 +73,28 @@
 
                                             </div>
                                         </div>
-
                                         <img src="/assets/map/mapa_<?php echo $IdPlataforma ?>.jpeg" alt="" style="width: 100%"/>
-
-
-
                                         <br><br>
-
                                     </div>
                                     <div style="display: none;">
-                                    <div id="pdf2" class="tarjeta" style="background-color: #F6F5EB;padding: 30px;">
-                                        <div class="row">
-                                            <div class="col-9">
-                                                <p style="color:#dbb66d;font-weight: 700;font-size: 1.1rem">Nombre del Difunto:</p>
-                                                <p><?php echo $NombreCompleto ?></p>
+                                        <div id="pdf2" class="tarjeta" style="background-color: #F6F5EB;padding: 30px;">
+                                            <div class="row">
+                                                <div class="col-9">
+                                                    <p style="color:#dbb66d;font-weight: 700;font-size: 1.1rem">Nombre del Difunto:</p>
+                                                    <p><?php echo $NombreCompleto ?></p>
 
-                                                <p style="color:#dbb66d;font-weight: 700;font-size: 1.1rem">Nombre de la Plataforma:</p>
-                                                <p><?php echo $Plataforma ?></p>
-                                                <p style="color:#dbb66d;font-weight: 700;font-size: 1.1rem">Ubicación:</p>
-                                                <p><?php echo $Ubicacion ?></p>
+                                                    <p style="color:#dbb66d;font-weight: 700;font-size: 1.1rem">Nombre de la Plataforma:</p>
+                                                    <p><?php echo $Plataforma ?></p>
+                                                    <p style="color:#dbb66d;font-weight: 700;font-size: 1.1rem">Ubicación:</p>
+                                                    <p><?php echo $Ubicacion ?></p>
+                                                </div>
+                                                <div class="col-3">
+                                                </div>
                                             </div>
-                                            <div class="col-3">
-
-
-                                            </div>
+                                            <img src="/assets/map/mapa_<?php echo $IdPlataforma ?>.jpeg" alt="" style="width: 100%"/>
+                                            <br><br>
                                         </div>
-
-                                        <img src="/assets/map/mapa_<?php echo $IdPlataforma ?>.jpeg" alt="" style="width: 100%"/>
-
-
-
-                                        <br><br>
-
                                     </div>
-                                        </div>
                                     <div class="vc_empty_space"   style="height: 80px" >
                                         <span class="vc_empty_space_inner"></span>
                                     </div>

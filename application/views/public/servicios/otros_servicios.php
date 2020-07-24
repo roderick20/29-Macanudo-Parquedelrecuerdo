@@ -325,11 +325,6 @@ function searchForId($id, $array1) {
                     </div>
                 </div>
             </div>
-            <!-- #content -->
-
         </div>
-        <!-- .wf-container -->
     </div>
-    <!-- .wf-wrap -->
 </div>
-<!-- #main -->

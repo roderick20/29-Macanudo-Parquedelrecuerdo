@@ -16,7 +16,7 @@
         <div class="form-group row">
             <label for="" class="col-sm-2 col-form-label">Resumen</label>
             <div class="col-sm-10">
-                <textarea class="form-control" id="Sumary" name="Sumary" ></textarea>
+                <textarea class="form-control" id="Sumary" name="Sumary" ><?php echo$data['Sumary']; ?></textarea>
             </div>
         </div>
         <div class="form-group row">

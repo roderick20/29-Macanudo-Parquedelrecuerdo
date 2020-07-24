@@ -34,6 +34,13 @@
                 <button type="submit" class="btn btn-primary">Grabar</button>
             </div>
         </div>
+        
+         <?php
+            if (isset($error)) {
+                print_r($error);
+            }
+            ?>
+        
         <?php
         echo form_close();
         ?>

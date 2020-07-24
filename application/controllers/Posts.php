@@ -68,6 +68,9 @@ class Posts extends CI_Controller {
             $config['file_name'] = $this->input->post('UniqueId') . "_p.jpg";
             $this->Data->Imagen_p = $this->input->post('UniqueId') . "_p.jpg";
             $this->load->library('upload', $config);
+            $data = array("error" => $this->upload->display_errors());
+            $this->template->load('template_admin', 'contents', '/admin/posts/upload_imagen', $data);
+            
         }
         if ($type == 'g') {
             $config['file_name'] = $this->input->post('UniqueId') . "_g.jpg";

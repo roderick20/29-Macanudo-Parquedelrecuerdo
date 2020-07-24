@@ -85,11 +85,6 @@ function searchForId($id, $array1) {
                                     <div class="wpb_column vc_column_container vc_col-sm-6">
                                         <div class="vc_column-inner vc_custom_1590179498557">
                                             <div class="wpb_wrapper">
-
-
-
-
-
                                                 <style type="text/css" data-type="the7_shortcodes-inline-css">
 
                                                 </style>
@@ -136,10 +131,6 @@ function searchForId($id, $array1) {
                                                         <span class="sr-only">Next</span>
                                                     </a>
                                                 </div>
-
-
-
-
                                                 <div class="owl-carousel gallery-carousel-shortcode gallery-shortcode  dt-gallery-container dt-owl-carousel-call gallery-carousel-shortcode-id-f83fe08c9f1cca3ce90b29a049292d26 
                                                      meta-info-off dt-arrow-border-on dt-arrow-hover-border-on bullets-small-dot-stroke reposition-arrows dt-icon-bg-off arrows-bg-on disable-arrows-hover-bg arrows-hover-bg-on  hover-fade " 
                                                      data-scroll-mode="1" data-col-num="1" data-wide-col-num="1" data-laptop-col="1" data-h-tablet-columns-num="1" data-v-tablet-columns-num="1" data-phone-columns-num="1" data-col-gap="0" data-speed="600" 
@@ -176,10 +167,9 @@ function searchForId($id, $array1) {
                                                                      data-src="/wp-content/uploads/2020/06/galeria-jardinera-imagen-referencial.jpg" 
                                                                      data-srcset="/wp-content/uploads/2020/06/galeria-jardinera-imagen-referencial.jpg 953w" 
                                                                      alt="" width="953" height="600"  />
-                                                                <span class="gallery-rollover"></span></a></figure></div></div>
-
-
-
+                                                                <span class="gallery-rollover"></span></a></figure>
+                                                    </div>
+                                                </div>
                                             </div>
                                         </div>
                                     </div>
@@ -401,7 +391,7 @@ function searchForId($id, $array1) {
                                                 </div>
                                                 <div role="form" class="wpcf7" id="wpcf7-f193-p675-o1" lang="es-ES" dir="ltr">
                                                     <div class="screen-reader-response" aria-live="polite"></div>
-                                                                                                        <!--formulario contacto -->
+                                                    <!--formulario contacto -->
                                                     <div class="formulario-contacto">
                                                         <div class="form-50">
                                                             <span class="wpcf7-form-control-wrap nombre">
