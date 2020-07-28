@@ -90,7 +90,7 @@ function searchForId($id, $array1) {
                                             <div class="icon">
                                                 <a class="icon-primary" href="/buscador"><i class="Defaults-map-marker"></i></a>	
                                                 <div class="container-description">
-                                                    <a class="icon-description" href="/buscador" style="width: 300px;" >Encuentra a tu ser querido</a>	
+                                                    <a class="icon-description" href="/buscador" style="width: 300px;" >Encuentra a tu Ser Querido</a>	
                                                 </div>
                                             </div>
                                             <div class="icon">
@@ -124,8 +124,16 @@ function searchForId($id, $array1) {
                          style="background: rgba(0, 0, 0, 0) -webkit-linear-gradient(rgb(246, 245, 235) 0%, rgb(255, 255, 255) 100%) repeat scroll 0% 0%; 
                          min-width: 1903px; left: 0px; width: 1903px;" data-bg-override="0"></div>
 
-                    <div class="wpb_column vc_column_container vc_col-sm-12"><div class="vc_column-inner"><div class="wpb_wrapper"><div class="vc_empty_space" style="height: 60px"><span class="vc_empty_space_inner"></span></div>
-                                <div class="vc_row wpb_row vc_inner vc_row-fluid vc_row-o-content-middle vc_row-flex"><div class="wpb_column vc_column_container vc_col-sm-2/5"><div class="vc_column-inner"><div class="wpb_wrapper">
+                    <div class="wpb_column vc_column_container vc_col-sm-12">
+                        <div class="vc_column-inner">
+                            <div class="wpb_wrapper">
+                                <div class="vc_empty_space" style="height: 60px">
+                                    <span class="vc_empty_space_inner"></span>
+                                </div>
+                                <div class="vc_row wpb_row vc_inner vc_row-fluid vc_row-o-content-middle vc_row-flex">
+                                    <div class="wpb_column vc_column_container vc_col-sm-2/5">
+                                        <div class="vc_column-inner">
+                                            <div class="wpb_wrapper">
                                                 <div class="wpb_text_column wpb_content_element  wpb_animate_when_almost_visible wpb_fadeInUp fadeInUp amor-familia wpb_start_animation animated">
                                                     <div class="wpb_wrapper">
                                                         <h2>Porque te quiero, te cuido</h2>

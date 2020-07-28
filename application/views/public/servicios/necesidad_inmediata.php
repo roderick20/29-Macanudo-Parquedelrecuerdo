@@ -183,7 +183,7 @@ function searchForId($id, $array1) {
                                                             <p class="aio-icon-title ult-responsive" data-ultimate-target='#Info-box-wrap-8285 .aio-icon-title' data-responsive-json-new='{"font-size":"desktop:23px;","line-height":""}' style="color:#ffffff;">Teléfono</p>
                                                         </div>
                                                         <!-- header -->
-                                                        <div class="aio-icon-description ult-responsive" data-ultimate-target='#Info-box-wrap-8285 .aio-icon-description' data-responsive-json-new='{"font-size":"desktop:20px;","line-height":""}' style="color:#dbb66d;">(054) 604 848</div>
+                                                        <div class="aio-icon-description ult-responsive" data-ultimate-target='#Info-box-wrap-8285 .aio-icon-description' data-responsive-json-new='{"font-size":"desktop:20px;","line-height":""}' style="color:#dbb66d;">(054) 60 4848</div>
                                                         <!-- description -->
                                                     </div>
                                                     <!-- aio-icon-box -->
@@ -238,7 +238,7 @@ function searchForId($id, $array1) {
                                                             <p class="aio-icon-title ult-responsive" data-ultimate-target='#Info-box-wrap-4800 .aio-icon-title' data-responsive-json-new='{"font-size":"desktop:23px;","line-height":""}' style="color:#ffffff;">Horarios</p>
                                                         </div>
                                                         <!-- header -->
-                                                        <div class="aio-icon-description ult-responsive" data-ultimate-target='#Info-box-wrap-4800 .aio-icon-description' data-responsive-json-new='{"font-size":"desktop:20px;","line-height":""}' style="color:#dbb66d;">lunes a viernes de<br /> 8:30am a 6:00pm</div>
+                                                        <div class="aio-icon-description ult-responsive" data-ultimate-target='#Info-box-wrap-4800 .aio-icon-description' data-responsive-json-new='{"font-size":"desktop:20px;","line-height":""}' style="color:#dbb66d;">Lunes a Viernes<br /> 8:30am a 6:00pm</div>
                                                         <!-- description -->
                                                     </div>
                                                     <!-- aio-icon-box -->

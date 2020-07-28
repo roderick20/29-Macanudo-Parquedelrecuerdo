@@ -40,10 +40,10 @@ function searchForId($id, $array1) {
                                         <div class="vc_column-inner vc_custom_1591311853228">
                                             <div class="wpb_wrapper">
                                                 <?php
-                                                        $getinformacion = searchForId('ServiciosCremacion.Texto1', $texts);
-                                                        echo $getinformacion['Description'];
-                                                        ?>
-                                               
+                                                $getinformacion = searchForId('ServiciosCremacion.Texto1', $texts);
+                                                echo $getinformacion['Description'];
+                                                ?>
+
                                                 <div class="vc_btn3-container  wpb_animate_when_almost_visible wpb_fadeIn fadeIn vc_btn3-center">
                                                     <a onmouseleave="this.style.borderColor='#dbb66d'; this.style.backgroundColor='transparent'; this.style.color='#dbb66d'" onmouseenter="this.style.borderColor='#dbb66d'; this.style.backgroundColor='#dbb66d'; this.style.color='#ffffff';" style="border-color:#dbb66d; color:#dbb66d;" class="vc_general vc_btn3 vc_btn3-size-md vc_btn3-shape-rounded vc_btn3-style-outline-custom anchor-link" href="#mayor-informacion" title="">Mayor información</a></div>
                                             </div>
@@ -51,11 +51,50 @@ function searchForId($id, $array1) {
                                     </div>
                                     <div class="wpb_column vc_column_container vc_col-sm-6">
                                         <div class="vc_column-inner vc_custom_1590179498557">
-                                            <div class="wpb_wrapper">
-                                                
+                                            <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+                                                <ol class="carousel-indicators">
+                                                    <li data-target="#carouselExampleIndicators" data-slide-to="" class="active"></li>
+                                                    <li data-target="#carouselExampleIndicators" data-slide-to=""></li>
+                                                    <li data-target="#carouselExampleIndicators" data-slide-to=""></li>
+                                                    <li data-target="#carouselExampleIndicators" data-slide-to=""></li>
+                                                </ol>
+                                                <div class="carousel-inner">
+                                                    <div class="carousel-item active">
+                                                        <img src="/wp-content/uploads/2020/05/crematorio-parque-esperanza.jpg" class="d-block w-100" alt="crematorio-parque-esperanza">
+                                                    </div>
+                                                    <div class="carousel-item">
+                                                        <img src="/wp-content/uploads/2020/05/crematorio-parque-esperanza-general.jpg" class="d-block w-100" alt="CREMACIÓN">
+                                                    </div>
+                                                    <div class="carousel-item">
+                                                        <img src="/wp-content/uploads/2020/06/galeria-columbario-imagen-referencial.jpg" class="d-block w-100" alt="Columbario">
+                                                    </div>
+                                                    <div class="carousel-item">
+                                                        <img src="/wp-content/uploads/2020/06/galeria-jardinera-imagen-referencial.jpg" class="d-block w-100" alt="Cinerarios">
+                                                    </div>
+                                                </div>
+                                                <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                                                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                                    <span class="sr-only">Previous</span>
+                                                </a>
+                                                <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                                                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                                    <span class="sr-only">Next</span>
+                                                </a>
+                                            </div>
+
+
+
+<!--                                            <div class="wpb_wrapper">
+
                                                 <div class="owl-carousel gallery-carousel-shortcode gallery-shortcode  dt-gallery-container dt-owl-carousel-call gallery-carousel-shortcode-id-f83fe08c9f1cca3ce90b29a049292d26 meta-info-off dt-arrow-border-on dt-arrow-hover-border-on bullets-small-dot-stroke reposition-arrows dt-icon-bg-off arrows-bg-on disable-arrows-hover-bg arrows-hover-bg-on  hover-fade " data-scroll-mode="1" data-col-num="1" data-wide-col-num="1" data-laptop-col="1" data-h-tablet-columns-num="1" data-v-tablet-columns-num="1" data-phone-columns-num="1" data-col-gap="0" data-speed="600" data-autoplay="true" data-autoplay_speed="4000" data-arrows="false" data-bullet="true" data-next-icon="icon-ar-017-r" data-prev-icon="icon-ar-017-l" data-img-shadow-size="12px" data-img-shadow-spread="3px">
                                                     <div data-post-id="579" data-date="2020-05-26T09:18:22-05:00" data-name="crematorio-parque-esperanza">
-                                                        <figure class="post"><a href="/wp-content/uploads/2020/05/crematorio-parque-esperanza.jpg" class="rollover dt-pswp-item layzr-bg" data-large_image_width="620" data-large_image_height="413" data-dt-img-description="" title="crematorio-parque-esperanza"><img class="preload-me owl-lazy-load" src="data:image/svg+xml,%3Csvg%20xmlns%3D&#39;http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg&#39;%20viewBox%3D&#39;0%200%20620%20413&#39;%2F%3E" data-src="/wp-content/uploads/2020/05/crematorio-parque-esperanza.jpg" data-srcset="/wp-content/uploads/2020/05/crematorio-parque-esperanza.jpg 620w" alt="" width="620" height="413"  /><span class="gallery-rollover"></span></a></figure>
+                                                        <figure class="post"><a href="/wp-content/uploads/2020/05/crematorio-parque-esperanza.jpg" 
+class="rollover dt-pswp-item layzr-bg" data-large_image_width="620" data-large_image_height="413" 
+data-dt-img-description="" title="crematorio-parque-esperanza">
+<img class="preload-me owl-lazy-load" 
+src="data:image/svg+xml,%3Csvg%20xmlns%3D&#39;http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg&#39;%20viewBox%3D&#39;0%200%20620%20413&#39;%2F%3E" 
+data-src="/wp-content/uploads/2020/05/crematorio-parque-esperanza.jpg" 
+data-srcset="/wp-content/uploads/2020/05/crematorio-parque-esperanza.jpg 620w" alt="" width="620" height="413"  /><span class="gallery-rollover"></span></a></figure>
                                                     </div>
                                                     <div data-post-id="580" data-date="2020-05-26T10:00:37-05:00" data-name="CREMACIÓN">
                                                         <figure class="post"><a href="/wp-content/uploads/2020/05/crematorio-parque-esperanza-general.jpg" class="rollover dt-pswp-item layzr-bg" data-large_image_width="630" data-large_image_height="420" data-dt-img-description="" title="CREMACIÓN"><img class="preload-me owl-lazy-load" src="data:image/svg+xml,%3Csvg%20xmlns%3D&#39;http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg&#39;%20viewBox%3D&#39;0%200%20630%20420&#39;%2F%3E" data-src="/wp-content/uploads/2020/05/crematorio-parque-esperanza-general.jpg" data-srcset="/wp-content/uploads/2020/05/crematorio-parque-esperanza-general.jpg 630w" alt="" width="630" height="420"  /><span class="gallery-rollover"></span></a></figure>
@@ -67,7 +106,7 @@ function searchForId($id, $array1) {
                                                         <figure class="post"><a href="/wp-content/uploads/2020/06/galeria-jardinera-imagen-referencial.jpg" class="rollover dt-pswp-item layzr-bg" data-large_image_width="953" data-large_image_height="600" data-dt-img-description="" title="Cinerarios &#8211; Jardinera &lt;br&gt; *Imagen referencial"><img class="preload-me owl-lazy-load" src="data:image/svg+xml,%3Csvg%20xmlns%3D&#39;http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg&#39;%20viewBox%3D&#39;0%200%20953%20600&#39;%2F%3E" data-src="/wp-content/uploads/2020/06/galeria-jardinera-imagen-referencial.jpg" data-srcset="/wp-content/uploads/2020/06/galeria-jardinera-imagen-referencial.jpg 953w" alt="" width="953" height="600"  /><span class="gallery-rollover"></span></a></figure>
                                                     </div>
                                                 </div>
-                                            </div>
+                                            </div>-->
                                         </div>
                                     </div>
                                 </div>
@@ -88,7 +127,7 @@ function searchForId($id, $array1) {
                                                 <div id="ult-video-banner-7368763915ee3fed20f900" class=" ult-video-banner ult-vdo-effect ult-vdo-effect-style3 utl-video-banner-item ult-responsive" data-ultimate-target='#ult-video-banner-7368763915ee3fed20f900' data-responsive-json-new='{"width":""}' data-current-time="0" data-placeholder="/wp-content/uploads/2020/05/galeria-cremacion-2.jpg" style="background-image:url(/wp-content/uploads/2020/05/galeria-cremacion-2.jpg);">
                                                     <video autoplay loop poster="/wp-content/uploads/2020/05/galeria-cremacion-2.jpg">
                                                         <source src="/wp-content/uploads/2020/06/servicio-de-cremacion-parque-esperanza.m4v" type="video/mp4">Your browser does not support the video tag.</video>
-<!--                                                    <div class="ult-video-banner-overlay" data-overlay="" data-overlay-hover=""></div>-->
+                                                    <!--                                                    <div class="ult-video-banner-overlay" data-overlay="" data-overlay-hover=""></div>-->
                                                 </div>
                                             </div>
                                         </div>

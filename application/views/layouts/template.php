@@ -357,6 +357,9 @@
                         <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-294"><a href='<?php echo base_url(); ?>preguntas-frecuentes/' data-level='1'>
                                 <span class="menu-item-text"><span class="menu-text">Preguntas Frecuentes</span></span></a>
                         </li> 
+                        <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-294"><a href='<?php echo base_url(); ?>blog/' data-level='1'>
+                                <span class="menu-item-text"><span class="menu-text">Blog</span></span></a>
+                        </li>
                         <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-179"><a href='<?php echo base_url(); ?>contacto/' data-level='1'>
                                 <span class="menu-item-text"><span class="menu-text">Contacto</span></span></a>
                         </li> 

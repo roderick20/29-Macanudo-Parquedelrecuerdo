@@ -111,7 +111,7 @@
                                                         <div class="aio-icon-header" >
                                                             <h3 class="aio-icon-title ult-responsive"  data-ultimate-target='#Info-box-wrap-3161 .aio-icon-title'  data-responsive-json-new='{"font-size":"desktop:28px;","line-height":""}'  style="color:#dbb66d;">Visita nuestras oficinas</h3>
                                                         </div> 
-                                                        <div class="aio-icon-description ult-responsive"  data-ultimate-target='#Info-box-wrap-3161 .aio-icon-description'  data-responsive-json-new='{"font-size":"desktop:18px;","line-height":""}'  style="">Calle Peral 573, Cercado-Arequipa</p>
+                                                        <div class="aio-icon-description ult-responsive"  data-ultimate-target='#Info-box-wrap-3161 .aio-icon-description'  data-responsive-json-new='{"font-size":"desktop:16px;","line-height":""}'  style="">Calle Peral 573, Cercado-Arequipa</p>
                                                             <p>Camposanto: Av. José Olaya 4ta. Cuadra, Cerro Colorado</div> <!-- description -->
                                                     </div> <!-- aio-icon-box -->
                                                 </div> <!-- aio-icon-component -->
@@ -134,7 +134,7 @@
                                                         <div class="aio-icon-header" >
                                                             <h3 class="aio-icon-title ult-responsive"  data-ultimate-target='#Info-box-wrap-2644 .aio-icon-title'  data-responsive-json-new='{"font-size":"desktop:28px;","line-height":""}'  style="color:#dbb66d;">Horarios de atención</h3>
                                                         </div> <!-- header -->
-                                                        <div class="aio-icon-description ult-responsive"  data-ultimate-target='#Info-box-wrap-2644 .aio-icon-description'  data-responsive-json-new='{"font-size":"desktop:18px;","line-height":""}'  style="">Oficinas: lunes a viernes de 8:30am a 5:00pm</p>
+                                                        <div class="aio-icon-description ult-responsive"  data-ultimate-target='#Info-box-wrap-2644 .aio-icon-description'  data-responsive-json-new='{"font-size":"desktop:16px;","line-height":""}'  style="">Oficinas: Lunes a Viernes de 8:30am a 5:00pm</p>
                                                             <p>Camposanto: Lunes a Domingo 9:00 a.m. a 5:00 p.m.</div> <!-- description -->
                                                     </div> <!-- aio-icon-box -->
                                                 </div> <!-- aio-icon-component -->
@@ -157,7 +157,7 @@
                                                         <div class="aio-icon-header" >
                                                             <h3 class="aio-icon-title ult-responsive"  data-ultimate-target='#Info-box-wrap-5286 .aio-icon-title'  data-responsive-json-new='{"font-size":"desktop:28px;","line-height":""}'  style="color:#dbb66d;">Teléfono</h3>
                                                         </div> <!-- header -->
-                                                        <div class="aio-icon-description ult-responsive"  data-ultimate-target='#Info-box-wrap-5286 .aio-icon-description'  data-responsive-json-new='{"font-size":"desktop:18px;","line-height":""}'  style="">(054) 604 848</p>
+                                                        <div class="aio-icon-description ult-responsive"  data-ultimate-target='#Info-box-wrap-5286 .aio-icon-description'  data-responsive-json-new='{"font-size":"desktop:16px;","line-height":""}'  style="">(054) 60 4848</p>
                                                             <p>Usted y su familia pueden contactarse telefónicamente las 24 horas del día.
                                                         </div> <!-- description -->
                                                     </div> <!-- aio-icon-box -->
