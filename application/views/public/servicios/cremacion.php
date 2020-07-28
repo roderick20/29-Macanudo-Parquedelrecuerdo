@@ -85,8 +85,10 @@ function searchForId($id, $array1) {
                                     <div class="wpb_column vc_column_container vc_col-sm-12 vc_col-lg-offset-1 vc_col-lg-10 vc_col-md-offset-1 vc_col-md-10 vc_col-sm-offset-1">
                                         <div class="vc_column-inner">
                                             <div class="wpb_wrapper">
-                                                <div id="ult-video-banner-7368763915ee3fed20f900" class=" ult-video-banner ult-vdo-effect ult-vdo-effect-style3 utl-video-banner-item ult-responsive" data-ultimate-target='#ult-video-banner-7368763915ee3fed20f900' data-responsive-json-new='{"width":""}' data-current-time="0" data-placeholder="/wp-content/uploads/2020/05/galeria-cremacion-2.jpg" style="background-image:url(/wp-content/uploads/2020/05/galeria-cremacion-2.jpg);"><video autoplay loop poster="/wp-content/uploads/2020/05/galeria-cremacion-2.jpg"><source src="/wp-content/uploads/2020/06/servicio-de-cremacion-parque-esperanza.m4v" type="video/mp4">Your browser does not support the video tag.</video>
-                                                    <div class="ult-video-banner-overlay" data-overlay="" data-overlay-hover=""></div>
+                                                <div id="ult-video-banner-7368763915ee3fed20f900" class=" ult-video-banner ult-vdo-effect ult-vdo-effect-style3 utl-video-banner-item ult-responsive" data-ultimate-target='#ult-video-banner-7368763915ee3fed20f900' data-responsive-json-new='{"width":""}' data-current-time="0" data-placeholder="/wp-content/uploads/2020/05/galeria-cremacion-2.jpg" style="background-image:url(/wp-content/uploads/2020/05/galeria-cremacion-2.jpg);">
+                                                    <video autoplay loop poster="/wp-content/uploads/2020/05/galeria-cremacion-2.jpg">
+                                                        <source src="/wp-content/uploads/2020/06/servicio-de-cremacion-parque-esperanza.m4v" type="video/mp4">Your browser does not support the video tag.</video>
+<!--                                                    <div class="ult-video-banner-overlay" data-overlay="" data-overlay-hover=""></div>-->
                                                 </div>
                                             </div>
                                         </div>
