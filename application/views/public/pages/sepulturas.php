@@ -27,8 +27,8 @@ function searchForId($id, $array1) {
                                 <div class="wpb_text_column wpb_content_element  wpb_animate_when_almost_visible wpb_fadeInUp fadeInUp" >
                                     <div class="wpb_wrapper">
                                         <h1 style="text-align: center;">Sepulturas</h1>
-                                        <p style="text-align: center;">Construimos un camino de esperanza<br />
-                                            que nos lleva a la vida eterna</p>
+                                        <p style="text-align: center;">Construimos un camino de Esperanza<br />
+                                            que anhela la vida eterna</p>
                                     </div>
                                 </div>
                             </div>

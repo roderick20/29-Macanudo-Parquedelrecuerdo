@@ -18,7 +18,8 @@ print_r($message);
             <div class="col-lg-6">
                 <div class="p-5">
                     <?php 
-                    echo form_open('/admin/do_login', ['id' => 'frmUserCreate']); 
+                    $getFormRegister = array('id' => 'frmUserCreate');
+                    echo form_open('/admin/do_login', $getFormRegister); 
                     ?>
                     
                         <div class="form-group">
