@@ -18,7 +18,7 @@
                 <tbody>
                     <?php foreach ($list as $item) { ?>
                         <tr>
-                            <td><?php echo $item['Title']; ?></td> 
+                            <td><?php echo utf8_decode($item['Title']); ?></td> 
                             <td>
                                 <img src="/uploads/banner/<?php echo $item['Imagen_g']; ?>" class="img-fluid" width="500px"/>
                                 </td> 

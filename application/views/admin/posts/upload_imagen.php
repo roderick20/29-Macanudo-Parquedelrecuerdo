@@ -4,7 +4,7 @@
     </div>
     <div class="card-body">
         <?php
-        echo form_open('/posts/do_upload_imagen', ['id' => 'frmCreate', 'enctype' => 'multipart/form-data']);
+        echo form_open('/posts/do_upload_imagen', array('id' => 'frmCreate', 'enctype' => 'multipart/form-data'));
         ?>
 
         <input type="hidden" name="UniqueId" value="<?php echo $UniqueId; ?>"> 

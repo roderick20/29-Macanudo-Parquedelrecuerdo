@@ -5,7 +5,8 @@
     <div class="card-body">
 
             <?php
-        echo form_open('/banners/do_create', ['id' => 'frmCreate', 'enctype' => 'multipart/form-data']);
+            $getFormRegister = array('id' => 'frmCreate', 'enctype' => 'multipart/form-data');
+        echo form_open('/banners/do_create', $getFormRegister);
         ?>
             <div class="form-group row">
                 <label for="" class="col-sm-2 col-form-label">Nombre</label>

@@ -6,7 +6,7 @@
 
 
         <?php
-        echo form_open('/users/do_update', ['id' => 'frmUserCreate']);
+        echo form_open('/users/do_update', array('id' => 'frmUserCreate'));
         ?>
 
         <input type="hidden" name="UserId" value="<?php echo $user['UserId']; ?>">

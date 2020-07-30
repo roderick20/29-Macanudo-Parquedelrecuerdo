@@ -5,7 +5,7 @@
     <div class="card-body">
 
         <?php 
-        echo form_open('/users/do_create', ['id' => 'frmUserCreate']); 
+        echo form_open('/users/do_create', array('id' => 'frmUserCreate')); 
         ?>
 
         <div class="form-group row">
