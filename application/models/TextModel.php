@@ -15,7 +15,7 @@ class TextModel extends CI_Model {
     }
     
     function getAllByCategory($category) {
-        $sql = "SELECT [Category], [Description] FROM [Parque].[dbo].[Data] WHERE Category LIKE ".$this->db->escape($category."%");
+        $sql = "SELECT [Category], [Description] FROM [dbo].[Data] WHERE Category LIKE ".$this->db->escape($category."%");
         
         //$query = $parque->query($sql);
         
@@ -65,7 +65,7 @@ class TextModel extends CI_Model {
                 ,wp.[FechaNacimiento]
                 ,wp.[FechaDefuncion]
                 ,wp.[IdPlataforma]
-                ,(SELECT [Descripcion] FROM [Parque].[dbo].[Web_PlataformaSepultura] WHERE [IdCamposanto] = 5 AND [IdPlataformaSepultura] = wp.[IdPlataforma]) Plataforma     
+                ,(SELECT [Descripcion] FROM [dbo].[Web_PlataformaSepultura] WHERE [IdCamposanto] = 5 AND [IdPlataformaSepultura] = wp.[IdPlataforma]) Plataforma     
                 FROM [dbo].[Web_Persona] wp WHERE wp.[IdCamposanto] = 5 AND wp.NombreCompleto LIKE ".$this->db->escape("%".$nombre."%");
         
         $query = $parque->query($sql);
