@@ -4,7 +4,7 @@
     </div>
     <div class="card-body">
         <?php
-        echo form_open('/posts/do_create', ['id' => 'frmCreate', 'enctype' => 'multipart/form-data']);
+        echo form_open('/posts/do_create', array('id' => 'frmCreate', 'enctype' => 'multipart/form-data'));
         ?>
         <div class="form-group row">
             <label for="" class="col-sm-2 col-form-label">Nombre</label>

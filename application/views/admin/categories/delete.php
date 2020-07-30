@@ -4,7 +4,7 @@
     </div>
     <div class="card-body">
         <?php
-        echo form_open('/categories/do_delete', ['id' => 'frmDelete']);
+        echo form_open('/categories/do_delete', array('id' => 'frmDelete'));
         ?>
         <input type="hidden" name="DataId" value="<?php echo $data['DataId']; ?>">            
         <div class="form-group row">
