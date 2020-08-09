@@ -10,7 +10,7 @@ class GalleryModel {
         $conn = sqlsrv_connect(SERVER_NAME, array("Database" => DATABASE, "UID" => UID, "PWD" => PWD));
 
         if ($conn) {
-            $sql = "SELECT [GalleryID],[Name]  FROM [parque].[dbo].[Gallery]";
+            $sql = "SELECT [GalleryID],[Name]  FROM [dbo].[Gallery]";
             $stmt = sqlsrv_query($conn, $sql);
             $galeries = array();
 
@@ -37,7 +37,7 @@ class GalleryModel {
         $conn = sqlsrv_connect(SERVER_NAME, array("Database" => DATABASE, "UID" => UID, "PWD" => PWD));
 
         if ($conn) {
-            $sql = "SELECT [GalleryID],[Name]  FROM [parque].[dbo].[Gallery] WHERE GalleryID = ?";
+            $sql = "SELECT [GalleryID],[Name]  FROM [dbo].[Gallery] WHERE GalleryID = ?";
             $params = array($this->GalleryID);
             $stmt = sqlsrv_query($conn, $sql, $params);
 
