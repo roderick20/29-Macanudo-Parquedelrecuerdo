@@ -30,7 +30,7 @@ $db['default'] = array(
 */
 $db['default'] = array(
 	'dsn'	=> '',
-	'hostname' => '.\SQLEXPRESS',
+	'hostname' => 'EC2AMAZ-RUVG37U',
 	'username' => 'sa2',
 	'password' => 'Aladino_09',
 	'database' => 'Parque',
