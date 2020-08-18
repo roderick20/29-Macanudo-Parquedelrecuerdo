@@ -28,9 +28,9 @@ class Users extends CI_Controller {
         $model = new UserModel();
         $data = array('users' => $this->User->getUsers());
 
-        $this->template->set('javascript', '<link href="' . base_url() . 'theme/vendor/datatables/dataTables.bootstrap4.min.css" rel="stylesheet" type="text/css"/>'
+        $this->template->set('javascript', '<link href="' . base_url() . 'theme/vendor/datatables/dataTables.bootstrap.min.css" rel="stylesheet" type="text/css"/>'
                 . '<script src="' . base_url() . 'theme/vendor/datatables/jquery.dataTables.min.js"></script>'
-                . '<script src="' . base_url() . 'theme/vendor/datatables/dataTables.bootstrap4.min.js"></script> '
+                . '<script src="' . base_url() . 'theme/vendor/datatables/dataTables.bootstrap.min.js"></script> '
                 . '<script src="' . base_url() . 'theme/js/datatables-work.js"></script>');
 
         $this->template->load('template_admin', 'contents', 'admin/users/index', $data);

@@ -6,7 +6,7 @@ class Clientes extends CI_Controller {
         parent::__construct();
         $this->load->helper('url');
         $this->load->library('Template');
-        $this->load->library('session');
+        //$this->load->library('session');
         $this->load->helper('form');
 
         $action = $this->router->fetch_method();

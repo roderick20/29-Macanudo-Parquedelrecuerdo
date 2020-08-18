@@ -4,7 +4,7 @@
     </div>
     <div class="card-body">
         <?php
-        echo form_open('/categories/do_create', array('id' => 'frmCreate'));
+        echo form_open('/categories/do_create', array('id' => 'frmCreate', 'method' => 'post'));
         ?>
         <div class="form-group row">
             <label for="inputEmail3" class="col-sm-2 col-form-label">Nombre</label>

@@ -9,7 +9,7 @@
             <i class="far fa-file-pdf text-warning" style="font-size: 2rem"></i>
         </div>
 
-        <form>
+
             <div class="form-row">
                 <div class="form-group col-md-6">
                     <label for="inputEmail4">Cuota</label>
@@ -48,13 +48,6 @@
             </table>
 
 
-
-
-
-
-
-
-        </form>
     </div>
 </div>
 

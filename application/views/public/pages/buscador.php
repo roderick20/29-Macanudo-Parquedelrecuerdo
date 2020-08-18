@@ -28,9 +28,10 @@
                                         <span class="vc_empty_space_inner"></span>
                                     </div>
                                     <div class="tarjeta" style="background-color: #F6F5EB;padding: 30px;">
-                                        <?php 
-                                        $getFormRegister = array('id' => 'frmBuscador');
-                                        echo form_open('/do_buscador', $getFormRegister); ?>
+                                        <?php
+                                        $getFormRegister = array('id' => 'frmBuscador', 'method' => 'post');
+                                        echo form_open('/do_buscador', $getFormRegister);
+                                        ?>
                                         <div class="form-row">
                                             <div class="form-group col-md-12">
                                                 <input type="text" id="nombre" name="nombre" placeholder="Nombres y/o apellidos" class="form-control form-control-lg" style="color: #495057;background-color: #fff;border: 1px solid #888888;border-radius: 0.3rem;font-size: 1.05rem;padding: 0.5rem 1rem;">
@@ -228,23 +229,8 @@
                             </div>
                         </div>
                     </div>
-                    <div class="vc_row-full-width vc_clearfix"></div>
-                    <div data-vc-full-width="true" data-vc-full-width-init="false" data-vc-stretch-content="true" class="vc_row wpb_row vc_row-fluid vc_row-no-padding">
-                        <div class="seccion_mapa wpb_column vc_column_container vc_col-sm-12">
-                            <div class="vc_column-inner"><div class="wpb_wrapper">
-                                    <div class="wpb_gmaps_widget wpb_content_element" >
-                                        <div class="wpb_wrapper">
-                                            <div class="wpb_map_wraper">
-                                                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3827.8595535369286!2d-71.56753658478175!3d-16.381115342023527!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x91424a0c63663ccd%3A0x636a8d9be737da86!2sCementerio%20Parque%20de%20la%20Esperanza!5e0!3m2!1ses!2spe!4v1582858352596!5m2!1ses!2spe" width="100%" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>		
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="vc_row-full-width vc_clearfix"></div>
             </div>
         </div>
     </div>
 </div>
+

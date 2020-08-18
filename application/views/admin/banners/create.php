@@ -5,7 +5,7 @@
     <div class="card-body">
 
             <?php
-            $getFormRegister = array('id' => 'frmCreate', 'enctype' => 'multipart/form-data');
+            $getFormRegister = array('id' => 'frmCreate', 'enctype' => 'multipart/form-data', 'method' => 'post');
         echo form_open('/banners/do_create', $getFormRegister);
         ?>
             <div class="form-group row">

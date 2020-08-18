@@ -4,24 +4,12 @@
 <html lang="es" class="no-js">
     <!--<![endif]-->
     <head>
-        <!-- Google Tag Manager -->
-        <script>
-            (function (w, d, s, l, i) {
-                w[l] = w[l] || [];
-                w[l].push({
-                    'gtm.start':
-                            new Date().getTime(), event: 'gtm.js'
-                });
-                var f = d.getElementsByTagName(s)[0],
-                        j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : '';
-                j.async = true;
-                j.src =
-                        'https://www.googletagmanager.com/gtm.js?id=' + i + dl;
-                f.parentNode.insertBefore(j, f);
-            })(window, document, 'script', 'dataLayer', 'GTM-NQT6MGD');</script>
-        <!-- End Google Tag Manager -->
+
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0">
+        
+        <meta http-equiv="X-Frame-Options" content="deny">
+        
         <meta name="theme-color" content="#dbb66d" />
         <link rel="profile" href="http://gmpg.org/xfn/11" />
         <script type="text/javascript">
@@ -57,9 +45,7 @@
         <link href="<?php echo base_url(); ?>assets/bootstrap/css/bootstrap.min.css" rel="stylesheet" type="text/css"/>
 
 
-        <link rel='dns-prefetch' href='//www.google.com' />
-        <link rel='dns-prefetch' href='//fonts.googleapis.com' />
-        <link rel='dns-prefetch' href='//s.w.org' />
+
         <link rel="alternate" type="application/rss+xml" title="Parque de la Esperanza &raquo; Feed" href="/feed/" />
         <link rel="alternate" type="application/rss+xml" title="Parque de la Esperanza &raquo; RSS de los comentarios" href="/comments/feed/" />
         <script type="text/javascript">
@@ -115,15 +101,16 @@
                 padding: 0 !important;
             }
         </style>
-        <!--
-        <link rel="stylesheet" type="text/css" href="//www.parquedelaesperanza.com/wp-content/cache/wpfc-minified/8upqsqj8/i0d56.css" media="all" />
-        <link rel="stylesheet" type="text/css" href="//www.parquedelaesperanza.com/wp-content/cache/wpfc-minified/qm2vdlb9/i0d56.css" media="all" />
-        <link rel='stylesheet' id='dt-web-fonts-css' href='//fonts.googleapis.com/css?family=Roboto%3A400%2C500%2C600%2C700%7CSorts+Mill+Goudy%3A400%2C600%2C700%7CRoboto+Condensed%3A400%2C600%2C700%7COpen+Sans%3A400%2C600%2C700%7CFrank+Ruhl+Libre%3A300%2C400%2C600%2C700&#038;ver=5.2.7' type='text/css' media='all' />
-        <link rel="stylesheet" type="text/css" href="//www.parquedelaesperanza.com/wp-content/cache/wpfc-minified/2ccsq6y0/i0d56.css" media="all" />
-        -->
+
         <link href="<?php echo base_url(); ?>assets/theme/css/8upqsqj8_i0d56.css" rel="stylesheet" type="text/css"/>
         <link href="<?php echo base_url(); ?>assets/theme/css/qm2vdlb9_i0d56.css" rel="stylesheet" type="text/css"/>
-        <link rel='stylesheet' id='dt-web-fonts-css' href='//fonts.googleapis.com/css?family=Roboto%3A400%2C500%2C600%2C700%7CSorts+Mill+Goudy%3A400%2C600%2C700%7CRoboto+Condensed%3A400%2C600%2C700%7COpen+Sans%3A400%2C600%2C700%7CFrank+Ruhl+Libre%3A300%2C400%2C600%2C700&#038;ver=5.2.7' type='text/css' media='all' />
+
+        <link href="<?php echo base_url(); ?>assets/font/FrankRuhlLibre.css" rel="stylesheet" type="text/css"/>
+        <link href="<?php echo base_url(); ?>assets/font/SortsMillGoudy.css" rel="stylesheet" type="text/css"/>
+    
+    
+    
+    
         <link href="<?php echo base_url(); ?>assets/theme/css/2ccsq6y0_i0d56.css" rel="stylesheet" type="text/css"/>
         <style id='dt-main-inline-css' type='text/css'>
             body #load {
@@ -284,7 +271,7 @@
         </style>
 
         <script src="<?php echo base_url(); ?>assets/theme/js/jquery_mas_plugins.js" type="text/javascript"></script>
-        <!--<script src="<?php echo base_url(); ?>assets/theme/js/jquery-3.5.1.slim.min.js" type="text/javascript"></script>-->
+
 
         <script src="<?php echo base_url(); ?>assets/bootstrap/js/bootstrap.bundle.min.js" type="text/javascript"></script>
     </head>

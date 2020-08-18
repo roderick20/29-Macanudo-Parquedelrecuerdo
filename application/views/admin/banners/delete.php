@@ -4,7 +4,7 @@
     </div>
     <div class="card-body">
         <?php
-        $getFormRegister = array('id' => 'frmDelete');
+        $getFormRegister = array('id' => 'frmDelete', 'method' => 'post');
         echo form_open('/banners/do_delete', $getFormRegister);
         ?>
         <input type="hidden" name="DataId" value="<?php echo $data['DataId']; ?>">            

@@ -3,7 +3,11 @@
         <h6 class="m-0 font-weight-bold text-primary">Modificar Banner</h6>
     </div>
     <div class="card-body">
-        <form action="/banners/do_update" method="POST" enctype="multipart/form-data">
+
+            
+                        <?php 
+                                        $getFormRegister = array('id' => 'frm', 'method' => 'post');
+                                        echo form_open('/banners/do_update', $getFormRegister); ?>
             
              <input type="hidden" name="BannerID" value="<?php echo $banner->BannerID; ?>">
             
@@ -33,7 +37,7 @@
                     <button type="submit" class="btn btn-primary">Grabar</button>
                 </div>
             </div>
-        </form>
+     <?php echo form_close(); ?>
     </div>
 </div>
 

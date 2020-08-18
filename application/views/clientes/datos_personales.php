@@ -5,7 +5,6 @@
     <div class="card-body">
 
 
-        <form>
             <div class="form-row">
                 <div class="form-group col-md-6">
                     <label for="inputEmail4">Nombre</label>
@@ -79,7 +78,7 @@
                 </div>
             </div>
             <button type="submit" class="btn btn-primary"><i class="fas fa-save"></i> Actualizar</button>
-        </form>
+
     </div>
 </div>
 

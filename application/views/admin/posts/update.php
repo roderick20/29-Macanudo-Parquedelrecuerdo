@@ -4,7 +4,7 @@
     </div>
     <div class="card-body">
         <?php
-        echo form_open('/posts/do_update', array('id' => 'frmUpdate'));
+        echo form_open('/posts/do_update', array('id' => 'frmUpdate', 'method' => 'post'));
         ?>
         <input type="hidden" name="DataId" value="<?php echo $data['DataId']; ?>">            
         <div class="form-group row">

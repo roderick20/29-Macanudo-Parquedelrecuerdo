@@ -29,9 +29,9 @@ class Galleries extends CI_Controller {
         $model = new GalleryModel();
         $data = array('galleries' => $model->GetAll());
 
-        $this->template->set('javascript', '<link href="' . base_url() . 'theme/vendor/datatables/dataTables.bootstrap4.min.css" rel="stylesheet" type="text/css"/>'
+        $this->template->set('javascript', '<link href="' . base_url() . 'theme/vendor/datatables/dataTables.bootstrap.min.css" rel="stylesheet" type="text/css"/>'
                 . '<script src="' . base_url() . 'theme/vendor/datatables/jquery.dataTables.min.js"></script>'
-                . '<script src="' . base_url() . 'theme/vendor/datatables/dataTables.bootstrap4.min.js"></script> '
+                . '<script src="' . base_url() . 'theme/vendor/datatables/dataTables.bootstrap.min.js"></script> '
                 . '<script src="' . base_url() . 'theme/js/datatables-work.js"></script>');
 
         $this->template->load('template_admin', 'contents', 'galleries/index', $data);

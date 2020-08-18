@@ -5,7 +5,7 @@
     <div class="card-body">
 
 
-        <form>
+
 
             Contrato Asociado: 1032659874
 
@@ -45,14 +45,6 @@
             </div>
             
 
-
-
-
-
-
-
-
-        </form>
     </div>
 </div>
 

@@ -6884,7 +6884,6 @@ var platform_dom$2 = {
 
 		this._loaded = true;
 
-		// https://github.com/chartjs/Chart.js/issues/5208
 		if (!this.disableCSSInjection) {
 			injectCSS(this, stylesheet);
 		}

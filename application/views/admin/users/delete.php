@@ -5,7 +5,7 @@
     <div class="card-body">
 
         <?php
-        echo form_open('/users/do_delete', array('id' => 'frmUser'));
+        echo form_open('/users/do_delete', array('id' => 'frmUser', 'method' => 'post'));
         ?>
         <input type="hidden" name="UserId" value="<?php echo $user['UserId']; ?>">
         <div class="form-group row">

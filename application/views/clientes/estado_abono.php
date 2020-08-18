@@ -7,7 +7,7 @@
         <div style="text-align: right">
             Imprimir: <i class="fas fa-print text-primary" style="font-size: 2rem"></i>
         </div>
-        <form>
+
             <div class="form-row">
                 <div class="form-group col-md-6">
                     <label for="inputEmail4">Tipo de Asistencia</label>
@@ -110,7 +110,7 @@
                         
             
             <button type="submit" class="btn btn-primary">Actualizar</button>
-        </form>
+  
     </div>
 </div>
 

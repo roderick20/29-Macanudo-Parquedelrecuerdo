@@ -28,9 +28,9 @@ class Posts extends CI_Controller {
     public function index() {
         $data = array('list' => $this->Data->getAllData($this->category));
 
-        $this->template->set('javascript', '<link href="' . base_url() . 'assets/theme_admin/vendor/datatables/dataTables.bootstrap4.min.css" rel="stylesheet" type="text/css"/>'
+        $this->template->set('javascript', '<link href="' . base_url() . 'assets/theme_admin/vendor/datatables/dataTables.bootstrap.min.css" rel="stylesheet" type="text/css"/>'
                 . '<script src="' . base_url() . 'assets/theme_admin/vendor/datatables/jquery.dataTables.min.js"></script>'
-                . '<script src="' . base_url() . 'assets/theme_admin/vendor/datatables/dataTables.bootstrap4.min.js"></script> '
+                . '<script src="' . base_url() . 'assets/theme_admin/vendor/datatables/dataTables.bootstrap.min.js"></script> '
                 . '<script src="' . base_url() . 'assets/theme_admin/js/datatables-work.js"></script>');
 
         $this->template->load('template_admin', 'contents', '/admin/posts/index', $data);

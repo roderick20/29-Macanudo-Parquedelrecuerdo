@@ -5,7 +5,6 @@
     <div class="card-body">
 
 
-        <form>
             
 
             <table class="table">
@@ -28,14 +27,6 @@
                 </tbody>
             </table>
 
-
-
-
-
-
-
-
-        </form>
     </div>
 </div>
 

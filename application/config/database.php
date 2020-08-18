@@ -5,7 +5,7 @@ $active_group = 'default';
 $query_builder = TRUE;
 
 
-/*
+
 $db['default'] = array(
 	'dsn'	=> '',
 	'hostname' => 'WIN-P3761AM5DC1\SQLEXPRESS',
@@ -27,7 +27,7 @@ $db['default'] = array(
 	'failover' => array(),
 	'save_queries' => TRUE
 );
-*/
+/*
 $db['default'] = array(
 	'dsn'	=> '',
 	'hostname' => '.\SQLEXPRESS',
@@ -48,4 +48,4 @@ $db['default'] = array(
 	'stricton' => FALSE,
 	'failover' => array(),
 	'save_queries' => TRUE
-);
+);*/
