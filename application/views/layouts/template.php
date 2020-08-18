@@ -63,7 +63,11 @@
         <link rel="alternate" type="application/rss+xml" title="Parque de la Esperanza &raquo; Feed" href="/feed/" />
         <link rel="alternate" type="application/rss+xml" title="Parque de la Esperanza &raquo; RSS de los comentarios" href="/comments/feed/" />
         <script type="text/javascript">
-            window._wpemojiSettings = {"baseUrl": "https:\/\/s.w.org\/images\/core\/emoji\/12.0.0-1\/72x72\/", "ext": ".png", "svgUrl": "https:\/\/s.w.org\/images\/core\/emoji\/12.0.0-1\/svg\/", "svgExt": ".svg", "source": {"concatemoji": "http:\/\/www.parquedelaesperanza.com\/wp-includes\/js\/wp-emoji-release.min.js?ver=5.2.7"}};
+            window._wpemojiSettings = {
+                "baseUrl": "https:\/\/s.w.org\/images\/core\/emoji\/12.0.0-1\/72x72\/", 
+                "ext": ".png", "svgUrl": "https:\/\/s.w.org\/images\/core\/emoji\/12.0.0-1\/svg\/", 
+                "svgExt": ".svg", 
+                "source": {"concatemoji": "http:\/\/www.parquedelaesperanza.com\/wp-includes\/js\/wp-emoji-release.min.js"}};
             !function (a, b, c) {
                 function d(a, b) {
                     var c = String.fromCharCode;
