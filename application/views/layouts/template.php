@@ -370,7 +370,7 @@
                         </li> 
                     </ul>
                 </header>
-                <div class="mobile-header-bar">
+<!--                <div class="mobile-header-bar">
                     <div class="mobile-navigation">
                         <a href="#" class="dt-mobile-menu-icon">
                             <span class="lines"></span>
@@ -378,7 +378,7 @@
                     </div>
                     <div class="mobile-mini-widgets">
                         <div class="text-area show-on-desktop near-logo-first-switch in-menu-second-switch show-on-first-switch">
-                            <!--<p><i class=" the7-mw-icon-phone"></i><a href="tel:+5154604848" style="font-size:2em;">(054) 60 4848</a></p>-->
+                            
                         </div>
                     </div>
                     <div class="mobile-branding"><a href="/">
@@ -393,7 +393,7 @@
                                  sizes="136px" alt="Parque de la Esperanza" width="136" height="44">
                         </a>
                     </div>
-                </div>
+                </div>-->
 
             </div>
             <div class='dt-close-mobile-menu-icon'><span></span></div>
