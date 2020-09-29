@@ -8,10 +8,10 @@ $query_builder = TRUE;
 
 $db['default'] = array(
 	'dsn'	=> '',
-	'hostname' => 'WIN-P3761AM5DC1\SQLEXPRESS',
-	'username' => 'sa',
+	'hostname' => 'EC2AMAZ-RUVG37U',
+	'username' => 'sa2',
 	'password' => 'Aladino_09',
-	'database' => 'PEWeb',
+	'database' => 'Parque',
 	'dbdriver' => 'sqlsrv',
 	'dbprefix' => '',
 	'pconnect' => FALSE,

@@ -7,10 +7,10 @@ class Clientes extends CI_Controller {
         $this->load->helper('url');
         $this->load->library('Template');
         //$this->load->library('session');
-        $this->load->helper('form');
+        //$this->load->helper('form');
 
-        $action = $this->router->fetch_method();
-        $class = $this->router->fetch_method();
+        //$action = $this->router->fetch_method();
+        //$class = $this->router->fetch_method();
 //        if (!isset($_SESSION['user'])) {
 //            if ($action == strtolower("login") || strtolower($action) == "do_login") {
 //                
